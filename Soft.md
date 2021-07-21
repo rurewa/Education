@@ -109,3 +109,16 @@
 **Wing 101** - бесплатная проприетарная IDE для программирования на Python
 
 ОС: Linux и Windows https://wingware.com/downloads/wing-101
+
+**Ultimaker Cura** - условно-бесплатная программа для подготовки 3D моделей для печати
+
+ОС: Linux и Windows https://ultimaker.com/software/ultimaker-cura
+
+**Audasity** - свободный и бесплатный иснтрумент для редактирования и записи звука
+
+ОС: Linux и Window https://www.audacityteam.org/download/
+
+**Kdenlive** -  свободный и бесплатный иснтрумент для создания и обработки видео
+
+ОС: Linux и Window https://kdenlive.org/en/download/
+
