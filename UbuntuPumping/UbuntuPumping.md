@@ -1,5 +1,5 @@
 Настало время прокачать вашу свежеустановленную ОС!
 
-![Alt-текст](https://github.com/rurewa/Education/UbuntuPumping/images/image12.png "Заголовок изображения")
+![GitHub Logo](https://github.com/rurewa/Education/blob/main/UbuntuPumping/images/image12.png)
 
 Выбираем Программы и обновления
