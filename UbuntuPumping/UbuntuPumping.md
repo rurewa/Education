@@ -10,7 +10,7 @@
 
 В соседней вкладке этого же окна уставливаем так, как на картинке:
 
-![GitHub Logo](https://github.com/rurewa/Education/blob/main/UbuntuPumping/images/update_gui.png)
+![GitHub Logo](https://github.com/rurewa/Education/blob/dev/UbuntuPumping/images/update_gui.png)
 
 Запускаем Терминал при помощи клавиатурной комбинации Ctrl-Alt-T и вставляем в него при помощи клавиатурной комбинации Ctrl-Shift-V строку. После вставки текста вводим Y и Enter:
 
@@ -124,7 +124,7 @@ https://extensions.gnome.org/extension/1503/tray-icons/
 
 ![GitHub Logo](https://github.com/rurewa/Education/blob/main/UbuntuPumping/images/image8.png)
 
-Не закрывайте главное окно дополнительных настроек, выполнив:
+Не закрывая главное окно дополнительных настроек, выполните:
 
 ![GitHub Logo](https://github.com/rurewa/Education/blob/main/UbuntuPumping/images/image10.png)
 
@@ -132,7 +132,7 @@ https://extensions.gnome.org/extension/1503/tray-icons/
 
 ![GitHub Logo](https://github.com/rurewa/Education/blob/main/UbuntuPumping/images/image6.png)
 
-![GitHub Logo](https://github.com/rurewa/Education/blob/main/UbuntuPumping/images/addons_Gnome.png)
+![GitHub Logo](https://github.com/rurewa/Education/blob/dev/UbuntuPumping/images/addons_Gnome.png)
 
 После того, как всё успешно установилось, перезагружаем ОС командой reboot в терминале!
 
@@ -142,11 +142,11 @@ https://extensions.gnome.org/extension/1503/tray-icons/
 
 gsettings set org.gnome.shell.extensions.dash-to-dock show-apps-at-top true
 
-![GitHub Logo](https://github.com/rurewa/Education/blob/main/UbuntuPumping/images/dash.png)
+![GitHub Logo](https://github.com/rurewa/Education/blob/dev/UbuntuPumping/images/dash.png)
 
 Приложений может оказаться много, и, чтобы легче ориентироваться в них, сгруппируйте их следующим образом:
 
-![GitHub Logo](https://github.com/rurewa/Education/blob/main/UbuntuPumping/images/dash_show.png)
+![GitHub Logo](https://github.com/rurewa/Education/blob/dev/UbuntuPumping/images/dach_show.png)
 
 Если вам недостаточно имеющихся приложений, то посетите эту страницу для поиска и установки нужной вам программы:
 
@@ -158,8 +158,8 @@ https://snapcraft.io/store
 
 а установить приложения с сайта можно как на картинке:
 
-![GitHub Logo](https://github.com/rurewa/Education/blob/main/UbuntuPumping/images/app_install_snap.png)
+![GitHub Logo](https://github.com/rurewa/Education/blob/dev/UbuntuPumping/images/app_install_snap.png)
 
 Ещё много приложений в Ubuntu Story:
 
-![GitHub Logo](https://github.com/rurewa/Education/blob/main/UbuntuPumping/images/Find_Ubuntu_Store.png)
+![GitHub Logo](https://github.com/rurewa/Education/blob/dev/UbuntuPumping/images/Find_Ubuntu_Store.png)
