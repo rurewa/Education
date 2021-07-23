@@ -163,3 +163,5 @@ https://snapcraft.io/store
 Ещё много приложений в Ubuntu Story:
 
 ![GitHub Logo](https://github.com/rurewa/Education/blob/dev/UbuntuPumping/images/Find_Ubuntu_Store.png)
+
+Для сворачивание всех окон (показать рабочий стол) нужно выполнить Ctrl-Alt-D
