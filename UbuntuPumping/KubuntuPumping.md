@@ -10,75 +10,75 @@ sudo apt install aspell-ru language-pack-kde-ru language-pack-ru language-pack-r
 
 sudo software-properties-qt
 
+В открывшемся окне установить флажки:
+
 ![GitHub Logo](https://github.com/rurewa/Education/blob/main/UbuntuPumping/images/Partners.png)
 
-Настройка раскладки клавиатуры:
+Настройка раскладки клавиатуры. В Параметрах системы открыть пункт:
 
 ![GitHub Logo](https://github.com/rurewa/Education/blob/main/UbuntuPumping/images/key.png)
 
 Обновить ОС:
 
-sudo apt list --upgradable -a && sudo apt update && sudo apt full-upgrade && reboot
+sudo apt list --upgradable -a && sudo apt update && sudo apt full-upgrade
 
-Приложение для камеры и звукозаписи:
+Приложение для камеры и звукозаписи:
 
 sudo apt update && sudo apt install guvcview gnome-sound-recorder gnome-clocks
 
-Мессенджер Skype:
+Мессенджер Skype:
 
 sudo snap install skype --classic
 
-Программа видеоконференций ZOOM:
+Программа видеоконференций ZOOM:
 
-sudo snap install zoom-client
+sudo snap install zoom-client
 
-Telegram - отличный мессенжер!
+Telegram - отличный мессенжер!
 
-sudo snap install telegram-desktop
+sudo snap install telegram-desktop
 
-Простой блокнот:
+Простой блокнот:
 
-sudo apt update && sudo apt install mousepad
+sudo apt update && sudo apt install mousepad
 
-Читалка формата DJVI:
+Читалка формата DJVI:
 
-sudo apt update && sudo apt install djview4
+sudo apt update && sudo apt install djview4
 
-Набор архиваторов:
+Набор архиваторов:
 
-sudo apt update && sudo apt install rar unrar p7zip-full arj
+sudo apt update && sudo apt install rar unrar p7zip-full arj
 
-Простая рисовалка в духе Paint.net:
+Простая рисовалка в духе Paint.net:
 
-sudo snap install pinta
+sudo snap install pinta
 
-Поддержка Java (необходима для некоторых программ. Во время установки браузер лучше закрыть!):
+Поддержка Java (необходима для некоторых программ. Во время установки браузер лучше закрыть!):
 
-sudo apt update && sudo apt install default-jre default-jdk
+sudo apt update && sudo apt install default-jre default-jdk
 
-Диагностика и мониторинг ОС:
+Диагностика и мониторинг ОС:
 
-sudo apt-get update && sudo apt-get install stacer -y
+sudo apt-get update && sudo apt-get install stacer -y
 
-Скриншотер (их много, но этот один из лучших):
+Скриншотер (их много, но этот один из лучших):
 
-sudo apt update && sudo apt install flameshot
+sudo apt update && sudo apt install flameshot
 
-Инструменты разработчика C++:
+Инструменты разработчика C++:
 
-sudo apt update && sudo apt install build-essential git ghex gdb lldb micro
+sudo apt update && sudo apt install build-essential git ghex gdb lldb micro
 
-Для создания схем и разводки печатных плат KiCAD EDA:
+Для создания схем и разводки печатных плат KiCAD EDA:
 
-sudo add-apt-repository --yes ppa:kicad/kicad-5.1-releases && sudo apt update && sudo apt install --install-recommends kicad kicad-demos && sudo apt install kicad-locale-ru
+sudo add-apt-repository --yes ppa:kicad/kicad-5.1-releases && sudo apt update && sudo apt install --install-recommends kicad kicad-demos && sudo apt install kicad-locale-ru
 
-Подробнее о дополнениях к KiCADhttps://progmatikus.livejournal.com/323678.html
+Подробнее о дополнениях к KiCADhttps://progmatikus.livejournal.com/323678.html
 
-Набор необходимых и полезных утилит:sudo apt update && sudo apt install mc gdebi htop tree mesa-utils sl lm-sensors neofetch winbind wget curl ppa-purge inxi recoll net-tools xclip xsel
+Набор необходимых и полезных утилит:sudo apt update && sudo apt install mc gdebi htop tree mesa-utils sl lm-sensors neofetch winbind wget curl ppa-purge inxi recoll net-tools xclip xsel xdotool
 
-Настройки ОС:sudo apt update && sudo apt install gnome-tweak-tool gnome-shell-extensions xdotool gconf-editor
-
-Информация об оборудовании:
+Информация об оборудовании:
 
 sudo apt update && sudo apt install inxi
 
@@ -95,13 +95,3 @@ https://snapcraft.io/store
 Ещё много приложений в Ubuntu Story:
 
 ![GitHub Logo](https://github.com/rurewa/Education/blob/main/UbuntuPumping/images/Soft.png)
-
-
-
-
-
-
-
-
-
-
