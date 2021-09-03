@@ -12,11 +12,11 @@ sudo software-properties-qt
 
 В открывшемся окне установить флажки:
 
-![GitHub Logo](https://github.com/rurewa/Education/blob/main/UbuntuPumping/images/Partners.png)
+![GitHub Logo](images/Partners.png)
 
 Настройка раскладки клавиатуры. В Параметрах системы открыть пункт:
 
-![GitHub Logo](https://github.com/rurewa/Education/blob/main/UbuntuPumping/images/key.png)
+![GitHub Logo](images/key.png)
 
 Обновить ОС:
 
@@ -64,7 +64,7 @@ sudo apt-get update && sudo apt-get install stacer -y
 
 Скриншотер (их много, но этот один из лучших):
 
-sudo apt update && sudo apt install flameshot
+sudo apt update && sudo apt install flameshot
 
 Инструменты разработчика C++:
 
@@ -76,7 +76,7 @@ sudo add-apt-repository --yes ppa:kicad/kicad-5.1-releases && sudo apt update &&
 
 Подробнее о дополнениях к KiCADhttps://progmatikus.livejournal.com/323678.html
 
-Набор необходимых и полезных утилит:sudo apt update && sudo apt install mc gdebi htop tree mesa-utils sl lm-sensors neofetch winbind wget curl ppa-purge inxi recoll net-tools xclip xsel xdotool
+Набор необходимых и полезных утилит:sudo apt update && sudo apt install mc gdebi htop tree mesa-utils sl lm-sensors neofetch winbind wget curl ppa-purge inxi recoll net-tools xclip xsel xdotool arp-scan
 
 Информация об оборудовании:
 
@@ -94,4 +94,4 @@ https://snapcraft.io/store
 
 Ещё много приложений в Ubuntu Story:
 
-![GitHub Logo](https://github.com/rurewa/Education/blob/main/UbuntuPumping/images/Soft.png)
+![GitHub Logo](images/Soft.png)

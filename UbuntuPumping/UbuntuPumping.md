@@ -1,16 +1,16 @@
 Настало время прокачать вашу свежеустановленную ОС!
 
-![GitHub Logo](https://github.com/rurewa/Education/blob/main/UbuntuPumping/images/image12.png)
+![GitHub Logo](images/image12.png)
 
 Выбираем Программы и обновления
 
-![GitHub Logo](https://github.com/rurewa/Education/blob/main/UbuntuPumping/images/image1.png)
+![GitHub Logo](images/image1.png)
 
 Устанавливаем флажки Партнёры Canonical
 
 В соседней вкладке этого же окна уставливаем так, как на картинке:
 
-![GitHub Logo](https://github.com/rurewa/Education/blob/main/UbuntuPumping/images/update_gui.png)
+![GitHub Logo](https://images/update_gui.png)
 
 Запускаем Терминал при помощи клавиатурной комбинации Ctrl-Alt-T и вставляем в него при помощи клавиатурной комбинации Ctrl-Shift-V строку. После вставки текста вводим Y и Enter:
 
@@ -19,7 +19,7 @@ sudo apt list --upgradable -a && sudo apt update && sudo apt full-upgrade && reb
 
 Появится такое окно:
 
-![GitHub Logo](https://github.com/rurewa/Education/blob/main/UbuntuPumping/images/image3.png)
+![GitHub Logo](images/image3.png)
 
 После перезагрузки устанавливаем необходимые мультимедийные кодеки и шрифты (во время выполнения этой установки браузер лучше закрыть!):
 
@@ -27,10 +27,10 @@ sudo apt update && sudo apt install ubuntu-restricted-extras ttf-dejavu-core
 
 В процессе установки программа задаёт пользователю вопросы, на которые нужно отвечать утвердительно (Yes), используя TAB и стрелки для перемещения и Enter.
 
-![GitHub Logo](https://github.com/rurewa/Education/blob/main/UbuntuPumping/images/image5.png)
+![GitHub Logo](images/image5.png)
 
 
-![GitHub Logo](https://github.com/rurewa/Education/blob/main/UbuntuPumping/images/image7.png)
+![GitHub Logo](images/image7.png)
 
 
 Далее по списку:
@@ -94,7 +94,7 @@ https://progmatikus.livejournal.com/323678.html
 
 Набор необходимых и полезных утилит:
 
-sudo apt update && sudo apt install mc gdebi htop tree mesa-utils sl lm-sensors neofetch winbind wget curl ppa-purge inxi recoll net-tools xclip xsel
+sudo apt update && sudo apt install mc gdebi htop tree mesa-utils sl lm-sensors neofetch winbind wget curl ppa-purge inxi recoll net-tools xclip xsel arp-scan
 
 Настройки ОС:
 
@@ -112,27 +112,27 @@ https://extensions.gnome.org/extension/1503/tray-icons/
 
 Запусти настройки языка ОС:
 
-![GitHub Logo](https://github.com/rurewa/Education/blob/main/UbuntuPumping/images/image2.png)
+![GitHub Logo](images/image2.png)
 
 И обнови язык, соглашаясь на всё!
 
 Настрой переключение языков на клавиатуре через Alt-Shift:
 
-![GitHub Logo](https://github.com/rurewa/Education/blob/main/UbuntuPumping/images/image4.png)
+![GitHub Logo](images/image4.png)
 
-![GitHub Logo](https://github.com/rurewa/Education/blob/main/UbuntuPumping/images/image9.png)
+![GitHub Logo](images/image9.png)
 
-![GitHub Logo](https://github.com/rurewa/Education/blob/main/UbuntuPumping/images/image8.png)
+![GitHub Logo](images/image8.png)
 
 Не закрывая главное окно дополнительных настроек, выполните:
 
-![GitHub Logo](https://github.com/rurewa/Education/blob/main/UbuntuPumping/images/image10.png)
+![GitHub Logo](images/image10.png)
 
-![GitHub Logo](https://github.com/rurewa/Education/blob/main/UbuntuPumping/images/image11.png)
+![GitHub Logo](images/image11.png)
 
-![GitHub Logo](https://github.com/rurewa/Education/blob/main/UbuntuPumping/images/image6.png)
+![GitHub Logo](images/image6.png)
 
-![GitHub Logo](https://github.com/rurewa/Education/blob/main/UbuntuPumping/images/addons_Gnome.png)
+![GitHub Logo](images/addons_Gnome.png)
 
 После того, как всё успешно установилось, перезагружаем ОС командой reboot в терминале!
 
@@ -142,11 +142,11 @@ https://extensions.gnome.org/extension/1503/tray-icons/
 
 gsettings set org.gnome.shell.extensions.dash-to-dock show-apps-at-top true
 
-![GitHub Logo](https://github.com/rurewa/Education/blob/main/UbuntuPumping/images/dash.png)
+![GitHub Logo](images/dash.png)
 
 Приложений может оказаться много, и, чтобы легче ориентироваться в них, сгруппируйте их следующим образом:
 
-![GitHub Logo](https://github.com/rurewa/Education/blob/main/UbuntuPumping/images/dach_show.png)
+![GitHub Logo](images/dach_show.png)
 
 Если вам недостаточно имеющихся приложений, то посетите эту страницу для поиска и установки нужной вам программы:
 
@@ -158,10 +158,10 @@ https://snapcraft.io/store
 
 а установить приложения с сайта можно как на картинке:
 
-![GitHub Logo](https://github.com/rurewa/Education/blob/main/UbuntuPumping/images/app_install_snap.png)
+![GitHub Logo](images/app_install_snap.png)
 
 Ещё много приложений в Ubuntu Story:
 
-![GitHub Logo](https://github.com/rurewa/Education/blob/main/UbuntuPumping/images/Find_Ubuntu_Store.png)
+![GitHub Logo](images/Find_Ubuntu_Store.png)
 
 Для сворачивание всех окон (показать рабочий стол) нужно выполнить Ctrl-Alt-D
