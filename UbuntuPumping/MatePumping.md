@@ -72,9 +72,9 @@ sudo apt update && sudo apt install djview4
 
 sudo apt update && sudo apt install rar unrar p7zip-full arj
 
-### Простая рисовалка в духе Paint.net:
+### Простые игры:
 
-sudo snap install pinta
+sudo apt install gnome-chess quadrapasselknetwalk
 
 ### FreeCAD - 2D/3D решение для любителей и инженеров с начальной поддержкой формата dwg (Autocad):
 
