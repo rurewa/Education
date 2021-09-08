@@ -202,6 +202,16 @@ mate-keyboard-properties
 
 ![mateLang](images/mateKey2.png) 
 
+### Отключить засыпание компьютера:
+
+![GitHub Logo](images/power_mate.png)
+
+![GitHub Logo](images/power_mate2.png)
+
+### Отключить скринсервер
+
+![GitHub Logo](images/screenserv.png)
+
 ### Перезагрузите компьютер.
 
 ## Всё готово!
