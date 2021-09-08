@@ -80,6 +80,10 @@ sudo apt install gnome-chess quadrapasselknetwalk
 
 sudo snap install freecad
 
+### Cura - слайсер для 3D принтера:
+
+sudo snap install cura-slicer
+
 ### Leocad - проектрирование Lego:
 
 sudo snap install leocad --classic
@@ -87,10 +91,6 @@ sudo snap install leocad --classic
 ### Gcompris - набор развивающих игр:
 
 sudo snap install gcompris --classic
-
-### Развивающая игра Сети:
-
-sudo apt update && sudo apt install knetwalk
 
 ### Arduino для Ubuntu 14/16/18 (32/64 bit):
 
