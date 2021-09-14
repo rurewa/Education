@@ -31,11 +31,11 @@ https://aliexpress.ru/item/32816490316.html?spm=a2g0o.detail.1000014.26.14be7bb6
 
 Зарядное устройство с двумя аккумуляторами типа 18650
 
-https://ru.aliexpress.com/item/32823841223.html?spm=a2g0o.productlist.0.0.285772e9JlxFFu&algo_pvid=97586510-643a-48f5-9020-1e0549ec64c1&algo_expid=97586510-643a-48f5-9020-1e0549ec64c1-3&btsid=bd72d8a4-3ebf-4d74-b67d-2b4433d1d086&ws_ab_test=searchweb0_0%2Csearchweb201602_7%2Csearchweb201603_52
+https://aliexpress.ru/item/32939636840.html?spm=a2g0o.productlist.0.0.1a703651Pd2R9D&sku_id=66169950241&algo_pvid=4ad3a96d-698e-4b52-8a55-a059b749af65&algo_expid=4ad3a96d-698e-4b52-8a55-a059b749af65-6&btsid=0b8b037016315938880871673e2fe4&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_
 
 Кисть робота
 
-https://www.ozon.ru/product/konstruktor-ruka-robota-228369955/
+https://www.ozon.ru/product/konstruktor-evriki-ruka-robota-180445227/?gclid=CjwKCAjw7fuJBhBdEiwA2lLMYdUtrHaudk90Vg9URZxMMkXOGlOCHMRkB9FGK2yAWYQVnv21cw9DxxoCKCgQAvD_BwE&sh=x9v-ZG5t&utm_campaign=MSPT_Product_Shopping_Smart_SSC_newclients&utm_medium=cpc&utm_source=google
 
 Шилд для для NANO 3,0
 
@@ -64,7 +64,7 @@ https://ru.aliexpress.com/item/32656963271.html?spm=a2g0o.productlist.0.0.76b778
 
 Беспаечная макетная плата (MB-102) 830 точек
 
-https://aliexpress.ru/item/1005002568191894.html?spm=a2g0o.productlist.0.0.584b689bDlO363&algo_pvid=df6f41e3-10dd-40a4-8598-9d1c16a15866&algo_expid=df6f41e3-10dd-40a4-8598-9d1c16a15866-0&btsid=0b8b15d416245967228328238ed2c0&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_&item_id=1005002568191894&sku_id=12000021190731964
+https://aliexpress.ru/item/1005002319518170.html?spm=a2g2w.detail.1000014.30.745f24c02RCCdq&gps-id=pcDetailBottomMoreOtherSeller&scm=1007.14452.226710.0&scm_id=1007.14452.226710.0&scm-url=1007.14452.226710.0&pvid=3acaf34a-ac0e-4090-a0dc-71ba1dc2f85b&_t=gps-id:pcDetailBottomMoreOtherSeller,scm-url:1007.14452.226710.0,pvid:3acaf34a-ac0e-4090-a0dc-71ba1dc2f85b,tpp_buckets:4452%230%23226710%230_4452%233474%2316498%23963_4452%234862%2324463%23331_4452%233098%239599%23555_4452%235105%2323438%23565_4452%233564%2316062%23650_21387%230%23233228%238_24525%230%23234977%2343&fromDetail
 
 Кнопочный модуль
 

@@ -8,7 +8,7 @@
 
 https://www.vseinstrumenti.ru/electrika_i_svet/el_teh_prod/payalniki/elektricheskie/rexant/220v_25vt_12-0121/
 
-Паяльник с керамическим нагревателем, долговечное жало 220В 25Вт REXANT 12-0121 - цена, отзывы, характеристики, фото - купить в Москве и РФ
+Паяльник с керамическим нагревателем, долговечное жало 220В 25Вт REXANT
 
 
 **Теплоизоляционный рабочий коврик (можно купить бюджетный вариант в fix price за ~100 руб.)**
@@ -89,11 +89,11 @@ https://www.citilink.ru/product/derzhatel-rexant-12-0256-1378219/?mrkt=rub_cl&gc
 https://www.vseinstrumenti.ru/spetsodezhda/siz/organov-zreniya/ochki-zaschitnye/rosomz/rosomz-ochki-zaschitnyj-otkrytye-o88-surgut-super-pc-18830/
 
 
-**Ящик для инструментов, длина не менее 300 мм. (в FixPrice стоил 99 руб.)**
+**Ящик для инструментов, длина не менее 300 мм. (в FixPrice стоил 199 руб.)**
 
 Пример:
 
-https://www.vseinstrumenti.ru/ruchnoy-instrument/yaschik-dlya-instrumentov/dlya-ruchnogo-instrumenta/gigant/universalnyj-yaschik-420h220h180-mm-gigant-a-42/
+https://fix-price.ru/product/5006140/
 
 
 **Наборы для практики (заказывать по 2 шт. минимум, т.к. первая самостоятельно спаянная плата как правило не запускается)**
@@ -160,7 +160,7 @@ https://ru.aliexpress.com/item/NE555-Starter/32845227467.html?spm=a2g0s.9042311.
 
 https://aliexpress.ru/item/32825744722.html?spm=a2g0o.productlist.0.0.45a676ac0Vzw4u&algo_pvid=613b8081-bfc5-4ac0-accc-e92e8a945e09&algo_expid=613b8081-bfc5-4ac0-accc-e92e8a945e09-0&btsid=0b8b036316040392371284966ea2ad&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_
 
-**Лабораторный блок питания 12V — 1 шт. (по возможности)**
+**Лабораторный блок питания 12V — 1 шт. Вилка - евро! (по возможности)**
 
 https://aliexpress.ru/item/1005001636554547.html?spm=a2g0o.productlist.0.0.21492596lVXTKt&s=p&ad_pvid=20201029232901115761966708340001917030_1&algo_pvid=4ea034ee-0aae-4c08-9379-c4201212d2df&algo_expid=4ea034ee-0aae-4c08-9379-c4201212d2df-4&btsid=0b8b036316040393409555552ea2ad&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_
 
