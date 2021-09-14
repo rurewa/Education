@@ -9,10 +9,10 @@
 Аналог для Windows называется Pipewalker  http://pipewalker.sourceforge.net/
 
 
-
 **GCompris** — большая коллекция обучающих и образовательных игр и упражнений для детей от 2 до 10 лет.
 
-ОС: Linux, Windows https://gcompris.net/downloads-ru.html
+ОС: Linux. Устанавливается из Менеджера Приложений Ubuntu.
+OС: Windows https://gcompris.net/downloads-ru.html
 
 
 
@@ -26,7 +26,7 @@
 
 **Scratch 3** - визуальная событийно-ориентированная среда программирования, созданная для детей и подростков.
 
-ОС: Linux. Загрузить https://packages.zorinos.com/apps/pool/main/s/scratch-desktop/
+ОС: Linux. Устанавливается из Менеджера Приложений Ubuntu.
 
 Загрузить для Windows https://scratch.mit.edu/download
 
@@ -66,7 +66,8 @@
 
 **FreeCAD** - открытая и бесплатная программа для 2/3D проектирования. Подходит для создания моделей с последующей печатью их на 3D принтере.
 
-ОС: Linux и Windows https://wiki.freecadweb.org/Download
+ОС: Linux. Устанавливается из Менеджера Приложений Ubuntu.
+ОС: Windows https://wiki.freecadweb.org/Download
 
 
 
@@ -78,31 +79,36 @@
 
 **Visual Studio Code** - открытый и бесплатный редактор кода с возможностями IDE.
 
-ОС: Linux и Windows https://code.visualstudio.com/
+ОС: Linux. Устанавливается из Менеджера Приложений Ubuntu.
+ОС: Windows https://code.visualstudio.com/
 
 
 
 **Geany** - открытый и бесплатный редактор кода с возможностями IDE.
 
-ОС: Linux и Windows https://www.geany.org/download/third-party/
+ОС: Linux. Устанавливается из Менеджера Приложений Ubuntu.
+ОС: Windows https://www.geany.org/download/third-party/
 
 
 
 **LeoCAD** - открытая и бесплатная среда для проектирования моделей по технологии Lego.
 
-ОС: Linux и Windows https://www.leocad.org/download.html
+ОС: Linux. Устанавливается из Менеджера Приложений Ubuntu.
+ОС: Windows https://www.leocad.org/download.html
 
 
 
 **GIT** - открытая и бесплатная система контроля версий.
 
-ОС: Linux и Windows https://git-scm.com/downloads
+ОС: Linux. Устанавливается из Менеджера Приложений Ubuntu.
+ОС: Windows https://git-scm.com/downloads
 
 
 
 **LibreOffice** - бесплатный и открытый офис.
 
-ОС: Linux и Windows https://www.libreoffice.org/download/download/
+ОС: Linux. Устанавливается из Менеджера Приложений Ubuntu.
+ОС: Windows https://www.libreoffice.org/download/download/
 
 
 
@@ -112,13 +118,15 @@
 
 **Ultimaker Cura** - условно-бесплатная программа для подготовки 3D моделей для печати
 
-ОС: Linux и Windows https://ultimaker.com/software/ultimaker-cura
+ОС: Linux. Устанавливается из Менеджера Приложений Ubuntu.
+ОС: Windows https://ultimaker.com/software/ultimaker-cura
 
 **Audasity** - свободный и бесплатный иснтрумент для редактирования и записи звука
 
-ОС: Linux и Window https://www.audacityteam.org/download/
+ОС: Linux. Устанавливается из Менеджера Приложений Ubuntu.
+ОС: Window https://www.audacityteam.org/download/
 
 **Kdenlive** -  свободный и бесплатный иснтрумент для создания и обработки видео
 
-ОС: Linux и Window https://kdenlive.org/en/download/
-
+ОС: Linux. Устанавливается из Менеджера Приложений Ubuntu.
+ОС: Window https://kdenlive.org/en/download/
