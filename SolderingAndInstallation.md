@@ -6,6 +6,8 @@
 
 Пример:
 
+https://www.vseinstrumenti.ru/electrika_i_svet/el_teh_prod/payalniki/elektricheskie/rexant/220v_25vt_12-0121/
+
 Паяльник с керамическим нагревателем, долговечное жало 220В 25Вт REXANT 12-0121 - цена, отзывы, характеристики, фото - купить в Москве и РФ
 
 
@@ -77,7 +79,7 @@ https://www.vseinstrumenti.ru/rashodnie_materialy/dlya_ruchnogo_instrumenta/dlya
 
 Пример:
 
-https://www.vseinstrumenti.ru/rashodnie_materialy/dlya_ruchnogo_instrumenta/dlya_elektromontajnogo/zazhim_tretya_ruka/rexant/derzhatel_dlya_plat_universalnyj_zd-11e_rexant_12-0256/
+https://www.citilink.ru/product/derzhatel-rexant-12-0256-1378219/?mrkt=rub_cl&gclid=CjwKCAjw7fuJBhBdEiwA2lLMYcfJltUnBFrHLCl0nLKO2fBp7NKi82OkOOUG9zaWHYI7kUakK14QVBoCS00QAvD_BwE
 
 
 **Очки защитные**
