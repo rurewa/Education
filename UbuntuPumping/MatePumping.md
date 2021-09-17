@@ -14,7 +14,7 @@ sudo apt update && sudo apt install ubuntu-restricted-extras ttf-dejavu-core
 
 ### Появится такое окно:
 
-![GitHub Logo](images/image3.png)
+![Logo](images/image3.png)
 
 *В процессе установки программа задаёт пользователю вопросы, на которые нужно отвечать утвердительно (Y/Да), используя TAB и стрелки для перемещения и Enter.*
 
@@ -27,10 +27,6 @@ sudo apt update && sudo apt install ubuntu-restricted-extras ttf-dejavu-core
 ### Приложения для камеры и звукозаписи:
 
 sudo apt update && sudo apt install guvcview gnome-sound-recorder gnome-clocks
-
-### Программа для работы с веб-камерой:
-
-sudo apt update && sudo apt install guvcview
 
 ### Gifex - GIF запись с экрана в Linux
 
@@ -55,6 +51,10 @@ sudo apt update && sudo apt install gimp gimp-gmic gimp-gap gimp-data-extras gim
 ### Pinta - простая рисовалка в духе Paint.net:
 
 sudo snap install pinta
+
+### Karbon - простой редактор векторной графики:
+
+sudo apt update && sudo apt install karbon
 
 ### Программа видеоконференций ZOOM:
 
@@ -123,6 +123,14 @@ sudo apt update && sudo apt install build-essential git ghex gdb lldb
 sudo add-apt-repository --yes ppa:kicad/kicad-5.1-releases && sudo apt update && sudo apt install --install-recommends kicad kicad-demos kicad-locale-ru
 
 Подробнее о дополнениях к KiCADhttps://progmatikus.livejournal.com/323678.html
+
+### FlatCam - позволяет перенести ваши проекты на фрезерный станок с ЧПУ:
+
+sudo apt install python3-pip python3-tk && pip install flatcam
+
+*запускать так:*/home/user/.local/bin/flatcam
+
+*или так:*flatcam
 
 ### Scratch Desktop 3.6 for Ubuntu Linux:
 
