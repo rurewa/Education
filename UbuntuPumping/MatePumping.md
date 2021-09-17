@@ -14,7 +14,7 @@ sudo apt update && sudo apt install ubuntu-restricted-extras ttf-dejavu-core
 
 ### Появится такое окно:
 
-![Logo](images/image3.png)
+![GitHub Logo](images/image3.png)
 
 *В процессе установки программа задаёт пользователю вопросы, на которые нужно отвечать утвердительно (Y/Да), используя TAB и стрелки для перемещения и Enter.*
 
@@ -128,7 +128,7 @@ sudo add-apt-repository --yes ppa:kicad/kicad-5.1-releases && sudo apt update &&
 
 sudo apt install python3-pip python3-tk && pip install flatcam
 
-*запускать так:*/home/user/.local/bin/flatcam
+*запускать так:*/home/user/.local/bin/flatcam
 
 *или так:*flatcam
 
