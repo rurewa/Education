@@ -98,9 +98,7 @@ mkdir Programs && cd Programs && wget https://downloads.arduino.cc/arduino-1.8.1
 
 *Чтобы программный код загружался в контроллер, нужно добавить текущего пользователя в группы dialout и tty:*
 
-sudo gpasswd -a myuser tty && sudo gpasswd -a myuser dialout && sudo gpasswd -a myuser plugdev
-
-*Где myuser - это имя пользователя вашей ОС.*
+sudo gpasswd -a ${USER} tty && sudo gpasswd -a ${USER} dialout && sudo gpasswd -a ${USER} plugdev
 
 *Установить необходимое для работы с платами компоненты можно командой:*
 

@@ -34,169 +34,167 @@ sudo apt update && sudo apt install ubuntu-restricted-extras ttf-dejavu-core
 ![GitHub Logo](images/image7.png)
 
 
-### Приложения для камеры и звукозаписи:
+### Приложения для камеры и звукозаписи:
 
-sudo apt update && sudo apt install guvcview gnome-sound-recorder gnome-clocks
+sudo apt update && sudo apt install guvcview gnome-sound-recorder gnome-clocks
 
-### Gifex - GIF запись с экрана в Linux:
+### Gifex - GIF запись с экрана в Linux:
 
-sudo snap install gifex
+sudo snap install gifex
 
-### Программа для загрузки видео с таких сайтов (YouTube etc.):
+### Программа для загрузки видео с таких сайтов (YouTube etc.):
 
-sudo snap install video-downloader
+sudo snap install video-downloader
 
-### TeamViewer для Linux для удалённого доступа и поддержки через Интернет:
+### TeamViewer для Linux для удалённого доступа и поддержки через Интернет:
 
-http://www.teamviewer.com/ru/download/linux.aspx
+http://www.teamviewer.com/ru/download/linux.aspx
 
-### Chrome - бесплатный браузер от Google:
+### Chrome - бесплатный браузер от Google:
 
-https://www.google.com/chrome/?brand=BNSD&gclid=CjwKCAiAgc-ABhA7EiwAjev-j2sRh3XMEOwm0w0IMz4yaun4a7DWtWNpFLsql89MDn-fvJiHRwbSwxoC-X4QAvD_BwE&gclsrc=aw.ds
+https://www.google.com/chrome/?brand=BNSD&gclid=CjwKCAiAgc-ABhA7EiwAjev-j2sRh3XMEOwm0w0IMz4yaun4a7DWtWNpFLsql89MDn-fvJiHRwbSwxoC-X4QAvD_BwE&gclsrc=aw.ds
 
-### Gimp - полноценный редактор графики:
+### Gimp - полноценный редактор графики:
 
-sudo apt update && sudo apt install gimp gimp-gmic gimp-gap gimp-data-extras gimp-dcraw abr2gbr
+sudo apt update && sudo apt install gimp gimp-gmic gimp-gap gimp-data-extras gimp-dcraw abr2gbr
 
-### Pinta - простая рисовалка в духе Paint.net:
+### Pinta - простая рисовалка в духе Paint.net:
 
-sudo snap install pinta
+sudo snap install pinta
 
-### Karbon - простой редактор векторной графики:
+### Karbon - простой редактор векторной графики:
 
-sudo apt update && sudo apt install karbon
+sudo apt update && sudo apt install karbon
 
-### Программа видеоконференций ZOOM:
+### Программа видеоконференций ZOOM:
 
-sudo snap install zoom-client
+sudo snap install zoom-client
 
-### Telegram - отличный мессенжер!
+### Telegram - отличный мессенжер!
 
-sudo snap install telegram-desktop
+sudo snap install telegram-desktop
 
-### Читалка формата DJVI:
+### Читалка формата DJVI:
 
-sudo apt update && sudo apt install djview4
+sudo apt update && sudo apt install djview4
 
-### Набор архиваторов:
+### Набор архиваторов:
 
-sudo apt update && sudo apt install rar unrar p7zip-full arj
+sudo apt update && sudo apt install rar unrar p7zip-full arj
 
-### Простые игры:
+### Простые игры:
 
-sudo apt install gnome-chess quadrapasselknetwalk
+sudo apt install gnome-chess quadrapasselknetwalk
 
-### FreeCAD - 2D/3D решение для любителей и инженеров с начальной поддержкой формата dwg (Autocad):
+### FreeCAD - 2D/3D решение для любителей и инженеров с начальной поддержкой формата dwg (Autocad):
 
-sudo snap install freecad
+sudo snap install freecad
 
-### Cura - слайсер для 3D принтера:
+### Cura - слайсер для 3D принтера:
 
 sudo snap install cura-slicer
 
-### Leocad - проектрирование Lego:
+### Leocad - проектрирование Lego:
 
-sudo snap install leocad --classic
+sudo snap install leocad --classic
 
-### Gcompris - набор развивающих игр:
+### Gcompris - набор развивающих игр:
 
-sudo snap install gcompris --classic
+sudo snap install gcompris --classic
 
-### Arduino для Ubuntu 14/16/18 (32/64 bit):
+### Arduino для Ubuntu 14/16/18 (32/64 bit):
 
-mkdir Programs && cd Programs && wget https://downloads.arduino.cc/arduino-1.8.15-linux64.tar.xz && tar -xvf arduino-1.8.15-linux64.tar.xz && cd arduino-1.8.15 && sudo ./install.sh
+mkdir Programs && cd Programs && wget https://downloads.arduino.cc/arduino-1.8.15-linux64.tar.xz && tar -xvf arduino-1.8.15-linux64.tar.xz && cd arduino-1.8.15 && sudo ./install.sh
 
-*Чтобы программный код загружался в контроллер, нужно добавить текущего пользователя в группы dialout и tty:*
+*Чтобы программный код загружался в контроллер, нужно добавить текущего пользователя в группы dialout и tty:*
 
-sudo gpasswd -a myuser tty && sudo gpasswd -a myuser dialout && sudo gpasswd -a myuser plugdev
+sudo gpasswd -a ${USER} tty && sudo gpasswd -a ${USER} dialout && sudo gpasswd -a ${USER} plugdev
 
-*Где myuser - это имя пользователя вашей ОС.*
+*Установить необходимое для работы с платами компоненты можно командой:*
 
-*Установить необходимое для работы с платами компоненты можно командой:*
+sudo apt-get install gcc-avr binutils-avr gdb-avr avr-libc avrdude
 
-sudo apt-get install gcc-avr binutils-avr gdb-avr avr-libc avrdude
+### Поддержка Java (необходима для некоторых программ. Во время установки браузер лучше закрыть!):
 
-### Поддержка Java (необходима для некоторых программ. Во время установки браузер лучше закрыть!):
+sudo apt update && sudo apt install default-jre default-jdk
 
-sudo apt update && sudo apt install default-jre default-jdk
+### Скриншотер (их много, но этот один из лучших):
 
-### Скриншотер (их много, но этот один из лучших):
+sudo apt update && sudo apt install flameshot
 
-sudo apt update && sudo apt install flameshot
+### Инструменты разработчика C++:
 
-### Инструменты разработчика C++:
+sudo apt update && sudo apt install build-essential git ghex gdb lldb
 
-sudo apt update && sudo apt install build-essential git ghex gdb lldb
+### Для создания схем и разводки печатных плат KiCAD EDA:
 
-### Для создания схем и разводки печатных плат KiCAD EDA:
+sudo add-apt-repository --yes ppa:kicad/kicad-5.1-releases && sudo apt update && sudo apt install --install-recommends kicad kicad-demos kicad-locale-ru
 
-sudo add-apt-repository --yes ppa:kicad/kicad-5.1-releases && sudo apt update && sudo apt install --install-recommends kicad kicad-demos kicad-locale-ru
+Подробнее о дополнениях к KiCADhttps://progmatikus.livejournal.com/323678.html
 
-Подробнее о дополнениях к KiCADhttps://progmatikus.livejournal.com/323678.html
+### FlatCam - позволяет перенести ваши проекты на фрезерный станок с ЧПУ:
 
-### FlatCam - позволяет перенести ваши проекты на фрезерный станок с ЧПУ:
+sudo apt install python3-pip python3-tk && pip install flatcam
 
-sudo apt install python3-pip python3-tk && pip install flatcam
+*запускать так:*
 
-*запускать так:*
+/home/user/.local/bin/flatcam
 
-/home/user/.local/bin/flatcam
+*или так:*
 
-*или так:*
+flatcam
 
-flatcam
+### Scratch Desktop 3.6 for Ubuntu Linux:
 
-### Scratch Desktop 3.6 for Ubuntu Linux:
+sudo snap install scratux
 
-sudo snap install scratux
+### Fritzing - программный комплекс начального уровня для проектирования электронных устройств. Полезен в учебных целях:
 
-### Fritzing - программный комплекс начального уровня для проектирования электронных устройств. Полезен в учебных целях:
+sudo apt update && sudo apt install fritzing fritzing-data fritzing-parts
 
-sudo apt update && sudo apt install fritzing fritzing-data fritzing-parts
+### Geany - это мощный, стабильный и легкий текстовый редактор для программистов:
 
-### Geany - это мощный, стабильный и легкий текстовый редактор для программистов:
+sudo apt update && sudo apt install geany geany-plugins
 
-sudo apt update && sudo apt install geany geany-plugins
+### Dia - приложение для рисования структурированных диаграмм
 
-### Dia - приложение для рисования структурированных диаграмм
+sudo apt update && sudo apt install dia
 
-sudo apt update && sudo apt install dia
+### Tilix - тайловый (многооконный) терминал:
 
-### Tilix - тайловый (многооконный) терминал:
+sudo add-apt-repository ppa:webupd8team/terminix && sudo apt-get update && sudo apt install tilix
 
-sudo add-apt-repository ppa:webupd8team/terminix && sudo apt-get update && sudo apt install tilix
+### Micro - свободный текстовый редактор для консоли:
 
-### Micro - свободный текстовый редактор для консоли:
+cd Загрузки && wget https://github.com/zyedidia/micro/releases/download/v2.0.10/micro-2.0.10-amd64.deb && sudo apt update && sudo dpkg -i micro-2.0.10-amd64.deb && sudo apt update
 
-cd Загрузки && wget https://github.com/zyedidia/micro/releases/download/v2.0.10/micro-2.0.10-amd64.deb && sudo apt update && sudo dpkg -i micro-2.0.10-amd64.deb && sudo apt update
+### Набор необходимых и полезных утилит:
 
-### Набор необходимых и полезных утилит:
+sudo apt update && sudo apt install mc gdebi htop tree mesa-utils sl lm-sensors neofetch winbind wget curl ppa-purge inxi recoll net-tools xclip xsel arp-scan
 
-sudo apt update && sudo apt install mc gdebi htop tree mesa-utils sl lm-sensors neofetch winbind wget curl ppa-purge inxi recoll net-tools xclip xsel arp-scan
+### SimulIDE - простой и бесплатный симулятор электрических цепей:
 
-### SimulIDE - простой и бесплатный симулятор электрических цепей:
+wget https://launchpad.net/simulide/0.4.15/0.4.15-sr1/+download/simulide_0.4.15-SR1.AppImage && chmod a+x simulide_0.4.15-SR1.AppImage
 
-wget https://launchpad.net/simulide/0.4.15/0.4.15-sr1/+download/simulide_0.4.15-SR1.AppImage && chmod a+x simulide_0.4.15-SR1.AppImage
+### OpenShot - простой в управлении и мощный по возможностям видеоредактор:
 
-### OpenShot - простой в управлении и мощный по возможностям видеоредактор:
+sudo add-apt-repository ppa:openshot.developers/ppa && sudo apt update && sudo apt install openshot-qt
 
-sudo add-apt-repository ppa:openshot.developers/ppa && sudo apt update && sudo apt install openshot-qt
+### Audacity - простой в управлении и мощный по возможностям аудиоредактор:
 
-### Audacity - простой в управлении и мощный по возможностям аудиоредактор:
+sudo add-apt-repository ppa:ubuntuhandbook1/audacity && sudo apt update && sudo apt install audacity
 
-sudo add-apt-repository ppa:ubuntuhandbook1/audacity && sudo apt update && sudo apt install audacity
+### OBS Studio - бесплатное программное обеспечение с открытым исходным кодом для записи видео и потокового вещания:
 
-### OBS Studio - бесплатное программное обеспечение с открытым исходным кодом для записи видео и потокового вещания:
+sudo add-apt-repository ppa:obsproject/obs-studio && sudo apt update && sudo apt install ffmpeg obs-studio
 
-sudo add-apt-repository ppa:obsproject/obs-studio && sudo apt update && sudo apt install ffmpeg obs-studio
-
-### Дополнительные темы значков для LibreOffice 7:
+### Дополнительные темы значков для LibreOffice 7:
 
 sudo apt update && sudo apt install libreoffice-style-breeze libreoffice-style-tango libreoffice-style-sifr
 
-### Информация об оборудовании:
+### Информация об оборудовании:
 
-sudo apt update && sudo apt install inxi
+sudo apt update && sudo apt install inxi
 
 *запуск этой программы в Терминале:*inxi -Fs
 
