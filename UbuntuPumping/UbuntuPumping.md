@@ -1,31 +1,32 @@
-Настало время прокачать вашу свежеустановленную ОС!
+# Настало время прокачать вашу свежеустановленную ОС!
 
 ![GitHub Logo](images/image12.png)
 
-Выбираем Программы и обновления
+## Выбираем Программы и обновления
 
 ![GitHub Logo](images/image1.png)
 
-Устанавливаем флажки Партнёры Canonical
+### Устанавливаем флажки Партнёры Canonical
 
-В соседней вкладке этого же окна уставливаем так, как на картинке:
+*В соседней вкладке этого же окна уставливаем так, как на картинке:*
 
 ![GitHub Logo](https://images/update_gui.png)
 
-Запускаем Терминал при помощи клавиатурной комбинации Ctrl-Alt-T и вставляем в него при помощи клавиатурной комбинации Ctrl-Shift-V строку. После вставки текста вводим Y и Enter:
+*Запускаем Терминал при помощи клавиатурной комбинации Ctrl-Alt-T и вставляем в него при помощи клавиатурной комбинации Ctrl-Shift-V строку. После вставки текста вводим Y и Enter:*
 
 sudo apt list --upgradable -a && sudo apt update && sudo apt full-upgrade && reboot
-Эта команда обновит и перезагрузит ОС.
+
+*Эта команда обновит и перезагрузит ОС.*
 
 Появится такое окно:
 
 ![GitHub Logo](images/image3.png)
 
-После перезагрузки устанавливаем необходимые мультимедийные кодеки и шрифты (во время выполнения этой установки браузер лучше закрыть!):
+*После перезагрузки устанавливаем необходимые мультимедийные кодеки и шрифты (во время выполнения этой установки браузер лучше закрыть!):*
 
 sudo apt update && sudo apt install ubuntu-restricted-extras ttf-dejavu-core
 
-В процессе установки программа задаёт пользователю вопросы, на которые нужно отвечать утвердительно (Yes), используя TAB и стрелки для перемещения и Enter.
+*В процессе установки программа задаёт пользователю вопросы, на которые нужно отвечать утвердительно (Yes), используя TAB и стрелки для перемещения и Enter.*
 
 ![GitHub Logo](images/image5.png)
 
@@ -33,90 +34,185 @@ sudo apt update && sudo apt install ubuntu-restricted-extras ttf-dejavu-core
 ![GitHub Logo](images/image7.png)
 
 
-Далее по списку:
+### Приложения для камеры и звукозаписи:
 
-Приложение для камеры и звукозаписи:
+sudo apt update && sudo apt install guvcview gnome-sound-recorder gnome-clocks
 
-sudo apt update && sudo apt install guvcview gnome-sound-recorder gnome-clocks
+### Gifex - GIF запись с экрана в Linux:
 
-Мессенджер Skype:
+sudo snap install gifex
 
-sudo snap install skype --classic
+### Программа для загрузки видео с таких сайтов (YouTube etc.):
 
-Программа видеоконференций ZOOM:
+sudo snap install video-downloader
 
-sudo snap install zoom-client
+### TeamViewer для Linux для удалённого доступа и поддержки через Интернет:
 
-Telegram - отличный мессенжер!
+http://www.teamviewer.com/ru/download/linux.aspx
 
-sudo snap install telegram-desktop
+### Chrome - бесплатный браузер от Google:
 
-Простой блокнот:
+https://www.google.com/chrome/?brand=BNSD&gclid=CjwKCAiAgc-ABhA7EiwAjev-j2sRh3XMEOwm0w0IMz4yaun4a7DWtWNpFLsql89MDn-fvJiHRwbSwxoC-X4QAvD_BwE&gclsrc=aw.ds
 
-sudo apt update && sudo apt install mousepad
+### Gimp - полноценный редактор графики:
 
-Читалка формата DJVI:
+sudo apt update && sudo apt install gimp gimp-gmic gimp-gap gimp-data-extras gimp-dcraw abr2gbr
 
-sudo apt update && sudo apt install djview4
+### Pinta - простая рисовалка в духе Paint.net:
 
-Набор архиваторов:
+sudo snap install pinta
 
-sudo apt update && sudo apt install rar unrar p7zip-full arj
+### Karbon - простой редактор векторной графики:
 
-Простая рисовалка в духе Paint.net:
+sudo apt update && sudo apt install karbon
 
-sudo snap install pinta
+### Программа видеоконференций ZOOM:
 
-Поддержка Java (необходима для некоторых программ. Во время установки браузер лучше закрыть!):
+sudo snap install zoom-client
 
-sudo apt update && sudo apt install default-jre default-jdk
+### Telegram - отличный мессенжер!
 
-Диагностика и мониторинг ОС:
+sudo snap install telegram-desktop
 
-sudo apt-get update && sudo apt-get install stacer -y
+### Читалка формата DJVI:
 
-Скриншотер (их много, но этот один из лучших):
+sudo apt update && sudo apt install djview4
 
-sudo apt update && sudo apt install flameshot
+### Набор архиваторов:
 
+sudo apt update && sudo apt install rar unrar p7zip-full arj
 
-Инструменты разработчика C++:
+### Простые игры:
 
-sudo apt update && sudo apt install build-essential git ghex gdb lldb micro
+sudo apt install gnome-chess quadrapasselknetwalk
 
-Для создания схем и разводки печатных плат KiCAD EDA:
+### FreeCAD - 2D/3D решение для любителей и инженеров с начальной поддержкой формата dwg (Autocad):
 
-sudo add-apt-repository --yes ppa:kicad/kicad-5.1-releases && sudo apt update && sudo apt install --install-recommends kicad kicad-demos && sudo apt install kicad-locale-ru
+sudo snap install freecad
 
-Подробнее о дополнениях к KiCAD
+### Cura - слайсер для 3D принтера:
 
-https://progmatikus.livejournal.com/323678.html
+sudo snap install cura-slicer
 
-Набор необходимых и полезных утилит:
+### Leocad - проектрирование Lego:
 
-sudo apt update && sudo apt install mc gdebi htop tree mesa-utils sl lm-sensors neofetch winbind wget curl ppa-purge inxi recoll net-tools xclip xsel arp-scan
+sudo snap install leocad --classic
 
-Настройки ОС:
+### Gcompris - набор развивающих игр:
 
-sudo apt update && sudo apt install gnome-tweak-tool gnome-shell-extensions xdotool gconf-editor
+sudo snap install gcompris --classic
 
-Информация об оборудовании:
+### Arduino для Ubuntu 14/16/18 (32/64 bit):
 
-sudo apt update && sudo apt install inxi
+mkdir Programs && cd Programs && wget https://downloads.arduino.cc/arduino-1.8.15-linux64.tar.xz && tar -xvf arduino-1.8.15-linux64.tar.xz && cd arduino-1.8.15 && sudo ./install.sh
+
+*Чтобы программный код загружался в контроллер, нужно добавить текущего пользователя в группы dialout и tty:*
+
+sudo gpasswd -a myuser tty && sudo gpasswd -a myuser dialout && sudo gpasswd -a myuser plugdev
+
+*Где myuser - это имя пользователя вашей ОС.*
+
+*Установить необходимое для работы с платами компоненты можно командой:*
+
+sudo apt-get install gcc-avr binutils-avr gdb-avr avr-libc avrdude
+
+### Поддержка Java (необходима для некоторых программ. Во время установки браузер лучше закрыть!):
+
+sudo apt update && sudo apt install default-jre default-jdk
+
+### Скриншотер (их много, но этот один из лучших):
+
+sudo apt update && sudo apt install flameshot
+
+### Инструменты разработчика C++:
+
+sudo apt update && sudo apt install build-essential git ghex gdb lldb
+
+### Для создания схем и разводки печатных плат KiCAD EDA:
+
+sudo add-apt-repository --yes ppa:kicad/kicad-5.1-releases && sudo apt update && sudo apt install --install-recommends kicad kicad-demos kicad-locale-ru
+
+Подробнее о дополнениях к KiCADhttps://progmatikus.livejournal.com/323678.html
+
+### FlatCam - позволяет перенести ваши проекты на фрезерный станок с ЧПУ:
+
+sudo apt install python3-pip python3-tk && pip install flatcam
+
+*запускать так:*
+
+/home/user/.local/bin/flatcam
+
+*или так:*
+
+flatcam
+
+### Scratch Desktop 3.6 for Ubuntu Linux:
+
+sudo snap install scratux
+
+### Fritzing - программный комплекс начального уровня для проектирования электронных устройств. Полезен в учебных целях:
+
+sudo apt update && sudo apt install fritzing fritzing-data fritzing-parts
+
+### Geany - это мощный, стабильный и легкий текстовый редактор для программистов:
+
+sudo apt update && sudo apt install geany geany-plugins
+
+### Dia - приложение для рисования структурированных диаграмм
+
+sudo apt update && sudo apt install dia
+
+### Tilix - тайловый (многооконный) терминал:
+
+sudo add-apt-repository ppa:webupd8team/terminix && sudo apt-get update && sudo apt install tilix
+
+### Micro - свободный текстовый редактор для консоли:
+
+cd Загрузки && wget https://github.com/zyedidia/micro/releases/download/v2.0.10/micro-2.0.10-amd64.deb && sudo apt update && sudo dpkg -i micro-2.0.10-amd64.deb && sudo apt update
+
+### Набор необходимых и полезных утилит:
+
+sudo apt update && sudo apt install mc gdebi htop tree mesa-utils sl lm-sensors neofetch winbind wget curl ppa-purge inxi recoll net-tools xclip xsel arp-scan
+
+### SimulIDE - простой и бесплатный симулятор электрических цепей:
+
+wget https://launchpad.net/simulide/0.4.15/0.4.15-sr1/+download/simulide_0.4.15-SR1.AppImage && chmod a+x simulide_0.4.15-SR1.AppImage
+
+### OpenShot - простой в управлении и мощный по возможностям видеоредактор:
+
+sudo add-apt-repository ppa:openshot.developers/ppa && sudo apt update && sudo apt install openshot-qt
+
+### Audacity - простой в управлении и мощный по возможностям аудиоредактор:
+
+sudo add-apt-repository ppa:ubuntuhandbook1/audacity && sudo apt update && sudo apt install audacity
+
+### OBS Studio - бесплатное программное обеспечение с открытым исходным кодом для записи видео и потокового вещания:
+
+sudo add-apt-repository ppa:obsproject/obs-studio && sudo apt update && sudo apt install ffmpeg obs-studio
+
+### Дополнительные темы значков для LibreOffice 7:
+
+sudo apt update && sudo apt install libreoffice-style-breeze libreoffice-style-tango libreoffice-style-sifr
+
+### Информация об оборудовании:
+
+sudo apt update && sudo apt install inxi
+
+*запуск этой программы в Терминале:*inxi -Fs
 
 Некоторые программы не поспевают за изменениями Ubuntu и некорректно попадают в трей. Исправить это можно установкой дополнения по ссылке:
 
 https://extensions.gnome.org/extension/1503/tray-icons/
 
-Установка русского языка и раскладки
+### Установка русского языка и раскладки
 
-Запусти настройки языка ОС:
+*Запусти настройки языка ОС:*
 
 ![GitHub Logo](images/image2.png)
 
 И обнови язык, соглашаясь на всё!
 
-Настрой переключение языков на клавиатуре через Alt-Shift:
+### Настрой переключение языков на клавиатуре через Alt-Shift:
 
 ![GitHub Logo](images/image4.png)
 
@@ -124,7 +220,7 @@ https://extensions.gnome.org/extension/1503/tray-icons/
 
 ![GitHub Logo](images/image8.png)
 
-Не закрывая главное окно дополнительных настроек, выполните:
+*Не закрывая главное окно дополнительных настроек, выполните:*
 
 ![GitHub Logo](images/image10.png)
 
@@ -134,34 +230,34 @@ https://extensions.gnome.org/extension/1503/tray-icons/
 
 ![GitHub Logo](images/addons_Gnome.png)
 
-После того, как всё успешно установилось, перезагружаем ОС командой reboot в терминале!
+## После того, как всё успешно установилось, перезагружаем ОС командой reboot в терминале!
 
-Некоторые рекомендации относительно настройки ОС после прокачки:
+### Некоторые рекомендации относительно настройки ОС после прокачки:
 
-Переместить значок Dash вверх/влево (команду выполнить в Терминале):
+*Переместить значок Dash вверх/влево (команду выполнить в Терминале):*
 
 gsettings set org.gnome.shell.extensions.dash-to-dock show-apps-at-top true
 
 ![GitHub Logo](images/dash.png)
 
-Приложений может оказаться много, и, чтобы легче ориентироваться в них, сгруппируйте их следующим образом:
+### Приложений может оказаться много, и, чтобы легче ориентироваться в них, сгруппируйте их следующим образом:
 
 ![GitHub Logo](images/dach_show.png)
 
-Если вам недостаточно имеющихся приложений, то посетите эту страницу для поиска и установки нужной вам программы:
+*Если вам недостаточно имеющихся приложений, то посетите эту страницу для поиска и установки нужной вам программы:*
 
 https://progmatikus.livejournal.com/55550.html
 
-Так же много приложений можно найти сдесь:
+*Так же много приложений можно найти сдесь:*
 
 https://snapcraft.io/store
 
-а установить приложения с сайта можно как на картинке:
+*а установить приложения с сайта можно как на картинке:*
 
 ![GitHub Logo](images/app_install_snap.png)
 
-Ещё много приложений в Ubuntu Story:
+### Ещё много приложений в Ubuntu Story:
 
 ![GitHub Logo](images/Find_Ubuntu_Store.png)
 
-Для сворачивание всех окон (показать рабочий стол) нужно выполнить Ctrl-Alt-D
+### Для сворачивание всех окон (показать рабочий стол) нужно выполнить Ctrl-Alt-D

@@ -12,13 +12,17 @@ wget -nc https://dl.winehq.org/wine-builds/winehq.key && sudo apt-key add winehq
 
 sudo add-apt-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ focal main' && sudo apt update
 
-### Устанавливаем сам wine:
+### Устанавливаем сам Wine:
 
-sudo apt install --install-recommends winehq-devel winetricks ; rm -R ~/.wine && env WINEPREFIX=~/.wine WINEARCH=win32 winecfg
+sudo apt install --install-recommends winehq-devel winetricks winbind cabextract ; rm -R ~/.wine && env WINEPREFIX=~/.wine WINEARCH=win32 winecfg
+
+### Проверить версию Wine:
+
+wine --version
 
 ### Прокачиваем Wine:
 
-winetricks --force -q d3dcompiler_47 vcrun2015 corefonts dotnet45 dotnet472
+winetricks --force -q d3dcompiler_47 vcrun2015 corefonts dotnet45 msxml6 dotnet472
 
 ### Запускаем конфигуратор Wine и выбираем в нём Windows 7/10
 
