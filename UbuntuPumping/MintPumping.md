@@ -34,7 +34,7 @@ sudo snap install video-downloader
 
 http://www.teamviewer.com/ru/download/linux.aspx
 
-### Chrome - бесплатный браузер от Google:
+### Chrome - бесплатный браузер от Google:
 
 https://www.google.ru/chrome/
 
@@ -66,7 +66,7 @@ sudo apt update && sudo apt install djview4
 
 sudo apt update && sudo apt install rar unrar p7zip-full arj
 
-### Простые игры:
+### Простые игры:
 
 sudo apt install gnome-chess quadrapasselknetwalk
 
@@ -74,7 +74,7 @@ sudo apt install gnome-chess quadrapasselknetwalk
 
 sudo snap install freecad
 
-### Cura - слайсер для 3D принтера:
+### Cura - слайсер для 3D принтера:
 
 sudo snap install cura-slicer
 
@@ -120,11 +120,11 @@ sudo add-apt-repository --yes ppa:kicad/kicad-5.1-releases && sudo apt update &&
 
 sudo apt install python3-pip python3-tk && pip install flatcam
 
-*запускать так:*
+*запускать так:*
 
 /home/user/.local/bin/flatcam
 
-*или так:*
+*или так:*
 
 flatcam
 
@@ -178,7 +178,7 @@ sudo apt update && sudo apt remove mintinstall && sudo apt update && sudo apt in
 
 sudo apt update && sudo apt install libreoffice-style-breeze libreoffice-style-tango libreoffice-style-sifr
 
-### Установить переключение клавиатуры на другой язык (запустить команду в Терминале):
+### Установить переключение клавиатуры на другой язык:
 
 ![GitHub Logo](images/mint_key1.png)
 
