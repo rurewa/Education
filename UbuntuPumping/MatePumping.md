@@ -42,7 +42,7 @@ http://www.teamviewer.com/ru/download/linux.aspx
 
 ### Chrome - бесплатный браузер от Google:
 
-https://www.google.com/chrome/?brand=BNSD&gclid=CjwKCAiAgc-ABhA7EiwAjev-j2sRh3XMEOwm0w0IMz4yaun4a7DWtWNpFLsql89MDn-fvJiHRwbSwxoC-X4QAvD_BwE&gclsrc=aw.ds
+https://www.google.ru/chrome/
 
 ### Gimp - полноценный редактор графики:
 

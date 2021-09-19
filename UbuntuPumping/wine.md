@@ -26,6 +26,8 @@ winetricks --force -q d3dcompiler_47 vcrun2015 corefonts dotnet45 msxml6 dotnet4
 
 ### Запускаем конфигуратор Wine и выбираем в нём Windows 7/10
 
+winecfg
+
 ![GitHub Logo](images/winecfg.png)
 
 ### Перезагрузите компьютер!
