@@ -1,5 +1,32 @@
 ## Прокачка Linux Mint
 
+### Установить переключение клавиатуры на другой язык:
+
+![GitHub Logo](images/mint_key1.png)
+
+![GitHub Logo](images/mint_key2.png)
+
+![GitHub Logo](images/mint_key3.png)
+
+### Отключить засыпание компьютера:
+
+![GitHub Logo](images/mint_savepower1.png)
+
+![GitHub Logo](images/mint_savepower2.png)
+
+### Отключить скринсервер
+
+![GitHub Logo](images/mint_screen1.png)
+
+![GitHub Logo](images/mint_screen1.png)
+
+
+### Добавляем источники обновлений:
+
+![GitHub Logo](images/image5.png)![GitHub Logo](images/mint_soft_origin1.png)
+
+![GitHub Logo](images/image5.png)![GitHub Logo](images/mint_soft_origin2.png)
+
 ### Запускаем Терминал при помощи клавиатурной комбинации Ctrl-Alt-T и вставляем в него при помощи клавиатурной комбинации Ctrl-Shift-V строку. 
 
 *После вставки текста вводим Y и нажимаем Enter:*
@@ -8,9 +35,13 @@ sudo apt list --upgradable -a && sudo apt update && sudo apt full-upgrade && reb
 
 *Эта команда обновит и перезагрузит ОС.*
 
-### После перезагрузки устанавливаем необходимые мультимедийные кодеки и шрифты (во время выполнения этой установки браузер лучше закрыть!):
+### Включаем поддержку Snap:
 
-sudo apt update && sudo apt install ubuntu-restricted-extras ttf-dejavu-core
+sudo rm /etc/apt/preferences.d/nosnap.pref && sudo apt update && sudo apt install snapd
+
+### Устанавливаем необходимые мультимедийные кодеки и шрифты (во время выполнения этой установки браузер лучше закрыть!):
+
+sudo apt update && sudo apt install ubuntu-restricted-extras ttf-dejavu-core fonts-crosextra-carlito fonts-crosextra-caladea
 
 ### Появится такое окно:![GitHub Logo](images/image3.png)
 
@@ -50,6 +81,14 @@ sudo snap install pinta
 
 sudo apt update && sudo apt install karbon
 
+### Клавиатурный тернажер:
+
+sudo apt update && sudo apt install gtypist
+
+*Запуск с русской раскладкой: *
+
+gtypist ru.typ
+
 ### Программа видеоконференций ZOOM:
 
 sudo snap install zoom-client
@@ -88,7 +127,7 @@ sudo snap install gcompris --classic
 
 ### Arduino для Ubuntu 14/16/18 (32/64 bit):
 
-mkdir Programs && cd Programs && wget https://downloads.arduino.cc/arduino-1.8.15-linux64.tar.xz && tar -xvf arduino-1.8.15-linux64.tar.xz && cd arduino-1.8.15 && sudo ./install.sh
+cd ~ ; mkdir Programs ; cd Programs && wget https://downloads.arduino.cc/arduino-1.8.16-linux64.tar.xz && tar -xvf arduino-1.8.16-linux64.tar.xz && cd arduino-1.8.16 && sudo ./install.sh
 
 *Чтобы программный код загружался в контроллер, нужно добавить текущего пользователя в группы dialout и tty:*
 
@@ -128,7 +167,9 @@ sudo apt install python3-pip python3-tk && pip install flatcam
 
 flatcam
 
-### Scratch Desktop 3.6 for Ubuntu Linux:sudo snap install scratux
+### Scratch Desktop 3.6 for Ubuntu Linux:
+
+sudo snap install scratux
 
 ### Fritzing - программный комплекс начального уровня для проектирования электронных устройств. Полезен в учебных целях:
 
@@ -148,7 +189,7 @@ sudo add-apt-repository ppa:webupd8team/terminix && sudo apt-get update && sudo 
 
 ### Micro - свободный текстовый редактор для консоли:
 
-cd Загрузки && wget https://github.com/zyedidia/micro/releases/download/v2.0.10/micro-2.0.10-amd64.deb && sudo apt update && sudo dpkg -i micro-2.0.10-amd64.deb && sudo apt update
+cd ~ ; cd Загрузки && wget https://github.com/zyedidia/micro/releases/download/v2.0.10/micro-2.0.10-amd64.deb && sudo apt update && sudo dpkg -i micro-2.0.10-amd64.deb && sudo apt update
 
 ### Набор необходимых и полезных утилит:
 
@@ -156,7 +197,7 @@ sudo apt update && sudo apt install mc gdebi htop tree mesa-utils sl lm-sensors 
 
 ### SimulIDE - простой и бесплатный симулятор электрических цепей:
 
-wget https://launchpad.net/simulide/0.4.15/0.4.15-sr1/+download/simulide_0.4.15-SR1.AppImage && chmod a+x simulide_0.4.15-SR1.AppImage
+cd ~ ; wget https://launchpad.net/simulide/0.4.15/0.4.15-sr1/+download/simulide_0.4.15-SR1.AppImage && chmod a+x simulide_0.4.15-SR1.AppImage
 
 ### OpenShot - простой в управлении и мощный по возможностям видеоредактор:
 
@@ -174,29 +215,13 @@ sudo add-apt-repository ppa:obsproject/obs-studio && sudo apt update && sudo apt
 
 sudo apt update && sudo apt remove mintinstall && sudo apt update && sudo apt install gnome-software gnome-software-plugin-snap gnome-software-plugin-flatpak
 
-### Дополнительные темы значков для LibreOffice 7:
+### Установка новой версии LibreOffice:
+
+sudo add-apt-repository ppa:libreoffice/ppa && sudo apt update && sudo apt dist-upgrade
+
+### Установка дополнительных тем для LibreOffice:
 
 sudo apt update && sudo apt install libreoffice-style-breeze libreoffice-style-tango libreoffice-style-sifr
-
-### Установить переключение клавиатуры на другой язык:
-
-![GitHub Logo](images/mint_key1.png)
-
-![GitHub Logo](images/mint_key2.png)
-
-![GitHub Logo](images/mint_key3.png)
-
-### Отключить засыпание компьютера:
-
-![GitHub Logo](images/mint_savepower1.png)
-
-![GitHub Logo](images/mint_savepower2.png)
-
-### Отключить скринсервер
-
-![GitHub Logo](images/mint_screen1.png)
-
-![GitHub Logo](images/mint_screen1.png)
 
 ### Перезагрузите компьютер.
 

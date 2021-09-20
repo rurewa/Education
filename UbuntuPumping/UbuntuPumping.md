@@ -22,17 +22,19 @@ sudo apt list --upgradable -a && sudo apt update && sudo apt full-upgrade && reb
 
 ![GitHub Logo](images/image3.png)
 
-*После перезагрузки устанавливаем необходимые мультимедийные кодеки и шрифты (во время выполнения этой установки браузер лучше закрыть!):*
+### Устанавливаем необходимые мультимедийные кодеки и шрифты (во время выполнения этой установки браузер лучше закрыть!):
 
-sudo apt update && sudo apt install ubuntu-restricted-extras ttf-dejavu-core
+sudo apt update && sudo apt install ubuntu-restricted-extras ttf-dejavu-core fonts-crosextra-carlito fonts-crosextra-caladea
 
-*В процессе установки программа задаёт пользователю вопросы, на которые нужно отвечать утвердительно (Yes), используя TAB и стрелки для перемещения и Enter.*
+### Появится такое окно:
 
-![GitHub Logo](images/image5.png)
+![GitHub Logo](images/image3.png)
 
+*В процессе установки программа задаёт пользователю вопросы, на которые нужно отвечать утвердительно (Y/Да), используя TAB и стрелки для перемещения и Enter.*
+
+![GitHub Logo](images/image5.png)
 
 ![GitHub Logo](images/image7.png)
-
 
 ### Приложения для камеры и звукозаписи:
 
@@ -65,6 +67,14 @@ sudo snap install pinta
 ### Karbon - простой редактор векторной графики:
 
 sudo apt update && sudo apt install karbon
+
+### Клавиатурный тернажер:
+
+sudo apt update && sudo apt install gtypist
+
+*Запуск с русской раскладкой: *
+
+gtypist ru.typ
 
 ### Программа видеоконференций ZOOM:
 
@@ -104,7 +114,7 @@ sudo snap install gcompris --classic
 
 ### Arduino для Ubuntu 14/16/18 (32/64 bit):
 
-mkdir Programs && cd Programs && wget https://downloads.arduino.cc/arduino-1.8.15-linux64.tar.xz && tar -xvf arduino-1.8.15-linux64.tar.xz && cd arduino-1.8.15 && sudo ./install.sh
+cd ~ ; mkdir Programs ; cd Programs && wget https://downloads.arduino.cc/arduino-1.8.16-linux64.tar.xz && tar -xvf arduino-1.8.16-linux64.tar.xz && cd arduino-1.8.16 && sudo ./install.sh
 
 *Чтобы программный код загружался в контроллер, нужно добавить текущего пользователя в группы dialout и tty:*
 
@@ -166,7 +176,7 @@ sudo add-apt-repository ppa:webupd8team/terminix && sudo apt-get update && sudo 
 
 ### Micro - свободный текстовый редактор для консоли:
 
-cd Загрузки && wget https://github.com/zyedidia/micro/releases/download/v2.0.10/micro-2.0.10-amd64.deb && sudo apt update && sudo dpkg -i micro-2.0.10-amd64.deb && sudo apt update
+cd ~ ; cd Загрузки && wget https://github.com/zyedidia/micro/releases/download/v2.0.10/micro-2.0.10-amd64.deb && sudo apt update && sudo dpkg -i micro-2.0.10-amd64.deb && sudo apt update
 
 ### Набор необходимых и полезных утилит:
 
@@ -188,7 +198,11 @@ sudo add-apt-repository ppa:ubuntuhandbook1/audacity && sudo apt update && sudo 
 
 sudo add-apt-repository ppa:obsproject/obs-studio && sudo apt update && sudo apt install ffmpeg obs-studio
 
-### Дополнительные темы значков для LibreOffice 7:
+### Установка новой версии LibreOffice:
+
+sudo add-apt-repository ppa:libreoffice/ppa && sudo apt update && sudo apt dist-upgrade
+
+### Установка дополнительных тем для LibreOffice:
 
 sudo apt update && sudo apt install libreoffice-style-breeze libreoffice-style-tango libreoffice-style-sifr
 

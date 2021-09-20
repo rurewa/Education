@@ -10,7 +10,7 @@ sudo apt list --upgradable -a && sudo apt update && sudo apt full-upgrade && reb
 
 ### После перезагрузки устанавливаем необходимые мультимедийные кодеки и шрифты (во время выполнения этой установки браузер лучше закрыть!):
 
-sudo apt update && sudo apt install ubuntu-restricted-extras ttf-dejavu-core
+sudo apt update && sudo apt install ubuntu-restricted-extras ttf-dejavu-core fonts-crosextra-carlito fonts-crosextra-caladea
 
 ### Появится такое окно:
 
@@ -56,6 +56,14 @@ sudo snap install pinta
 
 sudo apt update && sudo apt install karbon
 
+### Клавиатурный тернажер:
+
+sudo apt update && sudo apt install gtypist
+
+*Запуск с русской раскладкой: *
+
+gtypist ru.typ
+
 ### Программа видеоконференций ZOOM:
 
 sudo snap install zoom-client
@@ -94,7 +102,7 @@ sudo snap install gcompris --classic
 
 ### Arduino для Ubuntu 14/16/18 (32/64 bit):
 
-mkdir Programs && cd Programs && wget https://downloads.arduino.cc/arduino-1.8.15-linux64.tar.xz && tar -xvf arduino-1.8.15-linux64.tar.xz && cd arduino-1.8.15 && sudo ./install.sh
+cd ~ ; mkdir Programs ; cd Programs && wget https://downloads.arduino.cc/arduino-1.8.16-linux64.tar.xz && tar -xvf arduino-1.8.16-linux64.tar.xz && cd arduino-1.8.16 && sudo ./install.sh
 
 *Чтобы программный код загружался в контроллер, нужно добавить текущего пользователя в группы dialout и tty:*
 
@@ -186,7 +194,11 @@ inxi -Fs
 
 sudo apt update && sudo apt install gnome-software gnome-software-plugin-snap gnome-software-plugin-flatpak
 
-### Дополнительные темы значков для LibreOffice 7
+### Установка новой версии LibreOffice:
+
+sudo add-apt-repository ppa:libreoffice/ppa && sudo apt update && sudo apt dist-upgrade
+
+### Установка дополнительных тем для LibreOffice:
 
 sudo apt update && sudo apt install libreoffice-style-breeze libreoffice-style-tango libreoffice-style-sifr
 
