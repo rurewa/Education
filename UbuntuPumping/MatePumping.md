@@ -160,7 +160,7 @@ sudo add-apt-repository ppa:webupd8team/terminix && sudo apt-get update && sudo 
 
 ### Micro - свободный текстовый редактор для консоли:
 
-cd Загрузки && wget https://github.com/zyedidia/micro/releases/download/v2.0.10/micro-2.0.10-amd64.deb && sudo apt update && sudo dpkg -i micro-2.0.10-amd64.deb && sudo apt update
+cd ~ ; cd Загрузки && wget https://github.com/zyedidia/micro/releases/download/v2.0.10/micro-2.0.10-amd64.deb && sudo apt update && sudo dpkg -i micro-2.0.10-amd64.deb && sudo apt update
 
 ### Набор необходимых и полезных утилит:
 
@@ -168,7 +168,7 @@ sudo apt update && sudo apt install mc gdebi htop tree mesa-utils sl lm-sensors 
 
 ### SimulIDE - простой и бесплатный симулятор электрических цепей:
 
-wget https://launchpad.net/simulide/0.4.15/0.4.15-sr1/+download/simulide_0.4.15-SR1.AppImage && chmod a+x simulide_0.4.15-SR1.AppImage
+cd ~ ; wget https://launchpad.net/simulide/0.4.15/0.4.15-sr1/+download/simulide_0.4.15-SR1.AppImage && chmod a+x simulide_0.4.15-SR1.AppImage
 
 ### OpenShot - простой в управлении и мощный по возможностям видеоредактор:
 

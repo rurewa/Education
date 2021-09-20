@@ -26,13 +26,13 @@ sudo apt list --upgradable -a && sudo apt update && sudo apt full-upgrade && reb
 
 sudo apt update && sudo apt install ubuntu-restricted-extras ttf-dejavu-core fonts-crosextra-carlito fonts-crosextra-caladea
 
-### Появится такое окно:
+### Появится такое окно:
 
 ![GitHub Logo](images/image3.png)
 
 *В процессе установки программа задаёт пользователю вопросы, на которые нужно отвечать утвердительно (Y/Да), используя TAB и стрелки для перемещения и Enter.*
 
-![GitHub Logo](images/image5.png)
+![GitHub Logo](images/image5.png)
 
 ![GitHub Logo](images/image7.png)
 
@@ -184,7 +184,7 @@ sudo apt update && sudo apt install mc gdebi htop tree mesa-utils sl lm-sensors 
 
 ### SimulIDE - простой и бесплатный симулятор электрических цепей:
 
-wget https://launchpad.net/simulide/0.4.15/0.4.15-sr1/+download/simulide_0.4.15-SR1.AppImage && chmod a+x simulide_0.4.15-SR1.AppImage
+cd ~ ; wget https://launchpad.net/simulide/0.4.15/0.4.15-sr1/+download/simulide_0.4.15-SR1.AppImage && chmod a+x simulide_0.4.15-SR1.AppImage
 
 ### OpenShot - простой в управлении и мощный по возможностям видеоредактор:
 
