@@ -184,11 +184,11 @@ cd ~ ; cd Загрузки && wget https://github.com/zyedidia/micro/releases/do
 
 ### Набор необходимых и полезных утилит:
 
-sudo apt update && sudo apt install mc gdebi htop tree mesa-utils sl lm-sensors neofetch winbind wget curl ppa-purge inxi recoll net-tools xclip xsel arp-scan
+sudo apt update && sudo apt install mc gdebi htop tree mesa-utils sl lm-sensors neofetch winbind wget curl ppa-purge inxi recoll net-tools xclip xsel arp-scan aria2
 
 ### SimulIDE - простой и бесплатный симулятор электрических цепей:
 
-cd ~ ; wget https://launchpad.net/simulide/0.4.15/0.4.15-sr1/+download/simulide_0.4.15-SR1.AppImage && chmod a+x simulide_0.4.15-SR1.AppImage
+cd ~ ; wget https://launchpad.net/simulide/0.4.15/0.4.15-stable/+download/simulide_0.4.15-SR7.AppImage && chmod a+x simulide_0.4.15-SR1.AppImage
 
 ### OpenShot - простой в управлении и мощный по возможностям видеоредактор:
 
@@ -210,13 +210,7 @@ sudo add-apt-repository ppa:libreoffice/ppa && sudo apt update && sudo apt dist-
 
 sudo apt update && sudo apt install libreoffice-style-breeze libreoffice-style-tango libreoffice-style-sifr
 
-### Информация об оборудовании:
-
-sudo apt update && sudo apt install inxi
-
-*запуск этой программы в Терминале:*inxi -Fs
-
-Некоторые программы не поспевают за изменениями Ubuntu и некорректно попадают в трей. Исправить это можно установкой дополнения по ссылке:
+### Некоторые программы не поспевают за изменениями Ubuntu и некорректно попадают в трей. Исправить это можно установкой дополнения по ссылке:
 
 https://extensions.gnome.org/extension/1503/tray-icons/
 
@@ -275,5 +269,9 @@ https://snapcraft.io/store
 ### Ещё много приложений в Ubuntu Story:
 
 ![GitHub Logo](images/Find_Ubuntu_Store.png)
+
+### Информация об оборудовании с помощью Inxi:
+
+*запуск этой программы в Терминале:*inxi -Fs
 
 ### Для сворачивание всех окон (показать рабочий стол) нужно выполнить Ctrl-Alt-D

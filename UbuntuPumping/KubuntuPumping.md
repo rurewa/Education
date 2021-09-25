@@ -180,11 +180,11 @@ cd ~ ; cd Загрузки && wget https://github.com/zyedidia/micro/releases/do
 
 ### Набор необходимых и полезных утилит:
 
-sudo apt update && sudo apt install mc gdebi htop tree mesa-utils sl lm-sensors neofetch winbind wget curl ppa-purge inxi recoll net-tools xclip xsel arp-scan
+sudo apt update && sudo apt install mc gdebi htop tree mesa-utils sl lm-sensors neofetch winbind wget curl ppa-purge inxi recoll net-tools xclip xsel arp-scan aria2
 
 ### SimulIDE - простой и бесплатный симулятор электрических цепей:
 
-cd ~ ; wget https://launchpad.net/simulide/0.4.15/0.4.15-sr1/+download/simulide_0.4.15-SR1.AppImage && chmod a+x simulide_0.4.15-SR1.AppImage
+cd ~ ; wget https://launchpad.net/simulide/0.4.15/0.4.15-stable/+download/simulide_0.4.15-SR7.AppImage && chmod a+x simulide_0.4.15-SR1.AppImage
 
 ### OpenShot - простой в управлении и мощный по возможностям видеоредактор:
 
@@ -206,12 +206,6 @@ sudo add-apt-repository ppa:libreoffice/ppa && sudo apt update && sudo apt dist-
 
 sudo apt update && sudo apt install libreoffice-style-breeze libreoffice-style-tango libreoffice-style-sifr
 
-### Информация об оборудовании:
-
-sudo apt update && sudo apt install inxi
-
-*запуск этой программы в Терминале:*inxi -Fs
-
 ### После того, как всё успешно установилось, перезагружаем ОС командой reboot в терминале!
 
 ### Если вам недостаточно имеющихся приложений, то посетите эту страницу для поиска и установки нужной вам программы:
@@ -223,3 +217,7 @@ https://progmatikus.livejournal.com/55550.html
 https://snapcraft.io/store
 
 ![GitHub Logo](images/Soft.png)
+
+### Информация об оборудовании с помощью Inxi:
+
+*запуск этой программы в Терминале:*inxi -Fs

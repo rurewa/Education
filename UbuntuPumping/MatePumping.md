@@ -96,7 +96,7 @@ sudo snap install cura-slicer
 
 sudo snap install leocad --classic
 
-### Kalzium - таблица Менделеева:
+### Kalzium - таблица Менделеева:
 
 sudo snap install kalzium --classic
 
@@ -168,11 +168,11 @@ cd ~ ; cd Загрузки && wget https://github.com/zyedidia/micro/releases/do
 
 ### Набор необходимых и полезных утилит:
 
-sudo apt update && sudo apt install mc gdebi htop tree mesa-utils sl lm-sensors neofetch winbind wget curl ppa-purge inxi recoll net-tools xclip xsel arp-scan
+sudo apt update && sudo apt install mc gdebi htop tree mesa-utils sl lm-sensors neofetch winbind wget curl ppa-purge inxi recoll net-tools xclip xsel arp-scan aria2
 
 ### SimulIDE - простой и бесплатный симулятор электрических цепей:
 
-cd ~ ; wget https://launchpad.net/simulide/0.4.15/0.4.15-sr1/+download/simulide_0.4.15-SR1.AppImage && chmod a+x simulide_0.4.15-SR1.AppImage
+cd ~ ; wget https://launchpad.net/simulide/0.4.15/0.4.15-stable/+download/simulide_0.4.15-SR7.AppImage && chmod a+x simulide_0.4.15-SR1.AppImage
 
 ### OpenShot - простой в управлении и мощный по возможностям видеоредактор:
 
@@ -185,14 +185,6 @@ sudo add-apt-repository ppa:ubuntuhandbook1/audacity && sudo apt update && sudo 
 ### OBS Studio - бесплатное программное обеспечение с открытым исходным кодом для записи видео и потокового вещания:
 
 sudo add-apt-repository ppa:obsproject/obs-studio && sudo apt update && sudo apt install ffmpeg obs-studio
-
-### Информация об оборудовании:
-
-sudo apt update && sudo apt install inxi
-
-*запуск этой программы в Терминале:*
-
-inxi -Fs
 
 ### Поддержка snap и flatpack в Центре Приложений
 
@@ -233,6 +225,12 @@ mate-keyboard-properties
 ### Отключить скринсервер
 
 ![GitHub Logo](images/screenserv.png)
+
+### Информация об оборудовании с помощью Inxi:
+
+*запуск этой программы в Терминале:*
+
+inxi -Fs
 
 ### Перезагрузите компьютер.
 
