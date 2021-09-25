@@ -108,6 +108,10 @@ sudo snap install cura-slicer
 
 sudo snap install leocad --classic
 
+### Kalzium - таблица Менделеева:
+
+sudo snap install kalzium --classic
+
 ### Gcompris - набор развивающих игр:
 
 sudo snap install gcompris --classic
