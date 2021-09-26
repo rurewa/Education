@@ -188,7 +188,7 @@ sudo apt update && sudo apt install mc gdebi htop tree mesa-utils sl lm-sensors 
 
 ### SimulIDE - простой и бесплатный симулятор электрических цепей:
 
-cd ~ ; wget https://launchpad.net/simulide/0.4.15/0.4.15-stable/+download/simulide_0.4.15-SR7.AppImage && chmod a+x simulide_0.4.15-SR7.AppImage
+git clone https://github.com/rurewa/SimuliDE.git && cp ${HOME}/SimuliDE/SimulIDE.desktop ${HOME}/Рабочий\ стол/
 
 ### OpenShot - простой в управлении и мощный по возможностям видеоредактор:
 
