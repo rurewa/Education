@@ -202,6 +202,10 @@ sudo add-apt-repository ppa:ubuntuhandbook1/audacity && sudo apt update && sudo 
 
 sudo add-apt-repository ppa:obsproject/obs-studio && sudo apt update && sudo apt install ffmpeg obs-studio
 
+### Установка поддержки flatpak в Ubuntu:
+
+sudo apt update && sudo apt install gnome-software-plugin-snap gnome-software-plugin-flatpak
+
 ### Установка новой версии LibreOffice:
 
 sudo add-apt-repository ppa:libreoffice/ppa && sudo apt update && sudo apt dist-upgrade
