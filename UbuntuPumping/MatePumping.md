@@ -198,6 +198,14 @@ sudo add-apt-repository ppa:libreoffice/ppa && sudo apt update && sudo apt dist-
 
 sudo apt update && sudo apt install libreoffice-style-breeze libreoffice-style-tango libreoffice-style-sifr
 
+### Изменить терминал по умолчанию на  Tilix:
+
+mate-default-applications-properties
+
+![mateLang](images/MateTilix.png)
+
+*Выбрать Tilix*
+
 ### Дополнительная локализация приложений (запустить команду в Терминале):
 
 gnome-language-selector 
