@@ -120,7 +120,7 @@ cd ~ ; mkdir Programs ; cd Programs && wget https://downloads.arduino.cc/arduino
 
 sudo gpasswd -a ${USER} tty && sudo gpasswd -a ${USER} dialout && sudo gpasswd -a ${USER} plugdev
 
-*Установить необходимое для работы с платами компоненты можно командой:*
+*Установить необходимые компоненты для работы с контроллером:*
 
 sudo apt-get install gcc-avr binutils-avr gdb-avr avr-libc avrdude
 
