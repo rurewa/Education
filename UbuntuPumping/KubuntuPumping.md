@@ -206,6 +206,18 @@ sudo add-apt-repository ppa:libreoffice/ppa && sudo apt update && sudo apt dist-
 
 sudo apt update && sudo apt install libreoffice-style-breeze libreoffice-style-tango libreoffice-style-sifr
 
+### Поддержка snap и flatpack в Центре Приложений:
+
+sudo apt update && sudo apt install flatpak gnome-software gnome-software-plugin-snap gnome-software-plugin-flatpak
+
+### Подключение репозиториев для работы с flatpack:
+
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+
+и
+
+flatpak install https://flathub.org/repo/appstream/fr.free.Homebank.flatpakref
+
 ### После того, как всё успешно установилось, перезагружаем ОС командой reboot в терминале!
 
 ### Если вам недостаточно имеющихся приложений, то посетите эту страницу для поиска и установки нужной вам программы:

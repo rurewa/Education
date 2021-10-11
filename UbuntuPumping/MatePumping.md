@@ -186,9 +186,17 @@ sudo add-apt-repository ppa:ubuntuhandbook1/audacity && sudo apt update && sudo 
 
 sudo add-apt-repository ppa:obsproject/obs-studio && sudo apt update && sudo apt install ffmpeg obs-studio
 
-### Поддержка snap и flatpack в Центре Приложений
+### Поддержка snap и flatpack в Центре Приложений:
 
-sudo apt update && sudo apt install gnome-software gnome-software-plugin-snap gnome-software-plugin-flatpak
+sudo apt update && sudo apt install flatpak gnome-software gnome-software-plugin-snap gnome-software-plugin-flatpak
+
+### Подключение репозиториев для работы с flatpack:
+
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+
+и
+
+flatpak install https://flathub.org/repo/appstream/fr.free.Homebank.flatpakref
 
 ### Установка новой версии LibreOffice:
 
