@@ -188,7 +188,7 @@ sudo apt update && sudo apt install -y mc gdebi htop tree mesa-utils sl lm-senso
 
 ### SimulIDE - простой и бесплатный симулятор электрических цепей:
 
-git clone https://github.com/rurewa/SimuliDE.git && cp ${HOME}/SimuliDE/SimulIDE.desktop ${HOME}/Рабочий\ стол/
+cd ~ ; git clone https://github.com/rurewa/SimuliDE.git && cp ${HOME}/SimuliDE/SimulIDE.desktop ${HOME}/Рабочий\ стол/
 
 ### OpenShot - простой в управлении и мощный по возможностям видеоредактор:
 
@@ -224,7 +224,7 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 
 и
 
-flatpak install https://flathub.org/repo/appstream/fr.free.Homebank.flatpakref
+flatpak install -y https://flathub.org/repo/appstream/fr.free.Homebank.flatpakref
 
 ### Некоторые программы не поспевают за изменениями Ubuntu и некорректно попадают в трей. Исправить это можно установкой дополнения по ссылке:
 

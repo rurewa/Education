@@ -122,7 +122,7 @@ sudo gpasswd -a ${USER} tty && sudo gpasswd -a ${USER} dialout && sudo gpasswd -
 
 *Установить необходимые компоненты для работы с контроллером:*
 
-sudo apt-get install -y gcc-avr binutils-avr gdb-avr avr-libc avrdude
+sudo aptt install -y gcc-avr binutils-avr gdb-avr avr-libc avrdude
 
 ### Поддержка Java (необходима для некоторых программ. Во время установки браузер лучше закрыть!):
 
@@ -138,7 +138,7 @@ sudo apt update && sudo apt install -y build-essential git ghex gdb lldb
 
 ### Для создания схем и разводки печатных плат KiCAD EDA:
 
-sudo add-apt-repository --yes ppa:kicad/kicad-5.1-releases && sudo apt update && sudo apt install -y --install-recommends kicad kicad-demos kicad-locale-ru
+sudo add-apt-repository --yes ppa:kicad/kicad-5.1-releases -y && sudo apt update && sudo apt install -y --install-recommends kicad kicad-demos kicad-locale-ru
 
 Подробнее о дополнениях к KiCADhttps://progmatikus.livejournal.com/323678.html
 
@@ -172,7 +172,7 @@ sudo apt update && sudo apt install -y dia
 
 ### Tilix - тайловый (многооконный) терминал:
 
-sudo add-apt-repository ppa:webupd8team/terminix && sudo apt-get update && sudo apt install -y tilix
+sudo add-apt-repository ppa:webupd8team/terminix -y && sudo apt-get update && sudo apt install -y tilix
 
 ### Micro - свободный текстовый редактор для консоли:
 
@@ -184,23 +184,23 @@ sudo apt update && sudo apt install -y mc gdebi htop tree mesa-utils sl lm-senso
 
 ### SimulIDE - простой и бесплатный симулятор электрических цепей:
 
-git clone https://github.com/rurewa/SimuliDE.git && cp ${HOME}/SimuliDE/SimulIDE.desktop ${HOME}/Рабочий\ стол/
+cd ~ ; git clone https://github.com/rurewa/SimuliDE.git && cp ${HOME}/SimuliDE/SimulIDE.desktop ${HOME}/Рабочий\ стол/
 
 ### OpenShot - простой в управлении и мощный по возможностям видеоредактор:
 
-sudo add-apt-repository ppa:openshot.developers/ppa && sudo apt update && sudo apt install -y openshot-qt
+sudo add-apt-repository ppa:openshot.developers/ppa -y && sudo apt update && sudo apt install -y openshot-qt
 
 ### Audacity - простой в управлении и мощный по возможностям аудиоредактор:
 
-sudo add-apt-repository ppa:ubuntuhandbook1/audacity && sudo apt update && sudo apt install -y audacity
+sudo add-apt-repository ppa:ubuntuhandbook1/audacity -y && sudo apt update && sudo apt install -y audacity
 
 ### OBS Studio - бесплатное программное обеспечение с открытым исходным кодом для записи видео и потокового вещания:
 
-sudo add-apt-repository ppa:obsproject/obs-studio && sudo apt update && sudo apt install -y ffmpeg obs-studio
+sudo add-apt-repository ppa:obsproject/obs-studio -y && sudo apt update && sudo apt install -y ffmpeg obs-studio
 
 ### Установка новой версии LibreOffice:
 
-sudo add-apt-repository ppa:libreoffice/ppa && sudo apt update && sudo apt dist-upgrade
+sudo add-apt-repository ppa:libreoffice/ppa -y && sudo apt update && sudo apt dist-upgrade
 
 ### Установка дополнительных тем для LibreOffice:
 
@@ -216,7 +216,7 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 
 и
 
-flatpak install https://flathub.org/repo/appstream/fr.free.Homebank.flatpakref
+flatpak install -y https://flathub.org/repo/appstream/fr.free.Homebank.flatpakref
 
 ### После того, как всё успешно установилось, перезагружаем ОС командой reboot в терминале!
 

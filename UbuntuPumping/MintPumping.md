@@ -189,7 +189,7 @@ sudo apt update && sudo apt install -y dia
 
 ### Tilix - тайловый (многооконный) терминал:
 
-sudo add-apt-repository ppa:webupd8team/terminix && sudo apt update && sudo apt install -y tilix
+sudo add-apt-repository ppa:webupd8team/terminix -y && sudo apt update && sudo apt install -y tilix
 
 ### Micro - свободный текстовый редактор для консоли:
 
@@ -217,7 +217,7 @@ sudo add-apt-repository ppa:obsproject/obs-studio -y && sudo apt update && sudo 
 
 ### Поддержка snap и flatpack в Центре Приложений:
 
-sudo apt update && sudo apt remove mintinstall && sudo apt update && sudo apt install -y flatpak gnome-software gnome-software-plugin-snap gnome-software-plugin-flatpak
+sudo apt update && sudo apt remove -y mintinstall && sudo apt update && sudo apt install -y flatpak gnome-software gnome-software-plugin-snap gnome-software-plugin-flatpak
 
 ### Подключение репозиториев для работы с flatpack:
 
@@ -225,7 +225,7 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 
 и
 
-flatpak install https://flathub.org/repo/appstream/fr.free.Homebank.flatpakref
+flatpak install -y https://flathub.org/repo/appstream/fr.free.Homebank.flatpakref
 
 ### Установка новой версии LibreOffice:
 
