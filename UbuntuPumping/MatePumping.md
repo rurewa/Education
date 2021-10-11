@@ -4,13 +4,13 @@
 
 *После вставки текста вводим Y и нажимаем Enter:*
 
-sudo apt list --upgradable -a && sudo apt update && sudo apt full-upgrade && reboot
+sudo apt list --upgradable -a && sudo apt update && sudo apt full-upgrade -y && reboot
 
 *Эта команда обновит и перезагрузит ОС.*
 
 ### После перезагрузки устанавливаем необходимые мультимедийные кодеки и шрифты (во время выполнения этой установки браузер лучше закрыть!):
 
-sudo apt update && sudo apt install ubuntu-restricted-extras ttf-dejavu-core fonts-crosextra-carlito fonts-crosextra-caladea
+sudo apt update && sudo apt install -y ubuntu-restricted-extras ttf-dejavu-core fonts-crosextra-carlito fonts-crosextra-caladea
 
 ### Появится такое окно:
 
@@ -26,7 +26,7 @@ sudo apt update && sudo apt install ubuntu-restricted-extras ttf-dejavu-core fon
 
 ### Приложения для камеры и звукозаписи:
 
-sudo apt update && sudo apt install guvcview gnome-sound-recorder gnome-clocks
+sudo apt update && sudo apt install -y guvcview gnome-sound-recorder gnome-clocks
 
 ### Gifex - GIF запись с экрана в Linux
 
@@ -46,7 +46,7 @@ https://www.google.ru/chrome/
 
 ### Gimp - полноценный редактор графики:
 
-sudo apt update && sudo apt install gimp gimp-gmic gimp-gap gimp-data-extras gimp-dcraw abr2gbr
+sudo apt update && sudo apt install -y gimp gimp-gmic gimp-gap gimp-data-extras gimp-dcraw abr2gbr
 
 ### Pinta - простая рисовалка в духе Paint.net:
 
@@ -54,11 +54,11 @@ sudo snap install pinta
 
 ### Karbon - простой редактор векторной графики:
 
-sudo apt update && sudo apt install karbon
+sudo apt update && sudo apt install -y karbon
 
 ### Клавиатурный тернажер:
 
-sudo apt update && sudo apt install gtypist
+sudo apt update && sudo apt install -y gtypist
 
 *Запуск с русской раскладкой: *
 
@@ -74,15 +74,15 @@ sudo snap install telegram-desktop
 
 ### Читалка формата DJVI:
 
-sudo apt update && sudo apt install djview4
+sudo apt update && sudo apt install -y djview4
 
 ### Набор архиваторов:
 
-sudo apt update && sudo apt install rar unrar p7zip-full arj
+sudo apt update && sudo apt install -y rar unrar p7zip-full arj
 
 ### Простые игры:
 
-sudo apt install gnome-chess quadrapasselknetwalk
+sudo apt install -y gnome-chess quadrapasselknetwalk
 
 ### FreeCAD - 2D/3D решение для любителей и инженеров с начальной поддержкой формата dwg (Autocad):
 
@@ -114,29 +114,29 @@ sudo gpasswd -a ${USER} tty && sudo gpasswd -a ${USER} dialout && sudo gpasswd -
 
 *Установить необходимые компоненты для работы с контроллером:*
 
-sudo apt-get install gcc-avr binutils-avr gdb-avr avr-libc avrdude
+sudo apt-get install -y gcc-avr binutils-avr gdb-avr avr-libc avrdude
 
 ### Поддержка Java (необходима для некоторых программ. Во время установки браузер лучше закрыть!):
 
-sudo apt update && sudo apt install default-jre default-jdk
+sudo apt update && sudo apt install -y default-jre default-jdk
 
 ### Скриншотер (их много, но этот один из лучших):
 
-sudo apt update && sudo apt install flameshot
+sudo apt update && sudo apt install -y flameshot
 
 ### Инструменты разработчика C++:
 
-sudo apt update && sudo apt install build-essential git ghex gdb lldb
+sudo apt update && sudo apt install -y build-essential git ghex gdb lldb
 
 ### Для создания схем и разводки печатных плат KiCAD EDA:
 
-sudo add-apt-repository --yes ppa:kicad/kicad-5.1-releases && sudo apt update && sudo apt install --install-recommends kicad kicad-demos kicad-locale-ru
+sudo add-apt-repository --yes ppa:kicad/kicad-5.1-releases && sudo apt update && sudo apt install -y --install-recommends kicad kicad-demos kicad-locale-ru
 
 Подробнее о дополнениях к KiCADhttps://progmatikus.livejournal.com/323678.html
 
 ### FlatCam - позволяет перенести ваши проекты на фрезерный станок с ЧПУ:
 
-sudo apt install python3-pip python3-tk && pip install flatcam
+sudo apt install -y python3-pip python3-tk && pip install flatcam
 
 *запускать так:*/home/user/.local/bin/flatcam
 
@@ -148,19 +148,19 @@ sudo snap install scratux
 
 ### Fritzing - программный комплекс начального уровня для проектирования электронных устройств. Полезен в учебных целях:
 
-sudo apt update && sudo apt install fritzing fritzing-data fritzing-parts
+sudo apt update && sudo apt install -y fritzing fritzing-data fritzing-parts
 
 ### Geany - это мощный, стабильный и легкий текстовый редактор для программистов:
 
-sudo apt update && sudo apt install geany geany-plugins
+sudo apt update && sudo apt install -y geany geany-plugins
 
 ### Dia - приложение для рисования структурированных диаграмм
 
-sudo apt update && sudo apt install dia
+sudo apt update && sudo apt install -y dia
 
 ### Tilix - тайловый (многооконный) терминал:
 
-sudo add-apt-repository ppa:webupd8team/terminix && sudo apt-get update && sudo apt install tilix
+sudo add-apt-repository ppa:webupd8team/terminix && sudo apt-get update && sudo apt install -y tilix
 
 ### Micro - свободный текстовый редактор для консоли:
 
@@ -168,7 +168,7 @@ cd ~ ; cd Загрузки && wget https://github.com/zyedidia/micro/releases/do
 
 ### Набор необходимых и полезных утилит:
 
-sudo apt update && sudo apt install mc gdebi htop tree mesa-utils sl lm-sensors neofetch winbind wget curl ppa-purge inxi recoll net-tools xclip xsel arp-scan aria2
+sudo apt update && sudo apt install -y mc gdebi htop tree mesa-utils sl lm-sensors neofetch winbind wget curl ppa-purge inxi recoll net-tools xclip xsel arp-scan aria2
 
 ### SimulIDE - простой и бесплатный симулятор электрических цепей:
 
@@ -176,19 +176,19 @@ git clone https://github.com/rurewa/SimuliDE.git && cp ${HOME}/SimuliDE/SimulIDE
 
 ### OpenShot - простой в управлении и мощный по возможностям видеоредактор:
 
-sudo add-apt-repository ppa:openshot.developers/ppa && sudo apt update && sudo apt install openshot-qt
+sudo add-apt-repository ppa:openshot.developers/ppa -y && sudo apt update && sudo apt install -y openshot-qt
 
 ### Audacity - простой в управлении и мощный по возможностям аудиоредактор:
 
-sudo add-apt-repository ppa:ubuntuhandbook1/audacity && sudo apt update && sudo apt install audacity
+sudo add-apt-repository ppa:ubuntuhandbook1/audacity -y && sudo apt update && sudo apt install -y audacity
 
 ### OBS Studio - бесплатное программное обеспечение с открытым исходным кодом для записи видео и потокового вещания:
 
-sudo add-apt-repository ppa:obsproject/obs-studio && sudo apt update && sudo apt install ffmpeg obs-studio
+sudo add-apt-repository ppa:obsproject/obs-studio && sudo apt update && sudo apt install -y ffmpeg obs-studio
 
 ### Поддержка snap и flatpack в Центре Приложений:
 
-sudo apt update && sudo apt install flatpak gnome-software gnome-software-plugin-snap gnome-software-plugin-flatpak
+sudo apt update && sudo apt install -y flatpak gnome-software gnome-software-plugin-snap gnome-software-plugin-flatpak
 
 ### Подключение репозиториев для работы с flatpack:
 
@@ -200,11 +200,11 @@ flatpak install https://flathub.org/repo/appstream/fr.free.Homebank.flatpakref
 
 ### Установка новой версии LibreOffice:
 
-sudo add-apt-repository ppa:libreoffice/ppa && sudo apt update && sudo apt dist-upgrade
+sudo add-apt-repository ppa:libreoffice/ppa -y && sudo apt update && sudo apt dist-upgrade -y
 
 ### Установка дополнительных тем для LibreOffice:
 
-sudo apt update && sudo apt install libreoffice-style-breeze libreoffice-style-tango libreoffice-style-sifr
+sudo apt update && sudo apt install -y libreoffice-style-breeze libreoffice-style-tango libreoffice-style-sifr
 
 ### Изменить терминал по умолчанию на  Tilix:
 
