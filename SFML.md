@@ -12,7 +12,7 @@ https://kychka-pc.ru/category/sfml/page/5
 
 ### Установка:
 
-sudo apt update && sudo apt install libsfml-dev
+`sudo apt update && sudo apt install libsfml-dev`
 
 ### Пример простейшей программы:
 
@@ -46,9 +46,9 @@ int main()
 
 ### Сборка с помощью gcc:
 
-g++ -c main.cpp
+`g++ -c main.cpp`
 
 
 ### Создание окончательного исполняемого файла:
 
-g++ main.o -o sfml-app -lsfml-graphics -lsfml-window -lsfml-system
+`g++ main.o -o sfml-app -lsfml-graphics -lsfml-window -lsfml-system`
