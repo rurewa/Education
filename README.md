@@ -1,29 +1,49 @@
 ## Resources for Educational Activities in Robotics
 
-Soft:
+### Soft:
 
 https://github.com/rurewa/Education/blob/dev/Soft.md
 
-Literature:
+### Literature:
 
-https://github.com/rurewa/Education/blob/dev/Lit.md
+https://github.com/rurewa/Education/blob/main/Lit.md
 
-Soldering And Installation:
+### Soldering And Installation:
 
-https://github.com/rurewa/Education/blob/dev/SolderingAndInstallation.md
+https://github.com/rurewa/Education/blob/main/SolderingAndInstallation.md
 
-Arduino Tools Education
+### Arduino Tools Education
 
-https://github.com/rurewa/Education/blob/dev/ArduinoToolsEducation.md
+https://github.com/rurewa/Education/blob/main/ArduinoToolsEducation.md
 
-Bash commands
+### Bash commands
 
-https://github.com/rurewa/Education/blob/dev/bash.md
+https://github.com/rurewa/Education/blob/main/bash.md
 
-Git commands
+### Git commands
 
-https://github.com/rurewa/Education/blob/dev/Git/git.md
+https://github.com/rurewa/Education/blob/main/Git/git.md
 
-Ubuntu
+### SFML info:
 
-https://github.com/rurewa/Education/blob/dev/UbuntuPumping/UbuntuPumping.md
+https://github.com/rurewa/Education/blob/main/SFML.md
+
+### Ubuntu
+
+https://github.com/rurewa/Education/blob/main/UbuntuPumping/UbuntuPumping.md
+
+### Kubuntu:
+
+https://github.com/rurewa/Education/blob/main/UbuntuPumping/KubuntuPumping.md
+
+### Mate:
+
+https://github.com/rurewa/Education/blob/main/UbuntuPumping/MatePumping.md
+
+### Mint:
+
+https://github.com/rurewa/Education/blob/main/UbuntuPumping/MintPumping.md
+
+### Wine:
+
+https://github.com/rurewa/Education/blob/main/UbuntuPumping/wine.md
