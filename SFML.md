@@ -16,7 +16,7 @@ sudo apt update && sudo apt install libsfml-dev
 
 ### Пример простейшей программы:
 
-`#include <SFML/Graphics.hpp>
+```#include <SFML/Graphics.hpp>
 
 int main()
 {
@@ -39,7 +39,7 @@ int main()
     }
 
     return 0;
-}`
+}```
 
 
 ### Сборка с помощью gcc:
