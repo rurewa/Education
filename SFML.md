@@ -16,8 +16,8 @@ sudo apt update && sudo apt install libsfml-dev
 
 ### Пример простейшей программы:
 
-#include <SFML/Graphics.hpp>
-`
+`#include <SFML/Graphics.hpp>
+
 int main()
 {
     sf::RenderWindow window(sf::VideoMode(200, 200), "SFML works!");
@@ -39,8 +39,8 @@ int main()
     }
 
     return 0;
-}
-`
+}`
+
 
 ### Сборка с помощью gcc:
 
