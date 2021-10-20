@@ -122,7 +122,7 @@ sudo gpasswd -a ${USER} tty && sudo gpasswd -a ${USER} dialout && sudo gpasswd -
 
 *Установить необходимые компоненты для работы с контроллером:*
 
-sudo aptt install -y gcc-avr binutils-avr gdb-avr avr-libc avrdude
+sudo apt install -y gcc-avr binutils-avr gdb-avr avr-libc avrdude
 
 ### Поддержка Java (необходима для некоторых программ. Во время установки браузер лучше закрыть!):
 
