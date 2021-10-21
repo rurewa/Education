@@ -52,7 +52,7 @@ https://ru.aliexpress.com/item/1931201947.html?spm=a2g0s.9042311.0.0.274233ed9Oh
 
 Коммутатор питания (3 шт.)
 
-https://ru.aliexpress.com/item/32624952081.html?spm=a2g0s.9042311.0.0.274233ed9Ohyae
+https://aliexpress.ru/item/33040547285.html?sku_id=67329581523&spm=a2g2w.productlist.0.0.641a1033fhnGoz
 
 ЖК-дисплей 1602 + 2c lcd 1602 (любой цвет)
 
