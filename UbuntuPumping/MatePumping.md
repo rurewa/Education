@@ -90,9 +90,9 @@ https://www.google.ru/chrome/
 
 `sudo snap install freecad`
 
-**их flatpack:**
+**из flatpack:**
 
-flatpak install flathub org.freecadweb.FreeCAD
+`flatpak install flathub org.freecadweb.FreeCAD`
 
 ### Cura - слайсер для 3D принтера:
 
@@ -251,6 +251,26 @@ flatpak install flathub org.freecadweb.FreeCAD
 ### Отключить скринсервер
 
 ![GitHub Logo](images/screenserv.png)
+
+### Если вам недостаточно имеющихся приложений, то посетите эту страницу для поиска и установки нужной вам программы:
+
+https://progmatikus.livejournal.com/55550.html
+
+### Так же много приложений можно найти сдесь:
+
+https://snapcraft.io/store
+
+![GitHub Logo](images/Soft.png)
+
+### Если вам недостаточно имеющихся приложений, то посетите эту страницу для поиска и установки нужной вам программы:
+
+https://progmatikus.livejournal.com/55550.html
+
+### Так же много приложений можно найти сдесь:
+
+https://snapcraft.io/store
+
+![GitHub Logo](images/Soft.png)
 
 ### Информация об оборудовании с помощью Inxi:
 

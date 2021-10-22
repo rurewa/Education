@@ -98,7 +98,7 @@ https://www.google.ru/chrome/
 
 `sudo snap install freecad`
 
-**их flatpack:**
+**из flatpack:**
 
 flatpak install flathub org.freecadweb.FreeCAD
 
@@ -128,11 +128,7 @@ flatpak install flathub org.freecadweb.FreeCAD
 
 *Установить необходимые компоненты для работы с контроллером:*
 
-<<<<<<< HEAD
-sudo apt install -y gcc-avr binutils-avr gdb-avr avr-libc avrdude
-=======
 `sudo aptt install -y gcc-avr binutils-avr gdb-avr avr-libc avrdude`
->>>>>>> ed4f906112f1be3392271fcb3d082ba84a49146c
 
 ### Поддержка Java (необходима для некоторых программ. Во время установки браузер лучше закрыть!):
 

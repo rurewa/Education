@@ -18,7 +18,7 @@
 
 *Эта команда обновит и перезагрузит ОС.*
 
-Появится такое окно:
+**Появится такое окно:**
 
 ![GitHub Logo](images/image3.png)
 
@@ -102,7 +102,7 @@ https://www.google.ru/chrome/
 
 `sudo snap install freecad`
 
-**их flatpack:**
+**из flatpack:**
 
 flatpak install flathub org.freecadweb.FreeCAD
 
@@ -122,7 +122,7 @@ flatpak install flathub org.freecadweb.FreeCAD
 
 `sudo snap install gcompris --classic`
 
-### Arduino для Ubuntu 14/16/18 (32/64 bit):
+### Arduino для Ubuntu 18/20 (64 bit):
 
 `cd ~ ; mkdir Programs ; cd Programs && wget https://downloads.arduino.cc/arduino-1.8.16-linux64.tar.xz && tar -xvf arduino-1.8.16-linux64.tar.xz && cd arduino-1.8.16 && sudo ./install.sh`
 
@@ -150,7 +150,7 @@ flatpak install flathub org.freecadweb.FreeCAD
 
 `sudo add-apt-repository --yes ppa:kicad/kicad-5.1-releases -y && sudo apt update && sudo apt install -y --install-recommends kicad kicad-demos kicad-locale-ru`
 
-Подробнее о дополнениях к KiCADhttps://progmatikus.livejournal.com/323678.html
+**Подробнее о дополнениях к KiCAD:**https://progmatikus.livejournal.com/323678.html
 
 ### FlatCam - позволяет перенести ваши проекты на фрезерный станок с ЧПУ:
 
@@ -238,7 +238,7 @@ https://extensions.gnome.org/extension/1503/tray-icons/
 
 ![GitHub Logo](images/image2.png)
 
-И обнови язык, соглашаясь на всё!
+**И обнови язык, соглашаясь на всё!**
 
 ### Настрой переключение языков на клавиатуре через Alt-Shift:
 
