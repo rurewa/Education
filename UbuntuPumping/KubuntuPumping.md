@@ -1,14 +1,15 @@
 ## Настало время прокачать вашу свежеустановленную ОС (Kubuntu)!
 
+
+### Подключение партнёров Ubuntu:
+
+`sudo software-properties-qt`
+
 ### Запускаем Терминал при помощи клавиатурной комбинации Ctrl-Alt-T и вставляем в него при помощи клавиатурной комбинации Ctrl-Shift-V строку. После вставки текста вводим Y и Enter.
 
 ### Локализуем ОС:
 
 `sudo apt install -y aspell-ru language-pack-kde-ru language-pack-ru language-pack-ru-base myspell-ru language-pack-gnome-ru-base language-pack-gnome-ru firefox-locale-ru libreoffice-l10n-ru language-pack-gnome-ru-base language-pack-gnome-ru`
-
-### Подключение партнёров Ubuntu:
-
-`sudo software-properties-qt`
 
 ### В открывшемся окне установить флажки:
 
@@ -20,7 +21,7 @@
 
 ### Обновить ОС:
 
-`sudo apt list --upgradable -a && sudo apt update && sudo apt full-upgrade -y`
+`sudo apt list --upgradable -a && sudo apt update && sudo apt full-upgrade && reboot -y`
 
 ### Устанавливаем необходимые мультимедийные кодеки и шрифты (во время выполнения этой установки браузер лучше закрыть!):
 
@@ -128,7 +129,7 @@ flatpak install flathub org.freecadweb.FreeCAD
 
 *Установить необходимые компоненты для работы с контроллером:*
 
-`sudo aptt install -y gcc-avr binutils-avr gdb-avr avr-libc avrdude`
+`sudo apt install -y gcc-avr binutils-avr gdb-avr avr-libc avrdude`
 
 ### Поддержка Java (необходима для некоторых программ. Во время установки браузер лучше закрыть!):
 
