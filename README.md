@@ -44,6 +44,10 @@ https://github.com/rurewa/Education/blob/main/UbuntuPumping/MatePumping.md
 
 https://github.com/rurewa/Education/blob/main/UbuntuPumping/MintPumping.md
 
+### Askubuntu
+
+https://github.com/rurewa/Education/blob/main/UbuntuPumping/askubuntu.md
+
 ### Wine:
 
 https://github.com/rurewa/Education/blob/main/UbuntuPumping/wine.md
