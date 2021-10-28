@@ -34,3 +34,6 @@
 
 https://vivaldi.com/download/
 
+### Установить приложения (открыть ссылку):
+
+https://github.com/rurewa/Education/blob/main/UbuntuPumping/SoftInstall.md
