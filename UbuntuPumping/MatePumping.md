@@ -40,19 +40,15 @@
 
 ![GitHub Logo](images/screenserv.png)
 
+### Установить приложения (открыть ссылку):
+
+https://github.com/rurewa/Education/blob/main/UbuntuPumping/SoftInstall.md
+
 ### Информация об оборудовании с помощью Inxi:
 
 *запуск этой программы в Терминале:*
 
 `inxi -Fs`
-
-### Перезагрузите компьютер.
-
-## Всё готово!
-
-### Установить приложения (открыть ссылку):
-
-https://github.com/rurewa/Education/blob/main/UbuntuPumping/SoftInstall.md
 
 ### Изменить терминал по умолчанию на  Tilix:
 
@@ -61,3 +57,7 @@ https://github.com/rurewa/Education/blob/main/UbuntuPumping/SoftInstall.md
 ![mateLang](images/MateTilix.png)
 
 *Выбрать Tilix*
+
+### Перезагрузите компьютер.
+
+## Всё готово!

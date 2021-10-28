@@ -8,6 +8,8 @@
 
 ### Устанавливаем флажки Партнёры Canonical
 
+![GitHub Logo](images/Partners.png)
+
 *В соседней вкладке этого же окна уставливаем так, как на картинке:*
 
 ![GitHub Logo](https://images/update_gui.png)
@@ -21,10 +23,6 @@
 **Появится такое окно:**
 
 ![GitHub Logo](images/image3.png)
-
-### Установить приложения (открыть ссылку):
-
-https://github.com/rurewa/Education/blob/main/UbuntuPumping/SoftInstall.md
 
 ### Некоторые программы не поспевают за изменениями Ubuntu и некорректно попадают в трей. Исправить это можно установкой дополнения по ссылке:
 
@@ -75,6 +73,10 @@ https://extensions.gnome.org/extension/1503/tray-icons/
 `gsettings set org.gnome.desktop.default-applications.terminal exec /usr/bin/tilix`
 
 `gsettings set org.gnome.desktop.default-applications.terminal exec-arg "-x"`
+
+### Установить приложения (открыть ссылку):
+
+https://github.com/rurewa/Education/blob/main/UbuntuPumping/SoftInstall.md
 
 ### Информация об оборудовании с помощью Inxi:
 
