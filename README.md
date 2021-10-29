@@ -18,7 +18,7 @@ https://github.com/rurewa/Education/blob/main/ArduinoToolsEducation.md
 
 ### Bash commands
 
-https://github.com/rurewa/Education/blob/main/bash.md
+https://github.com/rurewa/Education/blob/main/Bash.md
 
 ### Git commands
 
@@ -43,6 +43,10 @@ https://github.com/rurewa/Education/blob/main/UbuntuPumping/MatePumping.md
 ### Mint:
 
 https://github.com/rurewa/Education/blob/main/UbuntuPumping/MintPumping.md
+
+### Xubuntu:
+
+https://github.com/rurewa/Education/blob/main/UbuntuPumping/Xubuntu.md
 
 ### Askubuntu
 
