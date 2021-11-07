@@ -1,4 +1,4 @@
-## Мультимедиа
+### Мультимедиа
 
 #### Устанановка необходимых мультимедийных кодеков и шрифтов (во время выполнения этой установки браузер лучше закрыть!):
 
@@ -38,7 +38,7 @@
 
 `sudo add-apt-repository ppa:openshot.developers/ppa -y && sudo apt update && sudo apt install -y openshot-qt`
 
-### Интернет:
+### Интернет
 
 #### TeamViewer для Linux для удалённого доступа и поддержки через Интернет:
 
@@ -56,7 +56,7 @@ https://www.google.ru/chrome/
 
 `sudo snap install telegram-desktop`
 
-### Графика, 3D печать и дизайн:
+### Графика, 3D печать и дизайн
 
 #### FreeCAD - 2D/3D решение для любителей и инженеров с начальной поддержкой формата dwg (Autocad)
 
@@ -110,7 +110,7 @@ https://www.google.ru/chrome/
 
 `sudo snap install gcompris --classic`
 
-### Офис:
+### Офис
 
 #### Читалка формата DJVI:
 
@@ -124,7 +124,7 @@ https://www.google.ru/chrome/
 
 `sudo apt update && sudo apt install -y libreoffice-style-breeze libreoffice-style-tango libreoffice-style-sifr`
 
-### Утилиты:
+### Утилиты
 
 #### Набор архиваторов:
 
@@ -138,11 +138,11 @@ https://www.google.ru/chrome/
 
 `sudo apt update && sudo apt install -y mc gdebi htop tree mesa-utils sl lm-sensors neofetch winbind wget curl ppa-purge inxi recoll net-tools xclip xsel arp-scan aria2`
 
-### Простые игры:
+### Простые игры
 
 `sudo apt install -y gnome-chess quadrapasselknetwalk aisleriot knavalbattlebovo fltk1.3-games chromium-bsu`
 
-### Разработка:
+### Разработка
 
 #### Arduino для Ubuntu 14/16/18 (32/64 bit):
 
@@ -212,7 +212,7 @@ https://www.google.ru/chrome/
 
 `cd ~ ; git clone https://github.com/rurewa/SimuliDE.git && cp ${HOME}/SimuliDE/SimulIDE.desktop ${HOME}/Рабочий\ стол/`
 
-### Настройки ОС и окружения Рабочего стола:
+### Настройки ОС и окружения Рабочего стола
 
 #### Поддержка snap и flatpack в Центре Приложений:
 
@@ -232,6 +232,6 @@ https://www.google.ru/chrome/
 
 ![GitHub Logo](images/UbuntuSoftware.png)
 
-### Установка драйверов и решение других технических задач:
+### Установка драйверов и решение других технических задач
 
 https://github.com/rurewa/Education/blob/main/UbuntuPumping/askubuntu.md
