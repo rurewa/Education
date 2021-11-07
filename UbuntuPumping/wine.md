@@ -22,15 +22,15 @@ wine --version
 
 ### Прокачиваем Wine:
 
-winetricks --force -q d3dcompiler_47 vcrun2015 corefonts dotnet45 msxml6 dotnet472
+winetricks --force -q d3dcompiler_47 ; winetricks --force -q vcrun2015 ; winetricks --force -q corefonts ; winetricks --force -q dotnet45 ; winetricks --force -q msxml6 ; winetricks --force -q dotnet472
 
-### Запускаем конфигуратор Wine и выбираем в нём Windows 7/10
+### Запускаем конфигуратор Wine и выбираем в нём Windows 7 или 10
 
 winecfg
 
 ![GitHub Logo](images/winecfg.png)
 
-### Перезагрузите компьютер!
+### Перезагрузите компьютер! После перезагрузки можете обычным образом устанавливать Windows приложения.
 
 
 
