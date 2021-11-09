@@ -2,6 +2,16 @@
 
 `sudo apt update && sudo apt install lamp-server^`
 
+`apt install php libapache2-mod-php php-mysql php-opcache php-xml php-gd php-mbstring php-curl php-xmlrpc php-intl php-soap php-zip`
+
+*Next, we will have to tweak some values in the PHP configuration file (php.ini). Open the PHP configuration file (/etc/php/7.4/apache2/php.ini) and modify the following values:*
+
+`memory_limit – Minimum: 64M Recommended: 128M or higher
+upload_max_filesize – Minimum: 30M
+post_max_size – Minimum: 30M
+max_execution_time: Recommended: 30
+Save the php.ini file and restart the web server for the changes to take effect`
+
 `systemctl status apache2`
 
 `sudo systemctl start apache2`
