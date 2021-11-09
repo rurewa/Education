@@ -14,6 +14,20 @@
 
 ![GitHub Logo](images/image7.png)
 
+### Настройки ОС и окружения Рабочего стола
+
+#### Поддержка snap и flatpack в Центре Приложений:
+
+`sudo apt update && sudo apt install -y flatpak gnome-software gnome-software-plugin-snap gnome-software-plugin-flatpak`
+
+#### Подключение репозиториев для работы с flatpack:
+
+`flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo`
+
+и
+
+`flatpak install -y https://flathub.org/repo/appstream/fr.free.Homebank.flatpakref`
+
 #### Приложения для камеры и звукозаписи:
 
 `sudo apt update && sudo apt install -y guvcview gnome-sound-recorder gnome-clocks`
@@ -211,20 +225,6 @@ https://www.google.ru/chrome/
 #### SimulIDE - простой и бесплатный симулятор электрических цепей:
 
 `cd ~ ; git clone https://github.com/rurewa/SimuliDE.git && cp ${HOME}/SimuliDE/SimulIDE.desktop ${HOME}/Рабочий\ стол/`
-
-### Настройки ОС и окружения Рабочего стола
-
-#### Поддержка snap и flatpack в Центре Приложений:
-
-`sudo apt update && sudo apt install -y flatpak gnome-software gnome-software-plugin-snap gnome-software-plugin-flatpak`
-
-#### Подключение репозиториев для работы с flatpack:
-
-`flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo`
-
-и
-
-`flatpak install -y https://flathub.org/repo/appstream/fr.free.Homebank.flatpakref`
 
 ### Больше приложений для Ubuntu Linux
 

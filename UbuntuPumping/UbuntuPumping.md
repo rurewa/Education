@@ -1,18 +1,16 @@
 # Настало время прокачать вашу свежеустановленную ОС!
 
-![GitHub Logo](images/image12.png)
-
 ## Выбираем Программы и обновления
 
-![GitHub Logo](images/image1.png)
+![GitHub Logo](images/image12.png)
 
 ### Устанавливаем флажки Партнёры Canonical
 
-![GitHub Logo](images/Partners.png)
+![GitHub Logo](images/image1.png)
 
 *В соседней вкладке этого же окна уставливаем так, как на картинке:*
 
-![GitHub Logo](https://images/update_gui.png)
+![GitHub Logo](images/update_gui.png)
 
 *Запускаем Терминал при помощи клавиатурной комбинации Ctrl-Alt-T и вставляем в него при помощи клавиатурной комбинации Ctrl-Shift-V строку. После вставки текста вводим Y и Enter:*
 
