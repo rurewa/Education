@@ -28,6 +28,8 @@
 
 `flatpak install -y https://flathub.org/repo/appstream/fr.free.Homebank.flatpakref`
 
+### Мультимедия
+
 #### Приложения для камеры и звукозаписи:
 
 `sudo apt update && sudo apt install -y guvcview gnome-sound-recorder gnome-clocks`
