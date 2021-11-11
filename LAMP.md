@@ -2,7 +2,7 @@
 
 `sudo apt update && sudo apt install lamp-server^`
 
-`apt install php libapache2-mod-php php-mysql php-opcache php-xml php-gd php-mbstring php-curl php-xmlrpc php-intl php-soap php-zip`
+`sapt install php libapache2-mod-php php-mysql php-opcache php-xml php-gd php-mbstring php-curl php-xmlrpc php-intl php-soap php-zip`
 
 *Next, we will have to tweak some values in the PHP configuration file (php.ini). Open the PHP configuration file (/etc/php/7.4/apache2/php.ini) and modify the following values:*
 
@@ -66,6 +66,22 @@ http://localhost/index.html
 
 http://localhost/info.php
 
+*настрока php.ini*
+
+`sudo sed -i "s/memory_limit = .*/memory_limit = 512M/" /etc/php/7.4/apache2/php.ini`
+
+`sudo sed -i "s/upload_max_filesize = .*/upload_max_filesize = 256M/" /etc/php/7.4/apache2/php.ini`
+
+`sudo sed -i "s/post_max_size = .*/post_max_size = 256M/" /etc/php/7.4/apache2/php.ini`
+
+`sudo sed -i "s/output_buffering = .*/output_buffering = Off/" /etc/php/7.4/apache2/php.ini`
+
+`sudo sed -i "s/max_execution_time = .*/max_execution_time = 300/" /etc/php/7.4/apache2/php.ini`
+
+`sudo sed -i "s/;date.timezone.*/date.timezone = UTC/" /etc/php/7.4/apache2/php.ini`
+
+`sudo systemctl restart apache2`
+
 ### Установка phpmyadmin:
 
 `sudo apt update && sudo apt install phpmyadmin`
@@ -91,4 +107,16 @@ http://localhost/info.php
 
 http://localhost/phpmyadmin/
 
+### Подробней про установку LAMP и Jommla:
+
+https://linuxhostsupport.com/blog/how-to-install-joomla-3-9-on-ubuntu-20-04/
+
+https://routerus.com/how-to-install-joomla-with-apache-on-ubuntu-18-04/
+
 ### Установка Joomla
+
+https://joomlaportal.ru/russian-joomla
+
+### Установка WordPress
+
+https://ru.wordpress.org/download/#download-install
