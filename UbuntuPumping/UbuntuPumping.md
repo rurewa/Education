@@ -76,6 +76,8 @@ https://extensions.gnome.org/extension/1503/tray-icons/
 
 https://github.com/rurewa/Education/blob/main/UbuntuPumping/SoftInstall.md
 
+*После установки всех приложений выполните унструкции ниже*
+
 ### Информация об оборудовании с помощью Inxi:
 
 *запуск этой программы в Терминале:*
