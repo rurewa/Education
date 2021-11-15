@@ -46,7 +46,7 @@ https://github.com/rurewa/Education/blob/main/UbuntuPumping/SoftInstall.md
 
 ### Установка терминала Tilix по умолчанию:
 
-![GitHub Logo](images/MateTilix.png)
+![GitHub Logo](images/MintTilix.png)
 
 ![GitHub Logo](images/MateTilix2.png)
 
