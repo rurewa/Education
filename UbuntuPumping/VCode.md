@@ -32,15 +32,17 @@ curl -fsSL https://raw.githubusercontent.com/platformio/platformio-core/master/s
 
 `ext install shardulm94.trailing-spaces`
 
-*После установки нужно настроить:*
+*После установки нужно настроить. Нажимаем F1 и появившемся вверху поле вводим shortcuts:*
 
 ![GitHub Logo](images/codeF1shortcuts.png)
+
+*далее так:*
 
 ![GitHub Logo](images/codeTraillSpace.png)
 
 ![GitHub Logo](images/codeTraillSpaceT.png)
 
-**После этого можно удалять пустоты в коде комбинацией Alt-T**
+**После этого можно удалять пустоты в коде комбинацией Alt-T. Пример:**
 
 ![GitHub Logo](images/spaceVcode.png)
 
