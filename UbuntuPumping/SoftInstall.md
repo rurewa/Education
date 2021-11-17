@@ -158,6 +158,10 @@ https://www.google.ru/chrome/
 
 ### Разработка
 
+#### Поддержка Python 3:
+
+`sudo apt install -y python3-pip python3-distutils python3-tk`
+
 #### Arduino для Ubuntu 14/16/18 (32/64 bit):
 
 `cd ~ ; mkdir Programs ; cd Programs && wget https://downloads.arduino.cc/arduino-1.8.16-linux64.tar.xz && tar -xvf arduino-1.8.16-linux64.tar.xz && cd arduino-1.8.16 && sudo ./install.sh`
@@ -182,7 +186,7 @@ https://www.google.ru/chrome/
 
 #### FlatCam - позволяет перенести ваши проекты на фрезерный станок с ЧПУ:
 
-`sudo apt install -y python3-pip python3-tk && pip install flatcam`
+`sudo apt install -y python3-pip python3-distutils python3-tk && pip install flatcam`
 
 *запускать так:*
 
@@ -225,6 +229,28 @@ https://www.google.ru/chrome/
 #### SimulIDE - простой и бесплатный симулятор электрических цепей:
 
 `cd ~ ; git clone https://github.com/rurewa/SimuliDE.git && cp ${HOME}/SimuliDE/SimulIDE.desktop ${HOME}/Рабочий\ стол/`
+
+#### Visual Studio Code - развитый редактор кода, расширяемый до уровня средней IDE:
+
+*установка из Snap:*
+
+`sudo apt install python3-distutils ; sudo snap install code --classic`
+
+*установка с сайта:*
+
+https://code.visualstudio.com/Download
+
+*если собираетесь использовать PlatformIO, то установить в терминале это:*
+
+`sudo apt install python3-distutils`
+
+и это:
+
+`curl -fsSL https://raw.githubusercontent.com/platformio/platformio-core/master/scripts/99-platformio-udev.rules | sudo tee /etc/udev/rules.d/99-platformio-udev.rules`
+
+*Зарядить Visual Studio Code можно по ссылке:*
+
+
 
 ### Больше приложений для Ubuntu Linux
 
