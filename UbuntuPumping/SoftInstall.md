@@ -34,9 +34,9 @@
 
 `sudo add-apt-repository ppa:obsproject/obs-studio -y  && sudo apt update && sudo apt install -y ffmpeg obs-studio`
 
-#### OpenShot - простой в управлении и мощный по возможностям видеоредактор:
+#### Kdenlive - простой в управлении и мощный по возможностям видеоредактор:
 
-`sudo add-apt-repository ppa:openshot.developers/ppa -y && sudo apt update && sudo apt install -y openshot-qt`
+`sudo add-apt-repository ppa:kdenlive/kdenlive-stable && sudo apt-get update && sudo apt install kdenlive`
 
 ### Настройки ОС и окружения Рабочего стола
 
