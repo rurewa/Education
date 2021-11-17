@@ -39,3 +39,9 @@ curl -fsSL https://raw.githubusercontent.com/platformio/platformio-core/master/s
 ![GitHub Logo](images/codeTraillSpace.png)
 
 ![GitHub Logo](images/codeTraillSpaceT.png)
+
+**После этого можно удалять пустоты в коде комбинацией Alt-T**
+
+![GitHub Logo](images/spaceVcode.png)
+
+![GitHub Logo](images/spaceVcodeClear.png)

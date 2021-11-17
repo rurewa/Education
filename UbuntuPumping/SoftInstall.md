@@ -250,7 +250,7 @@ https://code.visualstudio.com/Download
 
 *Зарядить Visual Studio Code можно по ссылке:*
 
-
+https://github.com/rurewa/Education/blob/main/UbuntuPumping/VCode.md
 
 ### Больше приложений для Ubuntu Linux
 
