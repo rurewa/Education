@@ -196,19 +196,27 @@ https://www.google.ru/chrome/
 
 `flatcam`
 
-#### Scratch Desktop 3.6 for Ubuntu Linux:
+#### Scratch Desktop 3 for Ubuntu Linux:
 
 `sudo snap install scratux`
 
 #### Fritzing - программный комплекс начального уровня для проектирования электронных устройств. Полезен в учебных целях:
 
-*старая версия:*
+*Если была установлена старая версия, то удаляем её:*
 
-`sudo apt update && sudo apt install -y fritzing fritzing-data fritzing-parts`
+`sudo apt update && sudo apt purge fritzing && sudo apt autoclean && sudo apt autoremove`
 
-*новая версия:*
+*Установка:*
 
-`flatpak install --user https://flathub.org/repo/appstream/org.fritzing.Fritzing.flatpakref`
+`git clone https://github.com/rurewa/Fritzing.git && cp ${HOME}/Fritzing/Fritzing.desktop ${HOME}/Рабочий\ стол/`
+
+*Обновление (beta):*
+
+`cd ~ ; cd Fritzing/ && git pull`
+
+*Подробней об установке и обновлении Fritzing:*
+
+https://github.com/rurewa/Fritzing
 
 #### Geany - это мощный, стабильный и легкий текстовый редактор для программистов:
 
@@ -230,6 +238,10 @@ https://www.google.ru/chrome/
 
 `cd ~ ; git clone https://github.com/rurewa/SimuliDE.git && cp ${HOME}/SimuliDE/SimulIDE.desktop ${HOME}/Рабочий\ стол/`
 
+*Подробней об установке и обновлении SimulIDE*
+
+https://github.com/rurewa/SimuliDE
+
 #### Visual Studio Code - развитый редактор кода, расширяемый до уровня средней IDE:
 
 *установка из Snap:*
@@ -244,7 +256,7 @@ https://code.visualstudio.com/Download
 
 `sudo apt install python3-distutils`
 
-и это:
+*и это:*
 
 `curl -fsSL https://raw.githubusercontent.com/platformio/platformio-core/master/scripts/99-platformio-udev.rules | sudo tee /etc/udev/rules.d/99-platformio-udev.rules`
 
