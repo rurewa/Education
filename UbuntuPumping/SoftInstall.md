@@ -36,7 +36,7 @@
 
 #### Kdenlive - простой в управлении и мощный по возможностям видеоредактор:
 
-`sudo add-apt-repository ppa:kdenlive/kdenlive-stable && sudo apt-get update && sudo apt install kdenlive`
+`sudo add-apt-repository ppa:kdenlive/kdenlive-stable -y && sudo apt-get update && sudo apt install kdenlive`
 
 ### Настройки ОС и окружения Рабочего стола
 
