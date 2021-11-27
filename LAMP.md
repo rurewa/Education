@@ -4,7 +4,7 @@
 
 `sapt install php libapache2-mod-php php-mysql php-opcache php-xml php-gd php-mbstring php-curl php-xmlrpc php-intl php-soap php-zip`
 
-*Next, we will have to tweak some values in the PHP configuration file (php.ini). Open the PHP configuration file (/etc/php/7.4/apache2/php.ini) and modify the following values:*
+**Next, we will have to tweak some values in the PHP configuration file (php.ini). Open the PHP configuration file (/etc/php/7.4/apache2/php.ini) and modify the following values:**
 
 `memory_limit – Minimum: 64M Recommended: 128M or higher
 upload_max_filesize – Minimum: 30M
@@ -64,6 +64,8 @@ http://localhost/index.html
 
 `sudo nano /var/www/html/info.php`
 
+**Проверяем в браузере по адресу:**
+
 http://localhost/info.php
 
 *настрока php.ini*
@@ -92,22 +94,23 @@ http://localhost/info.php
 
 `sudo mysql -u root -p`
 
-`CREATE USER 'test'@'localhost' IDENTIFIED BY 'пароль';``
+`CREATE USER 'test'@'localhost' IDENTIFIED BY 'пароль';`
 
-`GRANT ALL PRIVILEGES ON *.* TO 'test'@'localhost';``
+`GRANT ALL PRIVILEGES ON *.* TO 'test'@'localhost';`
 
-`FLUSH PRIVILEGES;``
+`FLUSH PRIVILEGES;`
 
-**При помощи первых двух команд был создан новый пользователь с именем test, ему был присвоен пароль и предоставлены все возможные 
-привилегии (такие как создание, удаление, редактирование баз данных, таблиц и т.д.). Третья команда обновляет заданные ранее привилегии.**
+**При помощи первых двух команд был создан новый пользователь с именем test, ему был присвоен пароль и предоставлены все возможные привилегии (такие как создание, удаление, редактирование баз данных, таблиц и т.д.). Третья команда обновляет заданные ранее привилегии.**
 
-`чтобы выйти из режима sql нужно ввести команду exit`
+**чтобы выйти из режима sql нужно ввести команду**
 
-*Войти в интерфейс phpMyAdmin:*
+`exit`
+
+**Войти в интерфейс phpMyAdmin:**
 
 http://localhost/phpmyadmin/
 
-### Подробней про установку LAMP и Jommla:
+### Подробней про установку LAMP и Joomla:
 
 https://linuxhostsupport.com/blog/how-to-install-joomla-3-9-on-ubuntu-20-04/
 
