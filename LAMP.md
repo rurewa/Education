@@ -77,10 +77,8 @@ http://localhost/index.html
 *В открывшемся тектовом файле вставляем (Ctrl-Shift-V) это:*
 
 `/var/www/html / info.РНР
-
-<?php
-
-phpinfo();`
+	<?php
+	phpinfo();`
 
 *Сохраняем с помощью комбинации Ctrl-O и выходим из редактора по Ctrl-X*
 
