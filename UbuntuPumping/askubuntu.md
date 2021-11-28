@@ -63,3 +63,9 @@ sudo apt update && sudo apt install mesa-utils
 *запускаем в терминале:* 
 
 glxgears -info
+
+## Установка альтернативного Терминала по умолчанию
+
+sudo update-alternatives --config x-terminal-emulator
+
+**выыбираем в появившемся меню нужные Терминал по порядку размещения, например 3**

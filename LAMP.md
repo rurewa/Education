@@ -2,15 +2,11 @@
 
 `sudo apt update && sudo apt install lamp-server^`
 
-`sapt install php libapache2-mod-php php-mysql php-opcache php-xml php-gd php-mbstring php-curl php-xmlrpc php-intl php-soap php-zip`
+### Доустанавливаем необходимые компоненты:
 
-**Next, we will have to tweak some values in the PHP configuration file (php.ini). Open the PHP configuration file (/etc/php/7.4/apache2/php.ini) and modify the following values:**
+`sudo apt install php libapache2-mod-php php-mysql php-opcache php-xml php-gd php-mbstring php-curl php-xmlrpc php-intl php-soap php-zip`
 
-`memory_limit – Minimum: 64M Recommended: 128M or higher
-upload_max_filesize – Minimum: 30M
-post_max_size – Minimum: 30M
-max_execution_time: Recommended: 30
-Save the php.ini file and restart the web server for the changes to take effect`
+**Настройка сервера Apache2**
 
 `systemctl status apache2`
 
@@ -20,9 +16,11 @@ Save the php.ini file and restart the web server for the changes to take effect`
 
 `apache2 -v`
 
-### Если вы используете брандмауэр UFW, выполните эту команду, чтобы открыть TCP-порт 80.
+### Oткрыть TCP-порт 80 и сохранить настройки:
 
-`sudo iptables -I INPUT -p tcp --dport 80 -j ACCEPT`
+`sudo iptables -I INPUT -p tcp --dport 80 -j ACCEPT && sudo apt update && sudo apt install iptables-persistent`
+
+**Если вы используете брандмауэр UFW, выполните эту команду, чтобы открыть TCP-порт 80**
 
 `sudo ufw allow http`
 
@@ -34,13 +32,19 @@ Save the php.ini file and restart the web server for the changes to take effect`
 
 *будет ~ такой вывод:*
 
-AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this messag
+`AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this messag
+
+Syntax OK`
+
+### Отредактируем конфигурационный файл:
 
 `sudo nano /etc/apache2/conf-available/servername.conf`
 
-*В открывшемся тектовом файле вставляем это:*
+*В открывшемся тектовом файле вставляем (Ctrl-Shift-V) это:*
 
 `ServerName localhost`
+
+*Сохраняем с помощью комбинации Ctrl-O и выходим из редактора по Ctrl-X*
 
 ### Ативировать конфигурационный файл:
 
@@ -50,13 +54,19 @@ AH00558: apache2: Could not reliably determine the server's fully qualified doma
 
 `sudo apache2ctl -t`
 
+**Если хотите сложный пароль, то введите это (но для себя не советую, т.к. этот сервер будет ипользоваться только локально)**
+
 `sudo mysql_secure_installation`
 
 ### Проверяем работу установленного Apache2:
 
 http://localhost/index.html
 
-### Проверка версий установленных mysql и php:
+**должна открыться веб-страница с информацией по версии Apache2**
+
+### Диагностика установки LAMP: 
+
+**Проверка версий установленных mysql и php:**
 
 `mysql --version && php --version`
 
@@ -64,11 +74,23 @@ http://localhost/index.html
 
 `sudo nano /var/www/html/info.php`
 
+*В открывшемся тектовом файле вставляем (Ctrl-Shift-V) это:*
+
+`/var/www/html / info.РНР
+
+<?php
+
+phpinfo();`
+
+*Сохраняем с помощью комбинации Ctrl-O и выходим из редактора по Ctrl-X*
+
 **Проверяем в браузере по адресу:**
 
 http://localhost/info.php
 
-*настрока php.ini*
+**должна открыться веб-страница с информацией по версии PHP**
+
+### Настрока php.ini
 
 `sudo sed -i "s/memory_limit = .*/memory_limit = 512M/" /etc/php/7.4/apache2/php.ini`
 
@@ -88,9 +110,17 @@ http://localhost/info.php
 
 `sudo apt update && sudo apt install phpmyadmin`
 
-`sudo apt -y install php-mbstring`
+**В появившемся окне Пробелом выбираем apache2, Tab-ом переключаемся между кнопками**
 
-### Создание нового пользователя phpmyadmin:
+**В появившемся окне выбрать настройку с помощью dbconfig-common. Введите простой пароль**
+
+### Диагностика сервера баз данных MySQL:
+
+`sudo service mysql status`
+
+**при запуске вы увидите зеленый активный статус**
+
+### Создание нового пользователя test для phpmyadmin:
 
 `sudo mysql -u root -p`
 
@@ -109,6 +139,34 @@ http://localhost/info.php
 **Войти в интерфейс phpMyAdmin:**
 
 http://localhost/phpmyadmin/
+
+**в phpMyAdmin нужно создать новую и пустую базу данных (меню Базы данных)**
+
+## Установка Joomla
+
+## Загрузите дистрибутив Joomla с сайта:
+
+https://downloads.joomla.org/
+
+**распаковываем архив с Joomla в нужную папку**
+
+`sudo unzip ~/Загрузки/Joomla_4.0.4-Stable-Full_Package.zip -d /var/www/html`
+
+**удаляем тестовый файл, чтобы открылась страница установки Joomla:**
+
+`sudo rm /var/www/html/index.html`
+
+**Открываем в браузере страницу с адресом http://localhost**
+
+**Указываем имя и логин администратора сайта (придумайте простое имя, типа admin)**
+
+**Пароль не менее 12-и символов**
+
+**На следующей странице указываем имя test и пароль базы данных**
+
+**Если установка успешна, то необходимо удалить установочный каталог:**
+
+`sudo rm -rf /var/www/html/installation/`
 
 ### Подробней про установку LAMP и Joomla:
 
