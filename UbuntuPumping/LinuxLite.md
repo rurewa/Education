@@ -36,11 +36,11 @@
 
 #### Настройка нижней панели:
 
-![GitHub Logo](images/LinuxLiteLang2.png)
-
 ![GitHub Logo](images/LinuxLitePanelLang.png)
 
 ![GitHub Logo](images/LinuxLitePanelLang1.png)
+
+![GitHub Logo](images/LinuxLiteLang2.png)
 
 ![GitHub Logo](images/LinuxLitePanelLang2.png)
 
