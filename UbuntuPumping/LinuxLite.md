@@ -26,7 +26,7 @@
 
 ![GitHub Logo](images/LinuxLiteLang1.png)
 
-![GitHub Logo](images/LinuxLiteLang2.png)
+**Программа попросит вас загрузить обновления языков, нужно согласиться**
 
 #### Настраиваем раскладку клавиатуры:
 
@@ -35,6 +35,8 @@
 ![GitHub Logo](images/LinuxLiteKeyboard1.png)
 
 #### Настройка нижней панели:
+
+![GitHub Logo](images/LinuxLiteLang2.png)
 
 ![GitHub Logo](images/LinuxLitePanelLang.png)
 
