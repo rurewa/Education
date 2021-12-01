@@ -30,7 +30,7 @@ https://web-shpargalka.ru/linux-lite-sistemnye-trebovanija.php
 
 ![GitHub Logo](images/LinuxLiteLang1.png)
 
-![GitHub Logo](images/LinuxLiteLang2.png)
+**Программа попросит вас загрузить обновления языков, нужно согласиться**
 
 #### Настраиваем раскладку клавиатуры:
 
@@ -43,6 +43,8 @@ https://web-shpargalka.ru/linux-lite-sistemnye-trebovanija.php
 ![GitHub Logo](images/LinuxLitePanelLang.png)
 
 ![GitHub Logo](images/LinuxLitePanelLang1.png)
+
+![GitHub Logo](images/LinuxLiteLang2.png)
 
 ![GitHub Logo](images/LinuxLitePanelLang2.png)
 
