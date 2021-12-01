@@ -18,7 +18,7 @@
 
 #### Поддержка snap и flatpack в Центре Приложений:
 
-`sudo apt update && sudo apt install -y flatpak gnome-software gnome-software-plugin-snap gnome-software-plugin-flatpak`
+`sudo apt update && sudo apt install -y flatpak snap gnome-software gnome-software-plugin-snap gnome-software-plugin-flatpak`
 
 #### Подключение репозиториев для работы с flatpack:
 
