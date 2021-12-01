@@ -1,3 +1,7 @@
+**Установка Linux Lite подробно описана тут:**
+
+https://web-shpargalka.ru/linux-lite-sistemnye-trebovanija.php
+
 ## Настраиваем Linux Lite v 5.6
 
 ### Открываем окно настроек:
@@ -56,7 +60,6 @@
 
 *Эта команда обновит и перезагрузит ОС.*
 
-**Установка Linux Lite подробно описана тут:**
+### Установить приложения (открыть ссылку):
 
-https://web-shpargalka.ru/linux-lite-sistemnye-trebovanija.php
-
+https://github.com/rurewa/Education/blob/main/UbuntuPumping/SoftInstall.md
