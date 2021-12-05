@@ -7,11 +7,11 @@
 
 `sudo apt update && sudo apt install -y ubuntu-restricted-extras ttf-dejavu-core fonts-crosextra-carlito fonts-crosextra-caladea`
 
-*Появится такое окно:*
+*Начнётся установка:*
 
 ![GitHub Logo](images/image3.png)
 
-*В процессе установки программа задаёт пользователю вопросы, на которые нужно отвечать утвердительно (Y/Да), используя TAB и стрелки для перемещения и Enter.*
+*В процессе установки (Если у вас не LinuxLite и Mint) программа задаёт пользователю вопросы, на которые нужно отвечать утвердительно (Y/Да), используя TAB и стрелки для перемещения и Enter.*
 
 ![GitHub Logo](images/image5.png)
 
@@ -201,11 +201,11 @@ https://www.google.ru/chrome/
 
 *Если была установлена старая версия, то удаляем её:*
 
-`sudo apt update && sudo apt purge fritzing && sudo apt autoclean && sudo apt autoremove`
+`sudo apt update && sudo apt purge fritzing && sudo apt autoclean && sudo apt autoremove -y`
 
 *Установка:*
 
-`git clone https://github.com/rurewa/Fritzing.git && cp ${HOME}/Fritzing/Fritzing.desktop ${HOME}/Рабочий\ стол/`
+`cd ~ ; git clone https://github.com/rurewa/Fritzing.git && cp ${HOME}/Fritzing/Fritzing.desktop ${HOME}/Рабочий\ стол/`
 
 *Обновление (beta):*
 
@@ -260,6 +260,8 @@ https://code.visualstudio.com/Download
 *Зарядить Visual Studio Code можно по ссылке:*
 
 https://github.com/rurewa/Education/blob/main/UbuntuPumping/VCode.md
+
+#### После установки всех приложений желательно перезагрузить компьютер!
 
 ### Больше приложений для Ubuntu Linux
 
