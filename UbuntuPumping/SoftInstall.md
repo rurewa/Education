@@ -1,18 +1,35 @@
+## Прокачка Ubuntu 20.04 (64 bit)
+**Данный список ориентирован на нужды учебных заведений дополнительного образования по дисциплине "Робототехника"**
+
 ### Мультимедиа
 
 #### Устанановка необходимых мультимедийных кодеков и шрифтов (во время выполнения этой установки браузер лучше закрыть!):
 
 `sudo apt update && sudo apt install -y ubuntu-restricted-extras ttf-dejavu-core fonts-crosextra-carlito fonts-crosextra-caladea`
 
-*Появится такое окно:*
+*Начнётся установка:*
 
 ![GitHub Logo](images/image3.png)
 
-*В процессе установки программа задаёт пользователю вопросы, на которые нужно отвечать утвердительно (Y/Да), используя TAB и стрелки для перемещения и Enter.*
+*В процессе установки (Если у вас не LinuxLite и Mint) программа задаёт пользователю вопросы, на которые нужно отвечать утвердительно (Y/Да), используя TAB и стрелки для перемещения и Enter.*
 
 ![GitHub Logo](images/image5.png)
 
 ![GitHub Logo](images/image7.png)
+
+### Настройки ОС и окружения Рабочего стола
+
+#### Поддержка snap и flatpack в Центре Приложений:
+
+`sudo apt update && sudo apt install -y flatpak snap gnome-software gnome-software-plugin-snap gnome-software-plugin-flatpak`
+
+#### Подключение репозиториев для работы с flatpack:
+
+`flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo`
+
+и
+
+`flatpak install -y https://flathub.org/repo/appstream/fr.free.Homebank.flatpakref`
 
 #### Приложения для камеры и звукозаписи:
 
@@ -38,20 +55,6 @@
 
 `sudo add-apt-repository ppa:kdenlive/kdenlive-stable -y && sudo apt-get update && sudo apt install kdenlive`
 
-### Настройки ОС и окружения Рабочего стола
-
-#### Поддержка snap и flatpack в Центре Приложений:
-
-`sudo apt update && sudo apt install -y flatpak gnome-software gnome-software-plugin-snap gnome-software-plugin-flatpak`
-
-#### Подключение репозиториев для работы с flatpack:
-
-`flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo`
-
-и
-
-`flatpak install -y https://flathub.org/repo/appstream/fr.free.Homebank.flatpakref`
-
 ### Интернет
 
 #### TeamViewer для Linux для удалённого доступа и поддержки через Интернет:
@@ -74,13 +77,7 @@ https://www.google.ru/chrome/
 
 #### FreeCAD - 2D/3D решение для любителей и инженеров с начальной поддержкой формата dwg (Autocad)
 
-**из snap:**
-
-`sudo snap install freecad`
-
-**из flatpack:**
-
-`flatpak install flathub org.freecadweb.FreeCAD`
+`sudo add-apt-repository ppa:freecad-maintainers/freecad-stable -y && sudo apt update && sudo apt install -y freecad`
 
 #### Cura - слайсер для 3D принтера:
 
@@ -204,11 +201,11 @@ https://www.google.ru/chrome/
 
 *Если была установлена старая версия, то удаляем её:*
 
-`sudo apt update && sudo apt purge fritzing && sudo apt autoclean && sudo apt autoremove`
+`sudo apt update && sudo apt purge fritzing && sudo apt autoclean && sudo apt autoremove -y`
 
 *Установка:*
 
-`git clone https://github.com/rurewa/Fritzing.git && cp ${HOME}/Fritzing/Fritzing.desktop ${HOME}/Рабочий\ стол/`
+`cd ~ ; git clone https://github.com/rurewa/Fritzing.git && cp ${HOME}/Fritzing/Fritzing.desktop ${HOME}/Рабочий\ стол/`
 
 *Обновление (beta):*
 
@@ -263,6 +260,8 @@ https://code.visualstudio.com/Download
 *Зарядить Visual Studio Code можно по ссылке:*
 
 https://github.com/rurewa/Education/blob/main/UbuntuPumping/VCode.md
+
+#### После установки всех приложений желательно перезагрузить компьютер!
 
 ### Больше приложений для Ubuntu Linux
 
