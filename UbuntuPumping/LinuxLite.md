@@ -62,6 +62,10 @@ https://web-shpargalka.ru/linux-lite-sistemnye-trebovanija.php
 
 *Эта команда обновит и перезагрузит ОС.*
 
+**Установить ядро 5.11**
+
+`sudo apt install --install-recommends linux-generic-hwe-20.04`
+
 ### Установить приложения (открыть ссылку):
 
 https://github.com/rurewa/Education/blob/main/UbuntuPumping/SoftInstall.md
