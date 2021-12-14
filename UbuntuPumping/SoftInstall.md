@@ -59,7 +59,7 @@
 
 #### TeamViewer для Linux для удалённого доступа и поддержки через Интернет:
 
-http://www.teamviewer.com/ru/download/linux.aspx
+https://www.teamviewer.com/en/download/linux/
 
 #### Chrome - бесплатный браузер от Google:
 
