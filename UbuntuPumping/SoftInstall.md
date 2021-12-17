@@ -161,7 +161,7 @@ https://www.google.ru/chrome/
 
 #### Arduino для Ubuntu 14/16/18 (32/64 bit):
 
-`cd ~ ; mkdir Programs ; cd Programs && wget https://downloads.arduino.cc/arduino-1.8.16-linux64.tar.xz && tar -xvf arduino-1.8.16-linux64.tar.xz && cd arduino-1.8.16 && sudo ./install.sh`
+`cd ~ ; mkdir Programs ; cd Programs && wget https://downloads.arduino.cc/arduino-1.8.18-linux64.tar.xz && tar -xvf arduino-1.8.18-linux64.tar.xz && cd arduino-1.8.18 && sudo ./install.sh`
 
 *Чтобы программный код загружался в контроллер, нужно добавить текущего пользователя в группы dialout и tty:*
 
