@@ -34,6 +34,10 @@ https://extensions.gnome.org/extension/1503/tray-icons/
 
 **И обнови язык, соглашаясь на всё!**
 
+### Установка дополнительных настроек Ubuntu:
+
+`sudo apt update && sudo apt install gnome-tweak-tool gnome-shell-extensions xdotool gconf-editor`
+
 ### Настрой переключение языков на клавиатуре через Alt-Shift:
 
 ![GitHub Logo](images/image4.png)
