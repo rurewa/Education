@@ -100,6 +100,10 @@ https://code-industry.ru/downloads/
 
 ### Образование
 
+#### Colobot - игра, в которой можно научиться программированию на C-подобном языке
+
+`sudo apt update && sudo apt install colobot`
+
 #### Stellarium — это свободный планетарий для Вашего компьютера с открытым исходным кодом. Он отображает реалистичное небо в 3D таким, каким Вы видите его невооружённым глазом, в бинокль или телескоп.
 
 `sudo add-apt-repository -y ppa:stellarium/stellarium-releases && sudo apt update && sudo apt install stellarium`

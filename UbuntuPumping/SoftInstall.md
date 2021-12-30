@@ -77,7 +77,7 @@ https://www.google.ru/chrome/
 
 #### FreeCAD - 2D/3D решение для любителей и инженеров с начальной поддержкой формата dwg (Autocad)
 
-`sudo add-apt-repository ppa:freecad-maintainers/freecad-stable -y && sudo apt update && sudo apt install -y freecad`
+`flatpak install flathub org.freecadweb.FreeCAD`
 
 #### Cura - слайсер для 3D принтера:
 
