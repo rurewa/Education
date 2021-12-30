@@ -69,7 +69,10 @@ OС: Windows https://gcompris.net/downloads-ru.html
 ОС: Linux. Устанавливается из Менеджера Приложений Ubuntu.
 ОС: Windows https://wiki.freecadweb.org/Download
 
+**Cura** - слайсер для 3D печати
 
+ОС: Linux. Устанавливается из Менеджера Приложений Ubuntu.
+ОС: Windows https://ultimaker.com/software/ultimaker-cura
 
 **SimulIDE** - открытая и бесплатная программа-симулятор электрических цепей, электронной логики и контроллеров.
 
