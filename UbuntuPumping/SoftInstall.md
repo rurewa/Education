@@ -77,7 +77,7 @@ https://www.google.ru/chrome/
 
 #### FreeCAD - 2D/3D решение для любителей и инженеров с начальной поддержкой формата dwg (Autocad)
 
-`sudo add-apt-repository ppa:freecad-maintainers/freecad-stable -y && sudo apt update && sudo apt install -y freecad`
+`flatpak install flathub org.freecadweb.FreeCAD`
 
 #### Cura - слайсер для 3D принтера:
 
@@ -170,6 +170,10 @@ https://www.google.ru/chrome/
 *Установить необходимые компоненты для работы с контроллером:*
 
 `sudo apt-get install -y gcc-avr binutils-avr gdb-avr avr-libc avrdude`
+
+#### Processing - быстрый инструментарий для программирования изображений, анимаций и интерфейсов
+
+`cd ~ ; mkdir Programs ; cd Programs && wget https://github.com/processing/processing/releases/download/processing-0270-3.5.4/processing-3.5.4-linux64.tgz && tar -xvf processing-3.5.4-linux64.tgz && cd processing-3.5.4 && ./install.sh`
 
 #### Инструменты разработчика C++:
 
