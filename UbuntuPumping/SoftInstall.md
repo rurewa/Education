@@ -213,6 +213,10 @@ https://www.google.ru/chrome/
 
 *Подробней об установке и обновлении Fritzing:*
 
+#### Установка игры для программистов Колобот:
+
+`cd ~ ; git clone https://github.com/rurewa/Colobot.git && cd Colobot/ ; 7za x col.7z.001 && cp ${HOME}/Colobot/Colobot.desktop ${HOME}/Рабочий\ стол/`
+
 https://github.com/rurewa/Fritzing
 
 #### Geany - это мощный, стабильный и легкий текстовый редактор для программистов:
