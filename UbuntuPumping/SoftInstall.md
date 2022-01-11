@@ -77,7 +77,11 @@ https://www.google.ru/chrome/
 
 #### FreeCAD - 2D/3D решение для любителей и инженеров с начальной поддержкой формата dwg (Autocad)
 
-`flatpak install flathub org.freecadweb.FreeCAD`
+`flatpak install -y flathub org.freecadweb.FreeCAD`
+
+**или из snap**
+
+`sudo snap install freecad-ppd`
 
 #### Cura - слайсер для 3D принтера:
 
@@ -169,7 +173,7 @@ https://www.google.ru/chrome/
 
 *Установить необходимые компоненты для работы с контроллером:*
 
-`sudo apt-get install -y gcc-avr binutils-avr gdb-avr avr-libc avrdude`
+`sudo apt install -y gcc-avr binutils-avr gdb-avr avr-libc avrdude`
 
 #### Processing - быстрый инструментарий для программирования изображений, анимаций и интерфейсов
 
@@ -220,6 +224,10 @@ https://www.google.ru/chrome/
 #### Установка игры для программистов Колобот:
 
 `cd ~ ; git clone https://github.com/rurewa/Colobot.git && cd Colobot/ ; 7za x col.7z.001 && cp ${HOME}/Colobot/Colobot.desktop ${HOME}/Рабочий\ стол/`
+
+**или из apt**
+
+`sudo apt update && sudo apt install colobot`
 
 https://github.com/rurewa/Fritzing
 
