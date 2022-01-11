@@ -6,7 +6,7 @@ https://losst.ru/kak-posmotret-videokartu-v-linux
 
 **Сначала проверим все доступые пропиетарные драйвера для вашей системы**
 
-`ubuntu-drivers autoinstall`
+`sudo ubuntu-drivers autoinstall`
 
 **обновим имеющиеся...**
 

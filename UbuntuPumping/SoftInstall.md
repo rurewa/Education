@@ -83,6 +83,10 @@ https://www.google.ru/chrome/
 
 `sudo snap install freecad-ppd`
 
+**или из apt**
+
+`sudo add-apt-repository ppa:freecad-maintainers/freecad-stable && sudo apt update && sudo apt install freecad`
+
 #### Cura - слайсер для 3D принтера:
 
 `sudo snap install cura-slicer`
