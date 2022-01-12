@@ -13,3 +13,9 @@
 5. Электроника. Мобильные роботы на базе Arduino. 2-е издание.  Момот Михаил. БВХ-Петербург 2018
 
 6. Pro GIT. Scott Chacon and Ben Straub. v2.1.82. https://git-scm.com/book/ru/v2
+
+7. Арифметика для 5-6 классов средней школы. Стратилатов, Пономарёв, Сырнев. 1965.
+
+8. Самоучитель по C++ от Ravesli https://ravesli.com/uroki-cpp/
+
+9. English_Russian dictionary_IT.pdf - Англо-русский словарь компьютерных терминов https://docs.google.com/document/d/1mqeUMUNVVgjbqCorfT40nAkkIn1bT9JryTYNMDqx5g8/edit 
