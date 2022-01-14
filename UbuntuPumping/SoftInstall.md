@@ -281,6 +281,10 @@ https://code.visualstudio.com/Download
 
 https://github.com/rurewa/Education/blob/main/UbuntuPumping/VCode.md
 
+### Библиотеки, которые могут понадобиться
+
+`sudo apt update && sudo apt install libpangox-1.0-0 libgtkglext1`
+
 #### После установки всех приложений желательно перезагрузить компьютер!
 
 ### Больше приложений для Ubuntu Linux
