@@ -63,6 +63,24 @@
 **Официальная страница загрузки:**
 
 https://code-industry.ru/downloads/
+
+#### Установка отечественных офисных программ (такое себе, но может кому-то понадобится)
+
+**Р7 Офис (по моему сделан на базе OnlyOffice)**
+
+##### Получение дистрибутива по запросу на сайте:
+
+ https://support.r7-office.ru/hc/ru
+
+`sudo apt install libpangox-1.0-0 libgtkglext1` - **подготовка к установке дистрибутива**
+
+`dpkg -i r7-office.deb` - **установка загруженного дистрибутива**
+
+sudo cp homelicense.lickey /etc/r7-office/license/
+
+#### Мой Офис
+
+https://myoffice.ru/
  
 ### 3D моделирование
 
