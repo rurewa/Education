@@ -79,10 +79,6 @@ https://www.google.ru/chrome/
 
 `flatpak install -y flathub org.freecadweb.FreeCAD`
 
-**или из snap**
-
-`sudo snap install freecad-ppd`
-
 **или из apt**
 
 `sudo add-apt-repository ppa:freecad-maintainers/freecad-stable && sudo apt update && sudo apt install freecad`
