@@ -223,11 +223,7 @@ https://www.google.ru/chrome/
 
 #### Установка игры для программистов Колобот:
 
-`cd ~ ; git clone https://github.com/rurewa/Colobot.git && cd Colobot/ ; 7za x col.7z.001 && cp ${HOME}/Colobot/Colobot.desktop ${HOME}/Рабочий\ стол/`
-
-**или из apt**
-
-`sudo apt update && sudo apt install colobot`
+`sudo apt update && sudo apt install -y colobot`
 
 https://github.com/rurewa/Fritzing
 
