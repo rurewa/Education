@@ -74,6 +74,10 @@ https://losst.ru/kak-posmotret-videokartu-v-linux
 
 `glxgears -info`
 
+### Если возникли проблемы с разрешением экрана на внешнем мониторе
+
+https://linuxnow.ru/view.php?id=103
+
 ### Установка альтернативного Терминала по умолчанию
 
 `sudo update-alternatives --config x-terminal-emulator`
