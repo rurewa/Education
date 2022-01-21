@@ -2,7 +2,7 @@
 
 ### Soft:
 
-https://github.com/rurewa/Education/blob/dev/Soft.md
+https://github.com/rurewa/Education/blob/main/Soft.md
 
 ### Literature:
 
@@ -32,26 +32,50 @@ https://github.com/rurewa/Education/blob/main/SFML.md
 
 https://github.com/rurewa/Education/blob/main/UbuntuPumping/UbuntuPumping.md
 
-### Kubuntu:
+#### LinuxLite
+
+https://github.com/rurewa/Education/blob/main/UbuntuPumping/LinuxLite.md
+
+#### Kubuntu:
 
 https://github.com/rurewa/Education/blob/main/UbuntuPumping/KubuntuPumping.md
 
-### Mate:
+#### Mate:
 
 https://github.com/rurewa/Education/blob/main/UbuntuPumping/MatePumping.md
 
-### Mint:
+#### Mint:
 
 https://github.com/rurewa/Education/blob/main/UbuntuPumping/MintPumping.md
 
-### Xubuntu:
+#### Xubuntu:
 
 https://github.com/rurewa/Education/blob/main/UbuntuPumping/Xubuntu.md
 
-### Askubuntu
+#### SoftInstall
+
+https://github.com/rurewa/Education/blob/main/UbuntuPumping/LinuxLite.md 
+
+#### Post install
+
+https://github.com/rurewa/Education/blob/main/UbuntuPumping/PostInstallSoft.md
+
+#### VCode install
+
+https://github.com/rurewa/Education/blob/main/UbuntuPumping/VCode.md
+
+#### Askubuntu
 
 https://github.com/rurewa/Education/blob/main/UbuntuPumping/askubuntu.md
 
-### Wine:
+#### Wine:
 
 https://github.com/rurewa/Education/blob/main/UbuntuPumping/wine.md
+
+#### LAMP
+
+https://github.com/rurewa/Education/blob/main/LAMP.md
+
+#### Kernel
+
+https://github.com/rurewa/Education/blob/main/UbuntuPumping/kernel.md

@@ -251,6 +251,10 @@ https://github.com/rurewa/Fritzing
 
 https://github.com/rurewa/SimuliDE
 
+#### Retext - редактор Markdown-файлов с предпросмотром
+
+`sudo apt update && sudo apt install libjs-mathjax retext`
+
 #### Visual Studio Code - развитый редактор кода, расширяемый до уровня средней IDE:
 
 *установка из Snap:*
