@@ -87,3 +87,23 @@ https://linuxnow.ru/view.php?id=103
 ### Решение проблемы с ошибкой Busybox
 
 https://itisgood.ru/2020/08/07/kak-ispravit-oshibku-busybox-initramfs-na-ubuntu/
+
+### Решения проблем с WiFi
+
+**Если после устновки Linux на базе Ubuntu WiFi не заработал, или рабьотает плохо, обновите стек:**
+
+`sudo apt install --install-recommends linux-generic-hwe-20.04`
+
+#### Диагностика неисправностей с WiFi
+
+**Проверьте пинг:**
+
+`ping ya.ru`
+
+**Определить установленный модуль WiFi:**
+
+`lspci -knn | egrep 'Eth|Net'`
+
+**Если у вас  RTL8188 (этими чипами часто комплектуются TP-LINK), то выполните это:**
+
+`cd ~ ; git clone https://github.com/aircrack-ng/rtl8188eus && cd rtl8188eus/ && echo 'blacklist r8188eu'|sudo tee -a '/etc/modprobe.d/realtek.conf' &&  make && sudo make install`
