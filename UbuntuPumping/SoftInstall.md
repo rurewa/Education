@@ -209,7 +209,7 @@ https://www.google.ru/chrome/
 
 *Если была установлена старая версия, то удаляем её:*
 
-`sudo apt update && sudo apt purge fritzing && sudo apt autoclean && sudo apt autoremove -y`
+`sudo apt update && sudo apt purge -y fritzing && sudo apt autoclean && sudo apt autoremove -y`
 
 *Установка:*
 
@@ -253,13 +253,13 @@ https://github.com/rurewa/SimuliDE
 
 #### Retext - редактор Markdown-файлов с предпросмотром
 
-`sudo apt update && sudo apt install libjs-mathjax retext`
+`sudo apt update && sudo apt install -y libjs-mathjax retext`
 
 #### Visual Studio Code - развитый редактор кода, расширяемый до уровня средней IDE:
 
 *установка из Snap:*
 
-`sudo apt install python3-distutils ; sudo snap install code --classic`
+`sudo snap install code --classic`
 
 *установка с сайта:*
 
@@ -267,7 +267,7 @@ https://code.visualstudio.com/Download
 
 *если собираетесь использовать PlatformIO, то установить в терминале это:*
 
-`sudo apt install python3-distutils`
+`sudo apt install -y python3-distutils`
 
 *и это:*
 
@@ -279,7 +279,7 @@ https://github.com/rurewa/Education/blob/main/UbuntuPumping/VCode.md
 
 ### Библиотеки, которые могут понадобиться
 
-`sudo apt update && sudo apt install libpangox-1.0-0 libgtkglext1`
+`sudo apt update && sudo apt install -y libpangox-1.0-0 libgtkglext1`
 
 #### После установки всех приложений желательно перезагрузить компьютер!
 
