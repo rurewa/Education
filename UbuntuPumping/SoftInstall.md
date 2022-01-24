@@ -285,6 +285,10 @@ https://github.com/rurewa/Education/blob/main/UbuntuPumping/VCode.md
 
 ### Больше приложений для Ubuntu Linux
 
+#### Список других полезных приложений для Ubuntu
+
+https://github.com/rurewa/Education/blob/main/UbuntuPumping/PostInstallSoft.md
+
 #### В Ubuntu Software:
 
 ![GitHub Logo](images/UbuntuSoftware.png)
