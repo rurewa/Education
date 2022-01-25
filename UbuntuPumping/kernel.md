@@ -15,7 +15,7 @@
 
 На основе полученного списка вы можете удалить любую версию, например, 3.19.0-15:
 
-`$ sudo apt-get purge linux-image-3.19.0-15`
+`sudo apt-get purge linux-image-3.19.0-15`
 `sudo apt-get purge linux-headers-3.19.0-15`
 
 Или сразу несколько:
