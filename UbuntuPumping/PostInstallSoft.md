@@ -20,7 +20,7 @@
 
 #### Простая программа просмотра и обработки изображений Nomacs
 
-`sudo apt update && sudo apt install nomacs`
+`sudo apt update && sudo apt install -y nomacs`
 
 #### XnViewMP (XnView Multi Platform) — продвинутый менеджер изображений для Linux
 
@@ -34,15 +34,15 @@
 
 #### Gimp - полноценный редактор графики
 
-`sudo apt update && sudo apt install gimp gimp-gmic gimp-gap gimp-data-extras gimp-dcraw abr2gbr`
+`sudo apt update && sudo apt install -y gimp gimp-gmic gimp-gap gimp-data-extras gimp-dcraw abr2gbr`
 
 #### Inkscape - полноценный редактор векторной графики
 
-`sudo add-apt-repository ppa:inkscape.dev/stable && sudo apt update && sudo apt install inkscape ink-generator create-resources pstoedit`
+`sudo add-apt-repository -y ppa:inkscape.dev/stable && sudo apt update && sudo apt install -y inkscape ink-generator create-resources pstoedit`
 
 #### Krita - свободный и бесплатный графический растовый редактор в духе Adobe Photoshop
 
-`sudo add-apt-repository ppa:kritalime/ppa && sudo apt update && sudo apt install krita`
+`sudo add-apt-repository -y ppa:kritalime/ppa && sudo apt update && sudo apt install -y krita`
 
 ### Офис и планирование
 
@@ -52,11 +52,11 @@
 
 #### CherryTree - записная книжка иерархической структуры с базовыми возможностями
 
-`sudo add-apt-repository ppa:giuspen/ppa && sudo apt update && sudo apt install cherrytree`
+`sudo add-apt-repository -y ppa:giuspen/ppa && sudo apt update && sudo apt install cherrytree`
 
 #### PDF Split and Merge -- очень простая, удобная в использовании, свободная утилита с открытым кодом для разделения и объединения pdf-файлов. Она имеет простой графический интерфейс, позволяющий пользователю выбирать pdf-файлы для обработки
 
-`sudo apt update && sudo apt install pdfsam`
+`sudo apt update && sudo apt install -y pdfsam`
 
 #### Master PDF Editor - программа, которая позволяет сделать с PDF-документом что угодно. В варианте FREE имеет ограничения
 
@@ -104,15 +104,15 @@ https://myoffice.ru/
 
 #### Файловый менеджер в стиле Total Commander и поддержкой его плагинов
 
-`sudo apt update && sudo apt install doublecmd-gtk`
+`sudo apt update && sudo apt install -y doublecmd-gtk`
 
 #### Забавный симулятор хакерского консольного интерфейса
 
-`sudo apt update && sudo apt install hollywood`
+`sudo apt update && sudo apt install -y hollywood`
 
 ### Виртуализация
 
-`sudo apt update && sudo apt install virtualbox virtualbox-ext-pack`
+`sudo apt update && sudo apt install -y virtualbox virtualbox-ext-pack`
 
 ### Интернет
 
@@ -120,11 +120,11 @@ https://myoffice.ru/
 
 #### Colobot - игра, в которой можно научиться программированию на C-подобном языке
 
-`sudo apt update && sudo apt install colobot`
+`sudo apt update && sudo apt install -y colobot`
 
 #### Stellarium — это свободный планетарий для Вашего компьютера с открытым исходным кодом. Он отображает реалистичное небо в 3D таким, каким Вы видите его невооружённым глазом, в бинокль или телескоп.
 
-`sudo add-apt-repository -y ppa:stellarium/stellarium-releases && sudo apt update && sudo apt install stellarium`
+`sudo add-apt-repository -y ppa:stellarium/stellarium-releases && sudo apt update && sudo apt install -y stellarium`
 
 ### Сеть
 
@@ -132,7 +132,7 @@ https://myoffice.ru/
 
 **Установка:**
 
-`sudo add-apt-repository ppa:alessandro-strada/ppa && sudo apt-get update && sudo apt-get install google-drive-ocamlfuse`
+`sudo add-apt-repository -y ppa:alessandro-strada/ppa && sudo apt-get update && sudo apt-get install -y google-drive-ocamlfuse`
 
 **Использование. Выполнить эту программу:**
 
