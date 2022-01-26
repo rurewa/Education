@@ -126,6 +126,52 @@ https://myoffice.ru/
 
 `sudo add-apt-repository -y ppa:stellarium/stellarium-releases && sudo apt update && sudo apt install stellarium`
 
+### Сеть
+
+#### Установка и подключение Google Диска
+
+**Установка:**
+
+`sudo add-apt-repository ppa:alessandro-strada/ppa && sudo apt-get update && sudo apt-get install google-drive-ocamlfuse`
+
+**Использование. Выполнить эту программу:**
+
+`google-drive-ocamlfuse`
+
+**Откроется браузер и будет предложено подтвердить РАЗРЕШЕНИЕ. На всё согласиться!**
+
+**Через некоторое время в командной строке появится это сообщение:**
+
+Access token retrieved correctly.
+
+**Это значит, что всё ОК!**
+
+**Затем выполнить эту команду, она создасть и настроит новую папку, в которой будет синхронизироваться Google диск:**
+
+`mkdir ~/GoogleDrive && google-drive-ocamlfuse GoogleDrive/`
+
+**Всё! Можно открыть эту папку в обычном Проводнике**
+
+#### Установка и подключение Яндекс-диска
+
+**Иснтрукция на официальном сайте**
+
+https://yandex.ru/support/disk-desktop-linux/start.html
+
+**Основы работы с ydisk в консоле**
+
+**Установка и настройка в Ubuntu:**
+
+`echo "deb http://repo.yandex.ru/yandex-disk/deb/ stable main" | sudo tee -a /etc/apt/sources.list.d/yandex-disk.list > /dev/null && wget http://repo.yandex.ru/yandex-disk/YANDEX-DISK-KEY.GPG -O- | sudo apt-key add - && sudo apt-get update && sudo apt-get install -y yandex-disk`
+
+**Команды управления**
+
+`yandex-disk setup` - *первоначальная настройка программы*
+
+`yandex-disk token rurewa` - *идентификация (не обязательно, если сделан setup)*
+`yandex-disk start -d ydisk` - *определение папки для синхронизации (не обязательно, если сделан setup)*
+`yandex-disk status -d ydisk` - *показать статус синхронизации (при запущенном демоне синхронизация осуществляется автоматически) (не обязательно, если сделан setup)*
+
 ### Игры
 
 #### Open Arena - 3D стрелялка
