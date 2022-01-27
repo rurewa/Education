@@ -161,7 +161,7 @@ https://www.google.ru/chrome/
 
 #### Поддержка Python 3:
 
-`sudo apt install -y python3-pip python3-distutils python3-tk`
+`sudo apt install -y python3-pip python3-distutils python3-tk python3-pydrive`
 
 #### Arduino для Ubuntu 14/16/18 (32/64 bit):
 
