@@ -181,7 +181,7 @@ https://www.google.ru/chrome/
 
 #### Инструменты разработчика C++:
 
-`sudo apt update && sudo apt install -y build-essential git ghex gdb lldb ascii`
+`sudo apt update && sudo apt install -y build-essential git ghex gdb lldb ascii meld`
 
 #### Для создания схем и разводки печатных плат KiCAD EDA:
 
