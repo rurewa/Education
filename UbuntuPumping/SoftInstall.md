@@ -251,6 +251,10 @@ https://github.com/rurewa/SimuliDE
 
 `sudo apt update && sudo apt install -y libjs-mathjax retext`
 
+#### Color Picker - современный инструмент работы с цветом.
+
+`flatpak install flathub nl.hjdskes.gcolor3`
+
 #### Visual Studio Code - развитый редактор кода, расширяемый до уровня средней IDE:
 
 *установка из Snap:*
