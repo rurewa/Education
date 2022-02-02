@@ -27,10 +27,6 @@
 
 `sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo`
 
-и
-
-`flatpak install -y https://flathub.org/repo/appstream/fr.free.Homebank.flatpakref`
-
 #### Приложения для камеры и звукозаписи:
 
 `sudo apt update && sudo apt install -y guvcview gnome-sound-recorder gnome-clocks`
