@@ -42,7 +42,7 @@
 
 #### Krita - свободный и бесплатный графический растовый редактор в духе Adobe Photoshop
 
-`sudo add-apt-repository -y ppa:kritalime/ppa && sudo apt update && sudo apt install -y krita`
+`sudo add-apt-repository -y ppa:kritalime/ppa && sudo apt update && sudo apt install -y krita krita-l10n`
 
 ### Офис и планирование
 
