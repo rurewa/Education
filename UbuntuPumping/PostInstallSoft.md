@@ -176,4 +176,4 @@ https://yandex.ru/support/disk-desktop-linux/start.html
 
 #### Open Arena - 3D стрелялка
 
-`flatpak install flathub ws.openarena.OpenArena`
+`sudo flatpak install flathub ws.openarena.OpenArena`
