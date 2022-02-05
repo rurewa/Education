@@ -22,7 +22,7 @@
 
 ### Прокачиваем Wine:
 
-`winetricks --force -q d3dcompiler_47 ; winetricks --force -q d3dx9_36 ; winetricks --force -q vcrun2015 ; winetricks --force -q corefonts ; winetricks --force -q dotnet45`
+`winetricks --force -q d3dcompiler_47 ; winetricks --force -q d3dx9_36 ; winetricks --force -q vcrun2015 ; winetricks --force -q corefonts ; winetricks --force -q riched20 ; winetricks --force -q dotnet45 ; winetricks --force -q dotnet472`
 
 *следуем инструкциям, которые будут показаны на экране (это может долго выполняться!)*
 
