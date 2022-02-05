@@ -20,7 +20,7 @@
 
 `wine --version`
 
-### Прокачиваем Wine:
+### Прокачиваем Wine (это всё одна длинная строка команд!):
 
 `winetricks --force -q d3dcompiler_47 ; winetricks --force -q d3dx9_36 ; winetricks --force -q vcrun2015 ; winetricks --force -q corefonts ; winetricks --force -q riched20 ; winetricks --force -q msxml6; winetricks --force -q dotnet45 ; winetricks --force -q dotnet472`
 
