@@ -128,6 +128,10 @@ https://myoffice.ru/
 
 ### Сеть
 
+#### Установка qBittorrent - торрент менеджера
+
+`flatpak install flathub org.qbittorrent.qBittorrent`
+
 #### Установка и подключение Google Диска
 
 **Установка:**
