@@ -1,5 +1,6 @@
 ## Прокачка диситрибутивов на базе Ubuntu 20.04 (64 bit)
 **Данный список ориентирован на нужды учебных заведений дополнительного образования по дисциплине "Робототехника"**
+**Внимание! На данной странице присутствуют длинные наборы команд, которые в одну строку никак не умещаются. Выделяйте мышью всю строку команд, даже если она переходит на новую строку!**
 
 ### Мультимедиа
 
@@ -73,7 +74,7 @@ https://www.google.ru/chrome/
 
 #### FreeCAD - 2D/3D решение для любителей и инженеров с начальной поддержкой формата dwg (Autocad)
 
-`flatpak install -y flathub org.freecadweb.FreeCAD`
+`sudo flatpak install -y flathub org.freecadweb.FreeCAD`
 
 **или из apt**
 
@@ -253,7 +254,7 @@ https://github.com/rurewa/SimuliDE
 
 #### Color Picker - современный инструмент работы с цветом.
 
-`flatpak install flathub nl.hjdskes.gcolor3`
+`sudo flatpak install flathub nl.hjdskes.gcolor3`
 
 #### Visual Studio Code - развитый редактор кода, расширяемый до уровня средней IDE:
 

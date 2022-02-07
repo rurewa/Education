@@ -84,6 +84,28 @@ https://linuxnow.ru/view.php?id=103
 
 **выбираем в появившемся меню нужные Терминал по порядку размещения, например 3**
 
+### Обслуживание ОС
+
+**Очистка кеши и удаление ненужных пакетов apt**
+
+`sudo apt autoclean && sudo apt autoremove`
+
+**попробовать исправить битые пакеты**
+
+`sudo apt -f install`
+
+**попробовать исправить битые пакеты**
+
+`sudo dpkg --configure -a`
+
+`sudo apt upgrade --fix-missing && sudo apt update`
+
+`sudo apt --fix-broken install && sudo apt update`
+
+**Очистка кеша flatpak:**
+
+`flatpak uninstall --unused && sudo rm -rfv /var/tmp/flatpak-cache-*`
+
 ### Решение проблемы с ошибкой Busybox
 
 https://itisgood.ru/2020/08/07/kak-ispravit-oshibku-busybox-initramfs-na-ubuntu/

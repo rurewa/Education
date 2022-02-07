@@ -128,6 +128,10 @@ https://myoffice.ru/
 
 ### Сеть
 
+#### Установка qBittorrent - торрент менеджера
+
+`flatpak install flathub org.qbittorrent.qBittorrent`
+
 #### Установка и подключение Google Диска
 
 **Установка:**
@@ -176,4 +180,4 @@ https://yandex.ru/support/disk-desktop-linux/start.html
 
 #### Open Arena - 3D стрелялка
 
-`flatpak install flathub ws.openarena.OpenArena`
+`sudo flatpak install flathub ws.openarena.OpenArena`

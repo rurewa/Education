@@ -14,15 +14,15 @@
 
 ### Устанавливаем сам Wine:
 
-`sudo apt install --install-recommends -y winehq-devel winetricks winbind cabextract ; rm -R ~/.wine && env WINEPREFIX=~/.wine WINEARCH=win32 winecfg`
+`sudo apt install --install-recommends -y winehq-devel winetricks winbind cabextract ; rm -rf ~/.wine && env WINEPREFIX=~/.wine WINEARCH=win32 winecfg`
 
 ### Проверить версию Wine:
 
 `wine --version`
 
-### Прокачиваем Wine:
+### Прокачиваем Wine (это всё одна длинная строка команд!):
 
-`winetricks --force -q d3dcompiler_47 ; winetricks d3dx9_36 ; winetricks --force -q vcrun2015 ; winetricks --force -q corefonts ; winetricks --force -q dotnet45 ; winetricks --force -q msxml6 ; winetricks --force -q dotnet472`
+`winetricks --force -q d3dcompiler_47 ; winetricks --force -q d3dx9_36 ; winetricks --force -q vcrun2015 ; winetricks --force -q corefonts ; winetricks --force -q riched20 ; winetricks --force -q msxml6; winetricks --force -q dotnet45 ; winetricks --force -q dotnet472`
 
 *следуем инструкциям, которые будут показаны на экране (это может долго выполняться!)*
 
@@ -33,6 +33,14 @@
 `winecfg`
 
 ![GitHub Logo](images/winecfg.png)
+
+### Важно! Устанавливайте только 32-битные версии программ.
+
+### Чтобы установить программу, кликните в Проводнике на файл-установщик 
+
+### Чтобы удалить программу нужно выполнить команду:
+
+`wine uninstaller`
 
 ### Перезагрузите компьютер! После перезагрузки можете обычным образом устанавливать и запускать Windows приложения.
 
