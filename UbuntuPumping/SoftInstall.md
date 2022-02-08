@@ -64,7 +64,7 @@ https://www.google.ru/chrome/
 
 #### Программа видеоконференций ZOOM:
 
-`flatpak install -y flathub us.zoom.Zoom`
+`sudo flatpak install -y flathub us.zoom.Zoom`
 
 #### Telegram - отличный мессенжер!
 
