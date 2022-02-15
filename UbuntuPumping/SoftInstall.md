@@ -91,7 +91,7 @@ sudo flatpak install -y flathub us.zoom.Zoom
 #### Telegram - отличный мессенжер!
 
 ```
-sudo snap install telegram-desktop
+flatpak install flathub org.telegram.desktop
 ```
 
 ### Графика, 3D печать и дизайн
