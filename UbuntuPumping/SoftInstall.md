@@ -213,7 +213,7 @@ sudo apt update && sudo apt install -y mc gdebi htop tree mesa-utils sl lm-senso
 ### Простые игры
 
 ```
-sudo apt install -y gnome-chess quadrapasselknetwalk aisleriot knavalbattlebovo fltk1.3-games chromium-bsu
+sudo apt install -y gnome-chess quadrapassel knetwalk aisleriot knavalbattle bovo fltk1.3-games chromium-bsu
 ```
 
 ### Разработка
