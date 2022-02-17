@@ -9,7 +9,7 @@
 #### Устанановка необходимых мультимедийных кодеков и шрифтов (во время выполнения этой установки браузер лучше закрыть!)
 
 ```
-sudo apt update && sudo apt install -y ubuntu-restricted-extras ttf-dejavu-core fonts-crosextra-carlito fonts-crosextra-caldea
+sudo apt update && sudo apt install -y ubuntu-restricted-extras ttf-dejavu-core fonts-crosextra-carlito
 ```
 
 *Начнётся установка:*
