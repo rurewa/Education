@@ -1,4 +1,4 @@
-## Прокачка диситрибутивов на базе Ubuntu 20.04 (64 bit)
+## Прокачка дистрибутивов на базе Ubuntu 20.04 (64 bit)
 
 **Данный список ориентирован на нужды учебных заведений дополнительного образования по дисциплине "Робототехника"**
 
@@ -48,7 +48,7 @@ sudo apt update && sudo apt install -y guvcview gnome-sound-recorder gnome-clock
 sudo snap install gifex
 ```
 
-#### Программа для загрузки видео с таких сайтов (YouTube etc.):
+#### Программа для загрузки видео с сайтов (YouTube etc.):
 
 ```
 sudo snap install video-downloader
@@ -91,7 +91,7 @@ sudo flatpak install -y flathub us.zoom.Zoom
 #### Telegram - отличный мессенжер!
 
 ```
-flatpak install flathub org.telegram.desktop
+flatpak install -y flathub org.telegram.desktop
 ```
 
 ### Графика, 3D печать и дизайн
@@ -210,7 +210,7 @@ sudo apt update && sudo apt install -y default-jre default-jdk
 sudo apt update && sudo apt install -y mc gdebi htop tree mesa-utils sl lm-sensors neofetch winbind wget curl ppa-purge inxi recoll net-tools xclip xsel arp-scan aria2
 ```
 
-### Простые игры
+### Простые развивающие игры
 
 ```
 sudo apt install -y gnome-chess quadrapassel knetwalk aisleriot knavalbattle bovo fltk1.3-games chromium-bsu
@@ -365,7 +365,7 @@ sudo apt update && sudo apt install -y libjs-mathjax retext
 #### Color Picker - современный инструмент работы с цветом.
 
 ```
-sudo flatpak install flathub nl.hjdskes.gcolor3
+sudo flatpak install -y flathub nl.hjdskes.gcolor3
 ```
 
 #### Visual Studio Code - развитый редактор кода, расширяемый до уровня средней IDE:
