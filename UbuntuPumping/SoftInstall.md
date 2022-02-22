@@ -9,7 +9,7 @@
 #### Устанановка необходимых мультимедийных кодеков и шрифтов (во время выполнения этой установки браузер лучше закрыть!)
 
 ```
-sudo apt update && sudo apt install -y ubuntu-restricted-extras ttf-dejavu-core fonts-crosextra-carlito
+sudo apt update && sudo apt install -y ubuntu-restricted-extras ttf-dejavu-core
 ```
 
 *Начнётся установка:*
@@ -91,7 +91,7 @@ sudo flatpak install -y flathub us.zoom.Zoom
 #### Telegram - отличный мессенжер!
 
 ```
-flatpak install -y flathub org.telegram.desktop
+sudo flatpak install -y flathub org.telegram.desktop
 ```
 
 ### Графика, 3D печать и дизайн
