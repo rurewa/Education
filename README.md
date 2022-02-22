@@ -1,8 +1,6 @@
-## Resources for Educational Activities in Robotics
+# Resources for Educational Activities in Robotics
 
-### Soft:
-
-https://github.com/rurewa/Education/blob/main/Soft.md
+## Education
 
 ### Literature:
 
@@ -15,6 +13,8 @@ https://github.com/rurewa/Education/blob/main/SolderingAndInstallation.md
 ### Arduino Tools Education
 
 https://github.com/rurewa/Education/blob/main/ArduinoToolsEducation.md
+
+## Linux
 
 ### Bash commands
 
@@ -79,3 +79,7 @@ https://github.com/rurewa/Education/blob/main/LAMP.md
 #### Kernel
 
 https://github.com/rurewa/Education/blob/main/UbuntuPumping/kernel.md
+
+### Soft:
+
+https://github.com/rurewa/Education/blob/main/Soft.md
