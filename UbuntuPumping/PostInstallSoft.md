@@ -41,7 +41,7 @@ http://www.xnview.com/en/xnviewmp/#downloads
 **или установить в терминале Ubuntu**
 
 ```
-flatpak install flathub com.xnview.XnViewMP
+flatpak install -y flathub com.xnview.XnViewMP
 ```
 
 #### Gimp - полноценный редактор графики
@@ -73,7 +73,7 @@ sudo snap install gitkraken --classic
 #### CherryTree - записная книжка иерархической структуры с базовыми возможностями
 
 ```
-sudo add-apt-repository -y ppa:giuspen/ppa && sudo apt update && sudo apt install cherrytree
+sudo add-apt-repository -y ppa:giuspen/ppa && sudo apt update && sudo apt install -y cherrytree
 ```
 
 #### PDF Split and Merge -- очень простая, удобная в использовании, свободная утилита с открытым кодом для разделения и объединения pdf-файлов. Она имеет простой графический интерфейс, позволяющий пользователю объединять и разделять pdf-файлы
