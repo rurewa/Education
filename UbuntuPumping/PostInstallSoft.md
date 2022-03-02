@@ -4,11 +4,15 @@
 
 **VLC - мощный медиа плеер**
 
-`sudo snap install vlc`
+```
+sudo snap install vlc
+```
 
 #### Vokoscreen - простая и удобная программа для записи видео с экрана
 
-`sudo snap install vokoscreen-ng`
+```
+sudo snap install vokoscreen-ng
+```
 
 ### Графика и дизайн
 
@@ -16,103 +20,151 @@
 
 **Официальная страница загрузки**
 
-`https://www.varicad.com/en/home/products/download/`
+```
+https://www.varicad.com/en/home/products/download/
+```
 
 #### Простая программа просмотра и обработки изображений Nomacs
 
-`sudo apt update && sudo apt install -y nomacs`
+```
+sudo apt update && sudo apt install -y nomacs
+```
 
 #### XnViewMP (XnView Multi Platform) — продвинутый менеджер изображений для Linux
 
 **Официальная страница загрузки:**
 
-`http://www.xnview.com/en/xnviewmp/#downloads`
+```
+http://www.xnview.com/en/xnviewmp/#downloads
+```
 
 **или установить в терминале Ubuntu**
 
-`sudo snap install xnviewmp`
+```
+flatpak install flathub com.xnview.XnViewMP
+```
 
 #### Gimp - полноценный редактор графики
 
-`sudo apt update && sudo apt install -y gimp gimp-gmic gimp-gap gimp-data-extras gimp-dcraw abr2gbr`
+```
+sudo apt update && sudo apt install -y gimp gimp-gmic gimp-gap gimp-data-extras gimp-dcraw abr2gbr
+```
 
 #### Inkscape - полноценный редактор векторной графики
 
-`sudo add-apt-repository -y ppa:inkscape.dev/stable && sudo apt update && sudo apt install -y inkscape ink-generator create-resources pstoedit`
+```
+sudo add-apt-repository -y ppa:inkscape.dev/stable && sudo apt update && sudo apt install -y inkscape ink-generator create-resources pstoedit
+```
 
 #### Krita - свободный и бесплатный графический растовый редактор в духе Adobe Photoshop
 
-`sudo add-apt-repository -y ppa:kritalime/ppa && sudo apt update && sudo apt install -y krita krita-l10n`
+```
+sudo add-apt-repository -y ppa:kritalime/ppa && sudo apt update && sudo apt install -y krita krita-l10n
+```
 
 ### Офис и планирование
 
 #### GitKraken - клиент для git репозитория (Github). Условно-бесплатная версия
 
-`sudo snap install gitkraken`
+```
+sudo snap install gitkraken --classic
+```
 
 #### CherryTree - записная книжка иерархической структуры с базовыми возможностями
 
-`sudo add-apt-repository -y ppa:giuspen/ppa && sudo apt update && sudo apt install cherrytree`
+```
+sudo add-apt-repository -y ppa:giuspen/ppa && sudo apt update && sudo apt install cherrytree
+```
 
-#### PDF Split and Merge -- очень простая, удобная в использовании, свободная утилита с открытым кодом для разделения и объединения pdf-файлов. Она имеет простой графический интерфейс, позволяющий пользователю выбирать pdf-файлы для обработки
+#### PDF Split and Merge -- очень простая, удобная в использовании, свободная утилита с открытым кодом для разделения и объединения pdf-файлов. Она имеет простой графический интерфейс, позволяющий пользователю объединять и разделять pdf-файлы
 
-`sudo apt update && sudo apt install -y pdfsam`
+```
+sudo apt update && sudo apt install -y pdfsam
+```
 
 #### Master PDF Editor - программа, которая позволяет сделать с PDF-документом что угодно. В варианте FREE имеет ограничения
 
 **Официальная страница загрузки:**
 
+```
 https://code-industry.ru/downloads/
+```
 
 #### Установка отечественных офисных программ (такое себе, но может кому-то понадобится)
 
-**Р7 Офис (по моему сделан на базе OnlyOffice)**
+**Р7 Офис**
 
 ##### Получение дистрибутива по запросу на сайте:
 
- https://support.r7-office.ru/hc/ru
+```
+https://support.r7-office.ru/hc/ru
+```
 
-`sudo apt install libpangox-1.0-0 libgtkglext1` - **подготовка к установке дистрибутива**
+**подготовка к установке дистрибутива**
 
-`dpkg -i r7-office.deb` - **установка загруженного дистрибутива**
+```
+sudo apt install libpangox-1.0-0 libgtkglext1
+```
 
+**установка загруженного дистрибутива**
+
+```
+dpkg -i r7-office.deb
+```
+
+```
 sudo cp homelicense.lickey /etc/r7-office/license/
+```
 
 #### Мой Офис
 
+```
 https://myoffice.ru/
+```
  
 ### 3D моделирование
 
 #### Sweet Home 3D - программа для дизайна интерьера в Ubuntu
 
-`sudo snap install sweethome3d-homedesign --edge`
+```
+sudo snap install sweethome3d-homedesign --edge
+```
 
 ### Разработка
 
 #### Visual Studio Code — редактор исходного кода, разработанный Microsoft для Windows, Linux и macOS. Позиционируется как «лёгкий» редактор кода для кроссплатформенной разработки
 
-`sudo snap install code --classic`
+```
+sudo snap install code --classic
+```
 
 ### Системные утилиты
 
 ### Stacer - программа диагностики и обслуживания операционной системы и установленных приложений Ubuntu
 
-`sudo apt-get update && sudo apt-get install stacer -y`
+```
+sudo apt-get update && sudo apt-get install stacer -y
+```
 
 ### Рабочий стол
 
 #### Файловый менеджер в стиле Total Commander и поддержкой его плагинов
 
-`sudo apt update && sudo apt install -y doublecmd-gtk`
+```
+sudo apt update && sudo apt install -y doublecmd-gtk
+```
 
 #### Забавный симулятор хакерского консольного интерфейса
 
-`sudo apt update && sudo apt install -y hollywood`
+```
+sudo apt update && sudo apt install -y hollywood
+```
 
 ### Виртуализация
 
-`sudo apt update && sudo apt install -y virtualbox virtualbox-ext-pack`
+```
+sudo apt update && sudo apt install -y virtualbox virtualbox-ext-pack
+```
 
 ### Интернет
 
@@ -120,23 +172,31 @@ https://myoffice.ru/
 
 #### Colobot - игра, в которой можно научиться программированию на C-подобном языке
 
-`sudo apt update && sudo apt install -y colobot`
+```
+sudo apt update && sudo apt install -y colobot
+```
 
 #### Stellarium — это свободный планетарий для Вашего компьютера с открытым исходным кодом. Он отображает реалистичное небо в 3D таким, каким Вы видите его невооружённым глазом, в бинокль или телескоп.
 
-`sudo add-apt-repository -y ppa:stellarium/stellarium-releases && sudo apt update && sudo apt install -y stellarium`
+```
+sudo add-apt-repository -y ppa:stellarium/stellarium-releases && sudo apt update && sudo apt install -y stellarium
+```
 
 ### Сеть
 
 #### Установка qBittorrent - торрент менеджера
 
-`flatpak install flathub org.qbittorrent.qBittorrent`
+```
+flatpak install flathub org.qbittorrent.qBittorrent
+```
 
 #### Установка и подключение Google Диска
 
 **Установка:**
 
-`sudo add-apt-repository -y ppa:alessandro-strada/ppa && sudo apt-get update && sudo apt-get install -y google-drive-ocamlfuse`
+```
+sudo add-apt-repository -y ppa:alessandro-strada/ppa && sudo apt-get update && sudo apt-get install -y google-drive-ocamlfuse
+```
 
 **Использование**
 
@@ -144,7 +204,9 @@ https://myoffice.ru/
 
 *Откроется браузер с предложением разрешить программе предоставить доступ к Google. На всё нужно согласиться!*
 
-`mkdir ~/GoogleDrive && google-drive-ocamlfuse GoogleDrive/`
+```
+mkdir ~/GoogleDrive && google-drive-ocamlfuse GoogleDrive/
+```
 
 **Через некоторое время в командной строке появится это сообщение:**
 
@@ -160,17 +222,25 @@ Access token retrieved correctly.
 
 **Иснтрукция на официальном сайте**
 
+```
 https://yandex.ru/support/disk-desktop-linux/start.html
+```
 
 **Основы работы с ydisk в консоле**
 
 **Установка и настройка в Ubuntu:**
 
-`echo "deb http://repo.yandex.ru/yandex-disk/deb/ stable main" | sudo tee -a /etc/apt/sources.list.d/yandex-disk.list > /dev/null && wget http://repo.yandex.ru/yandex-disk/YANDEX-DISK-KEY.GPG -O- | sudo apt-key add - && sudo apt-get update && sudo apt-get install -y yandex-disk`
+```
+echo "deb http://repo.yandex.ru/yandex-disk/deb/ stable main" | sudo tee -a /etc/apt/sources.list.d/yandex-disk.list > /dev/null && wget http://repo.yandex.ru/yandex-disk/YANDEX-DISK-KEY.GPG -O- | sudo apt-key add - && sudo apt-get update && sudo apt-get install -y yandex-disk
+```
 
 **Команды управления**
 
-`yandex-disk setup` - *первоначальная настройка программы*
+*первоначальная настройка программы*
+
+```
+yandex-disk setup
+```
 
 `yandex-disk token rurewa` - *идентификация (не обязательно, если сделан setup)*
 `yandex-disk start -d ydisk` - *определение папки для синхронизации (не обязательно, если сделан setup)*
@@ -180,4 +250,6 @@ https://yandex.ru/support/disk-desktop-linux/start.html
 
 #### Open Arena - 3D стрелялка
 
-`sudo flatpak install flathub ws.openarena.OpenArena`
+```
+sudo flatpak install flathub ws.openarena.OpenArena
+```
