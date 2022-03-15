@@ -140,11 +140,17 @@ sudo snap install code --classic
 
 ### Системные утилиты
 
-### Stacer - программа диагностики и обслуживания операционной системы и установленных приложений Ubuntu
+#### Stacer - программа диагностики и обслуживания операционной системы и установленных приложений Ubuntu
 
 ```
-sudo apt-get update && sudo apt-get install stacer -y
+sudo apt-get update && sudo apt-get install -y stacer
 ```
+#### Bottles - менеджер установки Windows программ в Linux
+
+```
+flatpak install -y flathub com.usebottles.bottles && flatpak override --user --filesystem="/home/user" com.usebottles.bottles
+```
+
 
 ### Рабочий стол
 
@@ -168,7 +174,7 @@ sudo apt update && sudo apt install -y virtualbox virtualbox-ext-pack
 
 ### Интернет
 
-### Образование
+### Образование и разработка
 
 #### Colobot - игра, в которой можно научиться программированию на C-подобном языке
 
@@ -187,7 +193,7 @@ sudo add-apt-repository -y ppa:stellarium/stellarium-releases && sudo apt update
 #### Установка qBittorrent - торрент менеджера
 
 ```
-flatpak install flathub org.qbittorrent.qBittorrent
+flatpak install -y flathub org.qbittorrent.qBittorrent
 ```
 
 #### Установка и подключение Google Диска
@@ -251,5 +257,5 @@ yandex-disk setup
 #### Open Arena - 3D стрелялка
 
 ```
-sudo flatpak install flathub ws.openarena.OpenArena
+sudo flatpak install -y flathub ws.openarena.OpenArena
 ```
