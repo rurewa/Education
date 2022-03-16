@@ -148,7 +148,7 @@ sudo apt-get update && sudo apt-get install -y stacer
 #### Bottles - менеджер установки Windows программ в Linux
 
 ```
-flatpak install -y flathub com.usebottles.bottles && flatpak override --user --filesystem="/home/user" com.usebottles.bottles
+sudo flatpak install -y flathub com.usebottles.bottles && flatpak override --user --filesystem="/home/user" com.usebottles.bottles
 ```
 
 
@@ -193,7 +193,7 @@ sudo add-apt-repository -y ppa:stellarium/stellarium-releases && sudo apt update
 #### Установка qBittorrent - торрент менеджера
 
 ```
-flatpak install -y flathub org.qbittorrent.qBittorrent
+sudo flatpak install -y flathub org.qbittorrent.qBittorrent
 ```
 
 #### Установка и подключение Google Диска
