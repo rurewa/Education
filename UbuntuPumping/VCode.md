@@ -24,10 +24,6 @@ curl -fsSL https://raw.githubusercontent.com/platformio/platformio-core/master/s
 
 `ext install platformio.platformio-ide`
 
-*Для подсветки скобок*
-
-`ext install CoenraadS.bracket-pair-colorizer-2`
-
 *Для показа и удаления ненужных пустот в коде*
 
 `ext install shardulm94.trailing-spaces`

@@ -256,3 +256,9 @@ https://github.com/github/gitignore.git
 **Разместить локальный репозиторий, созданные не клонированием в сервисе gitlab.com:**
 
 **Пока не знаю!**
+
+### Почитать по теме:
+
+**Git push, git pull, git fetch — в чем разница? Шпаргалка по git-командам**
+
+https://highload.today/git-push-git-pull-git-fetch/
