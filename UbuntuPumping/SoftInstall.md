@@ -265,17 +265,7 @@ sudo add-apt-repository --yes ppa:kicad/kicad-5.1-releases -y && sudo apt update
 #### FlatCam - позволяет перенести ваши проекты на фрезерный станок с ЧПУ:
 
 ```
-sudo apt install -y python3-pip python3-distutils python3-tk && pip install flatcam
-```
-
-*запускать так:*
-
-/home/user/.local/bin/flatcam
-
-*или так:*
-
-```
-flatcam
+sudo apt install -y python3-pip python3-distutils python3-tk && pip install ikpy
 ```
 
 #### Scratch Desktop 3 for Ubuntu Linux:
