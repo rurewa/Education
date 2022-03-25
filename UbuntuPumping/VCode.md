@@ -43,3 +43,16 @@ curl -fsSL https://raw.githubusercontent.com/platformio/platformio-core/master/s
 ![GitHub Logo](images/spaceVcode.png)
 
 ![GitHub Logo](images/spaceVcodeClear.png)
+
+Включить управление масштабированием мышью (Zoom)
+
+![GitHub Logo](images/VCode_Settings.jpg)
+
+![GitHub Logo](images/VCode_Zoom.jpg)
+
+Включить подсветку скобок
+
+![GitHub Logo](images/VCode_Settings.jpg)
+
+![GitHub Logo](images/VCode_Brackets.jpg)
+
