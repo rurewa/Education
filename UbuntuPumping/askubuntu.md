@@ -42,7 +42,7 @@ https://losst.ru/kak-posmotret-videokartu-v-linux
 
 `glxinfo -B`
 
-**Определяем гибритную связку:**
+**Определяем гибридную связку:**
 
 `lshw -short | grep -i  display`
 
@@ -57,6 +57,18 @@ https://losst.ru/kak-posmotret-videokartu-v-linux
 **Переключаем на дискретную видеокарту:**
 
 `sudo prime-select nvidia`
+
+**Настроить видеокарту с помощью графической утилиты:**
+
+`sudo nvidia-settings`
+
+**Смотреть состояние видеокарты:**
+
+`nvidia-smi`
+
+**Почитать доплнительно:**
+
+https://linuxize.com/post/how-to-nvidia-drivers-on-ubuntu-20-04/
 
 **Определить поддержку 3D:**
 
@@ -82,7 +94,7 @@ https://linuxnow.ru/view.php?id=103
 
 `sudo update-alternatives --config x-terminal-emulator`
 
-**выбираем в появившемся меню нужные Терминал по порядку размещения, например 3**
+**выбираем в появившемся меню нужные Терминалы по номеру размещения, например 3**
 
 ### Обслуживание ОС
 
@@ -112,7 +124,7 @@ https://itisgood.ru/2020/08/07/kak-ispravit-oshibku-busybox-initramfs-na-ubuntu/
 
 ### Решения проблем с WiFi
 
-**Если после устновки Linux на базе Ubuntu WiFi не заработал, или рабьотает плохо, обновите стек:**
+**Если после устновки Linux на базе Ubuntu WiFi не заработал, или работает плохо, обновите стек ядра Linux:**
 
 `sudo apt install --install-recommends linux-generic-hwe-20.04`
 
