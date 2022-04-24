@@ -114,6 +114,10 @@ https://linuxnow.ru/view.php?id=103
 
 `sudo apt --fix-broken install && sudo apt update`
 
+** Переустановить LibreOffice**
+
+`sudo apt-get install --reinstall libreoffice libreoffice-core`
+
 **Очистка кеша flatpak:**
 
 `flatpak uninstall --unused && sudo rm -rfv /var/tmp/flatpak-cache-*`
