@@ -4,11 +4,7 @@
 
 ![GitHub Logo](images/image12.png)
 
-### Устанавливаем флажки Партнёры Canonical
-
-![GitHub Logo](images/image1.png)
-
-*В соседней вкладке этого же окна уставливаем так, как на картинке:*
+*Во вкладке этого окна уставливаем так, как на картинке:*
 
 ![GitHub Logo](images/update_gui.png)
 
