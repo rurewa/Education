@@ -21,6 +21,11 @@ cat /etc/lsb-release
 ```
 bc -l
 ```
+
+**справка по встроенному калькулятору:**
+
+http://rus-linux.net/MyLDP/consol/calculator-bc.html
+
 *проверка выполнения последней команды или программы*
 
 ```
