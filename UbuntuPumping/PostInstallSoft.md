@@ -226,7 +226,7 @@ Access token retrieved correctly.
 
 #### Установка и подключение Яндекс-диска
 
-**Иснтрукция на официальном сайте**
+**Инструкция на официальном сайте**
 
 ```
 https://yandex.ru/support/disk-desktop-linux/start.html
