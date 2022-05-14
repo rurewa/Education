@@ -72,6 +72,14 @@ https://extensions.gnome.org/extension/1503/tray-icons/
 
 `gsettings set org.gnome.desktop.default-applications.terminal exec-arg "-x"`
 
+### Сворачивание отдельных окон по челчку мыши:
+
+`gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'`
+
+### Управление расширениями Gnome:
+
+`sudo flatpak install -y flathub com.mattjakeman.ExtensionManager`
+
 ### Установить приложения (открыть ссылку):
 
 https://github.com/rurewa/Education/blob/main/UbuntuPumping/SoftInstall.md
