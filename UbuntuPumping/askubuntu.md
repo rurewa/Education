@@ -66,7 +66,7 @@ https://losst.ru/kak-posmotret-videokartu-v-linux
 
 `nvidia-smi`
 
-**Почитать доплнительно:**
+**Почитать дополнительно:**
 
 https://linuxize.com/post/how-to-nvidia-drivers-on-ubuntu-20-04/
 
@@ -89,6 +89,10 @@ https://linuxize.com/post/how-to-nvidia-drivers-on-ubuntu-20-04/
 ### Если возникли проблемы с разрешением экрана на внешнем мониторе
 
 https://linuxnow.ru/view.php?id=103
+
+### Если драйвер nvidia не устанавливется (ошибка установки), то устанавливаем из этого ppa:
+
+https://launchpad.net/~kelebek333/+archive/ubuntu/nvidia-legacy
 
 ### Установка альтернативного Терминала по умолчанию
 
