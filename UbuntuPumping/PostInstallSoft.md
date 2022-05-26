@@ -151,6 +151,13 @@ sudo apt-get update && sudo apt-get install -y stacer
 sudo flatpak install -y flathub com.usebottles.bottles && flatpak override --user --filesystem="/home/user" com.usebottles.bottles
 ```
 
+#### Настройка меню. Подходит для Gnome, XFCE.
+
+`sudo apt update && sudo apt install -y menulibre`
+
+#### Управление расширениями Gnome:
+
+`sudo flatpak install -y flathub com.mattjakeman.ExtensionManager`
 
 ### Рабочий стол
 
