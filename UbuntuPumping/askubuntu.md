@@ -94,6 +94,10 @@ https://linuxnow.ru/view.php?id=103
 
 https://launchpad.net/~kelebek333/+archive/ubuntu/nvidia-legacy
 
+*и по этому мануалу*
+
+https://gitlab.com/kirikconner/notebook/-/blob/main/install%20NVIDIA%20340.md
+
 ### Установка альтернативного Терминала по умолчанию
 
 `sudo update-alternatives --config x-terminal-emulator`
