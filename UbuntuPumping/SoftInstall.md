@@ -57,7 +57,7 @@ sudo snap install video-downloader
 #### Audacity - простой в управлении и мощный по возможностям аудиоредактор:
 
 ```
-sudo add-apt-repository ppa:ubuntuhandbook1/audacity -y && sudo apt update && sudo apt install -y audacity
+sudo apt update && sudo apt install -y audacity
 ```
 
 #### OBS Studio - бесплатное программное обеспечение с открытым исходным кодом для записи видео и потокового вещания:
@@ -260,7 +260,9 @@ sudo apt update && sudo apt install -y build-essential git ghex gdb lldb ascii m
 sudo add-apt-repository --yes ppa:kicad/kicad-5.1-releases -y && sudo apt update && sudo apt install -y --install-recommends kicad kicad-demos kicad-locale-ru
 ```
 
-Подробнее о дополнениях к KiCADhttps://progmatikus.livejournal.com/323678.html
+Подробнее о дополнениях к KiCAD
+
+https://progmatikus.livejournal.com/323678.html
 
 #### FlatCam - позволяет перенести ваши проекты на фрезерный станок с ЧПУ:
 
