@@ -1,3 +1,9 @@
+## Обновление всех установленных в ОС драйверов
+
+**Рекомендуется сделать перед другими попытками. Обновим имеющиеся...**
+
+`sudo apt-cache policy linux-firmware && sudo apt install linux-firmware`
+
 ## Драйвера видеокарт
 
 **ссылка на мануал с описанием**
@@ -8,9 +14,7 @@ https://losst.ru/kak-posmotret-videokartu-v-linux
 
 `sudo ubuntu-drivers autoinstall`
 
-**обновим имеющиеся...**
-
-`sudo apt-cache policy linux-firmware && sudo apt install linux-firmware`
+### Диагностика
 
 **Узнать производителя и название видеокарты:**
 
@@ -50,6 +54,17 @@ https://losst.ru/kak-posmotret-videokartu-v-linux
 
 `nvidia-detector`
 
+
+**или**
+
+`ubuntu-drivers devices`
+
+### Утсановка драйвера Nvidia
+
+`sudo apt-get install nvidia-390`
+
+#### Если у вас гибритная графика, то:
+
 **Устанавливаем переключатель видеокарт:**
 
 `sudo apt install nvidia-prime`
@@ -82,7 +97,7 @@ https://linuxize.com/post/how-to-nvidia-drivers-on-ubuntu-20-04/
 
 `sudo apt update && sudo apt install mesa-utils`
 
-*запускаем в терминале:* 
+*запускаем в терминале:*
 
 `glxgears -info`
 
@@ -97,6 +112,11 @@ https://launchpad.net/~kelebek333/+archive/ubuntu/nvidia-legacy
 *и по этому мануалу*
 
 https://gitlab.com/kirikconner/notebook/-/blob/main/install%20NVIDIA%20340.md
+
+
+***удалить драйвер Nvidia из ОС*
+
+`sudo apt-get remove --purge '^nvidia-.*'`
 
 ### Установка альтернативного Терминала по умолчанию
 
