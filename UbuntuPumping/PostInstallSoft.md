@@ -198,8 +198,9 @@ sudo add-apt-repository -y ppa:stellarium/stellarium-releases && sudo apt update
 ### Сеть
 
 #### VPN Proton
-
+```
 wget https://protonvpn.com/download/protonvpn-stable-release_1.0.1-1_all.deb && sudo dpkg -i protonvpn-stable-release_1.0.1-1_all.deb && sudo apt-get update && sudo apt-get install -y protonvpn gnome-shell-extension-appindicator gir1.2-appindicator3-0.1 && grep '/usr/s\?bin' /etc/systemd/system/display-manager.service
+```
 
 #### Установка qBittorrent - торрент менеджера
 
