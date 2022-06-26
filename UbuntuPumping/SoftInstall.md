@@ -99,7 +99,7 @@ sudo flatpak install -y flathub org.telegram.desktop
 #### FreeCAD - 2D/3D решение для любителей и инженеров с начальной поддержкой формата dwg (Autocad)
 
 ```
-sudo flatpak install -y flathub org.freecadweb.FreeCAD
+sudo snap install freecad
 ```
 
 **или из apt**
